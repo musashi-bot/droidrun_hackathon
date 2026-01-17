@@ -1,0 +1,28 @@
+# ===== Python virtual environment =====
+.venv/
+venv/
+
+# ===== Environment variables =====
+.env
+
+# ===== Python cache =====
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ===== OS files =====
+.DS_Store
+Thumbs.db
+
+# ===== Editor configs =====
+.vscode/
+.idea/
+
+# ===== Logs & temp =====
+*.log
+
+# ===== Build artifacts =====
+build/
+dist/
+*.egg-info/
