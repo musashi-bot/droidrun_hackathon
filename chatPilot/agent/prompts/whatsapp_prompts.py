@@ -29,7 +29,7 @@ Classify it into the following fields and return JSON:
 {
   "intent": "deadline | meeting | question | info | casual",
   "urgency": "high | medium | low",
-  "action_required": true | false,
+  "action_required": True | False,
   "suggested_action": "calendar | reminder | reply | note | ignore"
 }
 
