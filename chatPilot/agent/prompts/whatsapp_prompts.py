@@ -46,21 +46,20 @@ def CREATE_REMINDER_GOAL(reminder_text: str, time: str):
 4. Save the event.
 """
 
-def DRAFT_REPLY_GOAL(sender_name: str, reply_text: str):
+def DRAFT_REPLY_GOAL(sender_name: str):
     return f"""
 1. Open WhatsApp using package name com.whatsapp.android.
-2. Open the chat with {sender_name}.
-3. Type the following reply in the message box:
-"{reply_text}"
-4. Do not send the message. Keep it ready for review.
+2. Open the chat with {sender_name}
+3. Send a suitable reply
+4. Do not send the message. Keep it ready for review
 """
 
 def DAILY_SUMMARY_GOAL(task_list: list):
     return f"""
 1. Open Google Keep using package name com.google.android.keep.
-2. Create a new note titled "WhatsApp Productivity Summary".
+2. Create a new note titled "WhatsApp Productivity Summary"
 3. Add the following content:
 {task_list}
-4. Save the note.
+4. Save the note
 """
 
