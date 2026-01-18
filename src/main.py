@@ -50,7 +50,7 @@ async def main():
     # Create agent
     # LLMs are automatically loaded from config.llm_profiles
     agent = DroidAgent(
-        goal="",
+        goal="help",
         config=config,
         llms=llm,
     )
