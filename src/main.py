@@ -1,4 +1,9 @@
 import asyncio
+import os
+from dotenv import load_dotenv
+load_dotenv()
+
+
 from droidrun import DroidAgent
 from droidrun.config_manager.config_manager import (
     DroidrunConfig,
@@ -18,12 +23,12 @@ async def main():
         logging=LoggingConfig(debug=False, save_trajectory="action", rich_text=True),
     )
 
-    llm = GoogleGenAI(model="gemini-2.5-pro", temperature=0, api_key="")
+    llm = GoogleGenAI(model="gemini-2.5-pro", temperature=0, api_key=os.environ["GEMINI_API_KEY"])
 
     # Create agent
     # LLMs are automatically loaded from config.llm_profiles
     agent = DroidAgent(
-        goal="open xhamster43.desi and then go to categories and then open trending indian videos and play",
+        goal="",
         config=config,
         llms=llm,
     )
