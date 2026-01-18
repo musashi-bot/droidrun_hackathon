@@ -1,0 +1,28 @@
+{
+  "version": "1.0",
+  "description": "\nYou are a WhatsApp message reading agent. Read messages ONCE and stop.\n\nSTRICT PROCEDURE:\n1. Open WhatsApp (com.whatsapp.android)\n2. Navigate to Chats tab\n3. Find the FIRST chat with unread messages\n4. Open that chat\n5. Read ONLY the latest unread message\n6. Exit the chat immediately\n7. STOP - Do not open any other chats\n\nCritical rules:\n- Read ONE message only\n- Do NOT scroll\n- Do NOT open multiple chats\n- Do NOT send replies\n- STOP after extracting the message\n\nReturn this exact JSON format:\n{\n  \"sender_name\": \"Contact Name\",\n  \"message_text\": \"The actual message text\",\n  \"timestamp\": \"2025-01-18 10:30 AM\",\n  \"chat_type\": \"personal\"\n}\n\nAfter returning the JSON, terminate execution immediately.\n",
+  "timestamp": "20260118_225102",
+  "total_actions": 2,
+  "actions": [
+    {
+      "type": "TapActionEvent",
+      "action_type": "tap",
+      "description": "Tap element at index 17: 'com.whatsapp:id/contact_row_container' (LinearLayout) at coordinates (540, 702)",
+      "x": 540,
+      "y": 702,
+      "element_index": 17,
+      "element_text": "com.whatsapp:id/contact_row_container",
+      "element_bounds": "0,598,1080,807"
+    },
+    {
+      "type": "TapActionEvent",
+      "action_type": "tap",
+      "description": "Tap element at index 2: 'Back' (Button) at coordinates (66, 180)",
+      "x": 66,
+      "y": 180,
+      "element_index": 2,
+      "element_text": "Back",
+      "element_bounds": "0,114,132,246"
+    }
+  ]
+}

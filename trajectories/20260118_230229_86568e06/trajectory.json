@@ -1,0 +1,26 @@
+[
+  {
+    "type": "ManagerContextEvent"
+  },
+  {
+    "type": "ManagerResponseEvent",
+    "response": "<request_accomplished success=\"true\">\nintent: info\nurgency: low\naction_required: false\nsuggested_action: ignore\n</request_accomplished>",
+    "usage": {
+      "request_tokens": 5827,
+      "response_tokens": 38,
+      "total_tokens": 6358,
+      "requests": 1
+    }
+  },
+  {
+    "type": "ManagerPlanDetailsEvent",
+    "plan": "",
+    "subgoal": "",
+    "thought": "",
+    "answer": "intent: info\nurgency: low\naction_required: false\nsuggested_action: ignore",
+    "memory_update": "",
+    "progress_summary": "",
+    "success": true,
+    "full_response": "<request_accomplished success=\"true\">\nintent: info\nurgency: low\naction_required: false\nsuggested_action: ignore\n</request_accomplished>"
+  }
+]

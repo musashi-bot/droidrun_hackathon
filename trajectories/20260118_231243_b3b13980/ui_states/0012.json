@@ -1,0 +1,74 @@
+[
+  {
+    "index": 1,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "0,0,1080,2400",
+    "children": []
+  },
+  {
+    "index": 2,
+    "resourceId": "com.xiaomi.calendar:id/title",
+    "className": "TextView",
+    "text": "From",
+    "bounds": "487,1250,593,1317",
+    "children": []
+  },
+  {
+    "index": 3,
+    "resourceId": "com.xiaomi.calendar:id/datetime",
+    "className": "TextView",
+    "text": "Mon, 19 Jan, 2026, 09:30",
+    "bounds": "293,1339,787,1424",
+    "children": []
+  },
+  {
+    "index": 4,
+    "resourceId": "com.xiaomi.calendar:id/time_picker",
+    "className": "DateTimePicker",
+    "text": "com.xiaomi.calendar:id/time_picker",
+    "bounds": "1,1424,1079,1979",
+    "children": []
+  },
+  {
+    "index": 5,
+    "resourceId": "com.xiaomi.calendar:id/day",
+    "className": "NumberPicker",
+    "text": "Mon, Jan 19",
+    "bounds": "1,1424,548,1979",
+    "children": []
+  },
+  {
+    "index": 6,
+    "resourceId": "com.xiaomi.calendar:id/hour",
+    "className": "NumberPicker",
+    "text": "09H",
+    "bounds": "548,1424,816,1979",
+    "children": []
+  },
+  {
+    "index": 7,
+    "resourceId": "com.xiaomi.calendar:id/minute",
+    "className": "NumberPicker",
+    "text": "30M",
+    "bounds": "816,1424,1079,1979",
+    "children": []
+  },
+  {
+    "index": 8,
+    "resourceId": "android:id/button2",
+    "className": "Button",
+    "text": "Cancel",
+    "bounds": "80,2020,520,2160",
+    "children": []
+  },
+  {
+    "index": 9,
+    "resourceId": "android:id/button1",
+    "className": "Button",
+    "text": "OK",
+    "bounds": "559,2020,1000,2160",
+    "children": []
+  }
+]

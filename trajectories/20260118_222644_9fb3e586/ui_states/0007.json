@@ -1,0 +1,298 @@
+[
+  {
+    "index": 1,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "0,0,1080,2408",
+    "children": []
+  },
+  {
+    "index": 2,
+    "resourceId": "com.whatsapp:id/whatsapp_toolbar_home",
+    "className": "Button",
+    "text": "Back",
+    "bounds": "0,76,135,211",
+    "children": []
+  },
+  {
+    "index": 3,
+    "resourceId": "com.whatsapp:id/contact_photo_view",
+    "className": "FrameLayout",
+    "text": "com.whatsapp:id/contact_photo_view",
+    "bounds": "135,76,270,211",
+    "children": []
+  },
+  {
+    "index": 4,
+    "resourceId": "com.whatsapp:id/conversation_contact_photo",
+    "className": "Button",
+    "text": "com.whatsapp:id/conversation_contact_photo",
+    "bounds": "142,90,257,202",
+    "children": []
+  },
+  {
+    "index": 5,
+    "resourceId": "com.whatsapp:id/conversation_contact",
+    "className": "LinearLayout",
+    "text": "com.whatsapp:id/conversation_contact",
+    "bounds": "270,65,696,223",
+    "children": []
+  },
+  {
+    "index": 6,
+    "resourceId": "com.whatsapp:id/conversation_contact_name",
+    "className": "TextView",
+    "text": "‎# Freshers IITP 2024 Discussion #",
+    "bounds": "281,85,696,150",
+    "children": []
+  },
+  {
+    "index": 7,
+    "resourceId": "com.whatsapp:id/conversation_contact_status",
+    "className": "TextView",
+    "text": "14 online",
+    "bounds": "281,150,423,196",
+    "children": []
+  },
+  {
+    "index": 8,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "‎# Freshers IITP 2024 Discussion #, community group icon",
+    "bounds": "696,76,831,211",
+    "children": []
+  },
+  {
+    "index": 9,
+    "resourceId": "",
+    "className": "ImageButton",
+    "text": "Open voice chat",
+    "bounds": "831,76,967,211",
+    "children": []
+  },
+  {
+    "index": 10,
+    "resourceId": "com.whatsapp:id/menuitem_overflow",
+    "className": "ImageView",
+    "text": "More options",
+    "bounds": "967,76,1080,211",
+    "children": []
+  },
+  {
+    "index": 11,
+    "resourceId": "com.whatsapp:id/coordinator",
+    "className": "ViewGroup",
+    "text": "com.whatsapp:id/coordinator",
+    "bounds": "0,223,1080,2273",
+    "children": []
+  },
+  {
+    "index": 12,
+    "resourceId": "com.whatsapp:id/drag_n_drop_overlay",
+    "className": "View",
+    "text": "com.whatsapp:id/drag_n_drop_overlay",
+    "bounds": "0,223,1080,2273",
+    "children": []
+  },
+  {
+    "index": 13,
+    "resourceId": "android:id/list",
+    "className": "ListView",
+    "text": "android:id/list",
+    "bounds": "0,223,1080,2117",
+    "children": []
+  },
+  {
+    "index": 14,
+    "resourceId": "",
+    "className": "ViewGroup",
+    "text": "android.view.ViewGroup",
+    "bounds": "0,223,1080,1036",
+    "children": []
+  },
+  {
+    "index": 15,
+    "resourceId": "com.whatsapp:id/media_container",
+    "className": "FrameLayout",
+    "text": "com.whatsapp:id/media_container",
+    "bounds": "127,223,905,732",
+    "children": []
+  },
+  {
+    "index": 16,
+    "resourceId": "com.whatsapp:id/image",
+    "className": "ImageView",
+    "text": "Photo 140 kB",
+    "bounds": "138,223,894,721",
+    "children": []
+  },
+  {
+    "index": 17,
+    "resourceId": "com.whatsapp:id/control_btn",
+    "className": "Button",
+    "text": "211 KB",
+    "bounds": "362,369,670,504",
+    "children": []
+  },
+  {
+    "index": 18,
+    "resourceId": "com.whatsapp:id/caption",
+    "className": "TextView",
+    "text": "The panel discussion featuring our alumni Mr. Haren Chelle and Mr. Chirag Wadhera has now begun. Please join us for the session in CLH",
+    "bounds": "127,732,905,1022",
+    "children": []
+  },
+  {
+    "index": 19,
+    "resourceId": "com.whatsapp:id/date",
+    "className": "TextView",
+    "text": "1:40 pm",
+    "bounds": "755,968,877,1014",
+    "children": []
+  },
+  {
+    "index": 20,
+    "resourceId": "",
+    "className": "ViewGroup",
+    "text": "android.view.ViewGroup",
+    "bounds": "0,1036,1080,2117",
+    "children": []
+  },
+  {
+    "index": 21,
+    "resourceId": "com.whatsapp:id/name_in_group_tv",
+    "className": "TextView",
+    "text": "~ Abhijeet S. Jadaun",
+    "bounds": "161,1058,495,1112",
+    "children": []
+  },
+  {
+    "index": 22,
+    "resourceId": "com.whatsapp:id/link_preview_frame",
+    "className": "FrameLayout",
+    "text": "com.whatsapp:id/link_preview_frame",
+    "bounds": "138,1123,818,1391",
+    "children": []
+  },
+  {
+    "index": 23,
+    "resourceId": "com.whatsapp:id/title",
+    "className": "TextView",
+    "text": "Watch this story by Celesta, IIT Patna on Instagram before it disappears.",
+    "bounds": "386,1137,795,1246",
+    "children": []
+  },
+  {
+    "index": 24,
+    "resourceId": "com.whatsapp:id/snippet",
+    "className": "TextView",
+    "text": "5,139 Followers, 27 Following, 630 Posts",
+    "bounds": "386,1252,795,1298",
+    "children": []
+  },
+  {
+    "index": 25,
+    "resourceId": "com.whatsapp:id/url_layout",
+    "className": "LinearLayout",
+    "text": "com.whatsapp:id/url_layout",
+    "bounds": "386,1298,795,1368",
+    "children": []
+  },
+  {
+    "index": 26,
+    "resourceId": "com.whatsapp:id/url",
+    "className": "TextView",
+    "text": "instagram.com",
+    "bounds": "442,1321,727,1368",
+    "children": []
+  },
+  {
+    "index": 27,
+    "resourceId": "com.whatsapp:id/message_text",
+    "className": "TextView",
+    "text": "When the FCs move, the campus feels it.🕺🏻\nCelesta vibes loading… and they hit different.\n👀 Watch the Celesta story\n\nhttps://www.instagram.com/stories/celestaiitp_official/3812913192058717862?utm_source=ig_story_item_share&igsh=bDhnZHZxdGZjZWFn",
+    "bounds": "133,1402,829,2051",
+    "children": []
+  },
+  {
+    "index": 28,
+    "resourceId": "",
+    "className": "View",
+    "text": "https://www.instagram.com/stories/celestaiitp_official/3812913192058717862?utm_source=ig_story_item_share&igsh=bDhnZHZxdGZjZWFn",
+    "bounds": "156,1770,800,2037",
+    "children": []
+  },
+  {
+    "index": 29,
+    "resourceId": "com.whatsapp:id/edit_label",
+    "className": "TextView",
+    "text": "Edited",
+    "bounds": "557,2051,665,2097",
+    "children": []
+  },
+  {
+    "index": 30,
+    "resourceId": "com.whatsapp:id/date",
+    "className": "TextView",
+    "text": "10:22 pm",
+    "bounds": "665,2051,806,2097",
+    "children": []
+  },
+  {
+    "index": 31,
+    "resourceId": "com.whatsapp:id/action_button",
+    "className": "ImageView",
+    "text": "Forward to…",
+    "bounds": "852,1531,942,1621",
+    "children": []
+  },
+  {
+    "index": 32,
+    "resourceId": "com.whatsapp:id/emoji_picker_btn",
+    "className": "ImageButton",
+    "text": "Emoji, GIFs and stickers",
+    "bounds": "11,2126,146,2261",
+    "children": []
+  },
+  {
+    "index": 33,
+    "resourceId": "com.whatsapp:id/entry",
+    "className": "EditText",
+    "text": "Message",
+    "bounds": "146,2148,516,2238",
+    "children": []
+  },
+  {
+    "index": 34,
+    "resourceId": "com.whatsapp:id/input_attach_button",
+    "className": "ImageButton",
+    "text": "Attach",
+    "bounds": "516,2126,652,2261",
+    "children": []
+  },
+  {
+    "index": 35,
+    "resourceId": "com.whatsapp:id/payment_button",
+    "className": "ImageButton",
+    "text": "Payment",
+    "bounds": "652,2126,787,2261",
+    "children": []
+  },
+  {
+    "index": 36,
+    "resourceId": "com.whatsapp:id/camera_btn",
+    "className": "ImageButton",
+    "text": "Camera",
+    "bounds": "787,2126,922,2261",
+    "children": []
+  },
+  {
+    "index": 37,
+    "resourceId": "com.whatsapp:id/voice_note_btn",
+    "className": "ImageButton",
+    "text": "Voice message, Button. Double tap and hold to record, slide left to cancel recording, slide up to lock recording on. Release to send.",
+    "bounds": "933,2126,1068,2261",
+    "children": []
+  }
+]

@@ -1,0 +1,562 @@
+[
+  {
+    "index": 1,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "0,0,1080,2400",
+    "children": []
+  },
+  {
+    "index": 2,
+    "resourceId": "com.xiaomi.calendar:id/motion_container",
+    "className": "FrameLayout",
+    "text": "com.xiaomi.calendar:id/motion_container",
+    "bounds": "0,112,1080,2240",
+    "children": []
+  },
+  {
+    "index": 3,
+    "resourceId": "com.xiaomi.calendar:id/list",
+    "className": "ListView",
+    "text": "com.xiaomi.calendar:id/list",
+    "bounds": "0,1328,1080,2240",
+    "children": []
+  },
+  {
+    "index": 4,
+    "resourceId": "",
+    "className": "LinearLayout",
+    "text": "android.widget.LinearLayout",
+    "bounds": "0,1328,1080,1633",
+    "children": []
+  },
+  {
+    "index": 5,
+    "resourceId": "com.xiaomi.calendar:id/root",
+    "className": "ViewGroup",
+    "text": "com.xiaomi.calendar:id/root",
+    "bounds": "36,1328,1044,1633",
+    "children": []
+  },
+  {
+    "index": 6,
+    "resourceId": "com.xiaomi.calendar:id/primary",
+    "className": "TextView",
+    "text": "Learn from System Design Roadmap - roadmap.sh",
+    "bounds": "95,1402,963,1478",
+    "children": []
+  },
+  {
+    "index": 7,
+    "resourceId": "com.xiaomi.calendar:id/secondary",
+    "className": "TextView",
+    "text": "04:00 PM - 05:30 PM  |  https://roadmap.sh/system-design",
+    "bounds": "142,1492,985,1556",
+    "children": []
+  },
+  {
+    "index": 8,
+    "resourceId": "",
+    "className": "LinearLayout",
+    "text": "android.widget.LinearLayout",
+    "bounds": "0,1633,1080,1976",
+    "children": []
+  },
+  {
+    "index": 9,
+    "resourceId": "com.xiaomi.calendar:id/primary_title",
+    "className": "TextView",
+    "text": "On this day",
+    "bounds": "96,1716,298,1776",
+    "children": []
+  },
+  {
+    "index": 10,
+    "resourceId": "com.xiaomi.calendar:id/root_list",
+    "className": "LinearLayout",
+    "text": "com.xiaomi.calendar:id/root_list",
+    "bounds": "36,1776,1044,1976",
+    "children": []
+  },
+  {
+    "index": 11,
+    "resourceId": "com.xiaomi.calendar:id/primary",
+    "className": "TextView",
+    "text": "Indus Appstore!::",
+    "bounds": "95,1829,462,1905",
+    "children": []
+  },
+  {
+    "index": 12,
+    "resourceId": "",
+    "className": "LinearLayout",
+    "text": "android.widget.LinearLayout",
+    "bounds": "0,1976,1080,2240",
+    "children": []
+  },
+  {
+    "index": 13,
+    "resourceId": "com.xiaomi.calendar:id/title",
+    "className": "TextView",
+    "text": "Notes",
+    "bounds": "91,2058,190,2110",
+    "children": []
+  },
+  {
+    "index": 14,
+    "resourceId": "com.xiaomi.calendar:id/notes_edit_text",
+    "className": "EditText",
+    "text": "Tap to add a task",
+    "bounds": "179,2159,983,2222",
+    "children": []
+  },
+  {
+    "index": 15,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "1",
+    "bounds": "0,399,61,593",
+    "children": []
+  },
+  {
+    "index": 16,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "2",
+    "bounds": "0,593,61,788",
+    "children": []
+  },
+  {
+    "index": 17,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "3",
+    "bounds": "0,788,61,983",
+    "children": []
+  },
+  {
+    "index": 18,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "4",
+    "bounds": "0,983,61,1178",
+    "children": []
+  },
+  {
+    "index": 19,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "5",
+    "bounds": "0,1178,61,1329",
+    "children": []
+  },
+  {
+    "index": 20,
+    "resourceId": "com.xiaomi.calendar:id/view_pager",
+    "className": "ViewPager",
+    "text": "com.xiaomi.calendar:id/view_pager",
+    "bounds": "61,366,1080,1329",
+    "children": []
+  },
+  {
+    "index": 21,
+    "resourceId": "",
+    "className": "View",
+    "text": "android.view.View",
+    "bounds": "61,399,1080,594",
+    "children": []
+  },
+  {
+    "index": 22,
+    "resourceId": "",
+    "className": "View",
+    "text": "28 December 2025 ( according to lunar calendar).Sunday",
+    "bounds": "76,399,218,539",
+    "children": []
+  },
+  {
+    "index": 23,
+    "resourceId": "",
+    "className": "View",
+    "text": "29 December 2025 ( according to lunar calendar).Monday",
+    "bounds": "217,399,359,539",
+    "children": []
+  },
+  {
+    "index": 24,
+    "resourceId": "",
+    "className": "View",
+    "text": "30 December 2025 ( according to lunar calendar).Tuesday",
+    "bounds": "358,399,500,539",
+    "children": []
+  },
+  {
+    "index": 25,
+    "resourceId": "",
+    "className": "View",
+    "text": "31 December 2025 ( according to lunar calendar).Wednesday",
+    "bounds": "499,399,641,539",
+    "children": []
+  },
+  {
+    "index": 26,
+    "resourceId": "",
+    "className": "View",
+    "text": "1 January 2026 ( according to lunar calendar).Thursday",
+    "bounds": "641,399,783,539",
+    "children": []
+  },
+  {
+    "index": 27,
+    "resourceId": "",
+    "className": "View",
+    "text": "2 January 2026 ( according to lunar calendar).Friday",
+    "bounds": "782,399,924,539",
+    "children": []
+  },
+  {
+    "index": 28,
+    "resourceId": "",
+    "className": "View",
+    "text": "3 January 2026 ( according to lunar calendar).Saturday",
+    "bounds": "923,399,1065,539",
+    "children": []
+  },
+  {
+    "index": 29,
+    "resourceId": "",
+    "className": "View",
+    "text": "android.view.View",
+    "bounds": "61,594,1080,789",
+    "children": []
+  },
+  {
+    "index": 30,
+    "resourceId": "",
+    "className": "View",
+    "text": "4 January 2026 ( according to lunar calendar).Sunday",
+    "bounds": "76,594,218,734",
+    "children": []
+  },
+  {
+    "index": 31,
+    "resourceId": "",
+    "className": "View",
+    "text": "5 January 2026 ( according to lunar calendar).Monday",
+    "bounds": "217,594,359,734",
+    "children": []
+  },
+  {
+    "index": 32,
+    "resourceId": "",
+    "className": "View",
+    "text": "6 January 2026 ( according to lunar calendar).Tuesday",
+    "bounds": "358,594,500,734",
+    "children": []
+  },
+  {
+    "index": 33,
+    "resourceId": "",
+    "className": "View",
+    "text": "7 January 2026 ( according to lunar calendar).Wednesday",
+    "bounds": "499,594,641,734",
+    "children": []
+  },
+  {
+    "index": 34,
+    "resourceId": "",
+    "className": "View",
+    "text": "8 January 2026 ( according to lunar calendar).Thursday",
+    "bounds": "641,594,783,734",
+    "children": []
+  },
+  {
+    "index": 35,
+    "resourceId": "",
+    "className": "View",
+    "text": "9 January 2026 ( according to lunar calendar).Friday",
+    "bounds": "782,594,924,734",
+    "children": []
+  },
+  {
+    "index": 36,
+    "resourceId": "",
+    "className": "View",
+    "text": "10 January 2026 ( according to lunar calendar).Saturday",
+    "bounds": "923,594,1065,734",
+    "children": []
+  },
+  {
+    "index": 37,
+    "resourceId": "",
+    "className": "View",
+    "text": "android.view.View",
+    "bounds": "61,789,1080,984",
+    "children": []
+  },
+  {
+    "index": 38,
+    "resourceId": "",
+    "className": "View",
+    "text": "11 January 2026 ( according to lunar calendar).Sunday",
+    "bounds": "76,789,218,929",
+    "children": []
+  },
+  {
+    "index": 39,
+    "resourceId": "",
+    "className": "View",
+    "text": "12 January 2026 ( according to lunar calendar).Monday",
+    "bounds": "217,789,359,929",
+    "children": []
+  },
+  {
+    "index": 40,
+    "resourceId": "",
+    "className": "View",
+    "text": "13 January 2026 ( according to lunar calendar).Tuesday",
+    "bounds": "358,789,500,929",
+    "children": []
+  },
+  {
+    "index": 41,
+    "resourceId": "",
+    "className": "View",
+    "text": "14 January 2026 ( according to lunar calendar).Wednesday",
+    "bounds": "499,789,641,929",
+    "children": []
+  },
+  {
+    "index": 42,
+    "resourceId": "",
+    "className": "View",
+    "text": "15 January 2026 ( according to lunar calendar).Thursday",
+    "bounds": "641,789,783,929",
+    "children": []
+  },
+  {
+    "index": 43,
+    "resourceId": "",
+    "className": "View",
+    "text": "16 January 2026 ( according to lunar calendar).Friday",
+    "bounds": "782,789,924,929",
+    "children": []
+  },
+  {
+    "index": 44,
+    "resourceId": "",
+    "className": "View",
+    "text": "17 January 2026 ( according to lunar calendar).Saturday",
+    "bounds": "923,789,1065,929",
+    "children": []
+  },
+  {
+    "index": 45,
+    "resourceId": "",
+    "className": "View",
+    "text": "android.view.View",
+    "bounds": "61,984,1080,1179",
+    "children": []
+  },
+  {
+    "index": 46,
+    "resourceId": "",
+    "className": "View",
+    "text": "18 January 2026 ( according to lunar calendar).Sunday",
+    "bounds": "76,984,218,1124",
+    "children": []
+  },
+  {
+    "index": 47,
+    "resourceId": "",
+    "className": "View",
+    "text": "19 January 2026 ( according to lunar calendar).Monday",
+    "bounds": "217,984,359,1124",
+    "children": []
+  },
+  {
+    "index": 48,
+    "resourceId": "",
+    "className": "View",
+    "text": "20 January 2026 ( according to lunar calendar).Tuesday",
+    "bounds": "358,984,500,1124",
+    "children": []
+  },
+  {
+    "index": 49,
+    "resourceId": "",
+    "className": "View",
+    "text": "21 January 2026 ( according to lunar calendar).Wednesday",
+    "bounds": "499,984,641,1124",
+    "children": []
+  },
+  {
+    "index": 50,
+    "resourceId": "",
+    "className": "View",
+    "text": "22 January 2026 ( according to lunar calendar).Thursday",
+    "bounds": "641,984,783,1124",
+    "children": []
+  },
+  {
+    "index": 51,
+    "resourceId": "",
+    "className": "View",
+    "text": "23 January 2026 ( according to lunar calendar).Friday",
+    "bounds": "782,984,924,1124",
+    "children": []
+  },
+  {
+    "index": 52,
+    "resourceId": "",
+    "className": "View",
+    "text": "24 January 2026 ( according to lunar calendar).Saturday",
+    "bounds": "923,984,1065,1124",
+    "children": []
+  },
+  {
+    "index": 53,
+    "resourceId": "",
+    "className": "View",
+    "text": "android.view.View",
+    "bounds": "61,1179,1080,1329",
+    "children": []
+  },
+  {
+    "index": 54,
+    "resourceId": "",
+    "className": "View",
+    "text": "25 January 2026 ( according to lunar calendar).Sunday",
+    "bounds": "76,1179,218,1319",
+    "children": []
+  },
+  {
+    "index": 55,
+    "resourceId": "",
+    "className": "View",
+    "text": "26 January 2026 ( according to lunar calendar).Monday",
+    "bounds": "217,1179,359,1319",
+    "children": []
+  },
+  {
+    "index": 56,
+    "resourceId": "",
+    "className": "View",
+    "text": "27 January 2026 ( according to lunar calendar).Tuesday",
+    "bounds": "358,1179,500,1319",
+    "children": []
+  },
+  {
+    "index": 57,
+    "resourceId": "",
+    "className": "View",
+    "text": "28 January 2026 ( according to lunar calendar).Wednesday",
+    "bounds": "499,1179,641,1319",
+    "children": []
+  },
+  {
+    "index": 58,
+    "resourceId": "",
+    "className": "View",
+    "text": "29 January 2026 ( according to lunar calendar).Thursday",
+    "bounds": "641,1179,783,1319",
+    "children": []
+  },
+  {
+    "index": 59,
+    "resourceId": "",
+    "className": "View",
+    "text": "30 January 2026 ( according to lunar calendar).Friday",
+    "bounds": "782,1179,924,1319",
+    "children": []
+  },
+  {
+    "index": 60,
+    "resourceId": "",
+    "className": "View",
+    "text": "31 January 2026 ( according to lunar calendar).Saturday",
+    "bounds": "923,1179,1065,1319",
+    "children": []
+  },
+  {
+    "index": 61,
+    "resourceId": "com.xiaomi.calendar:id/action_bar_month_container",
+    "className": "ViewGroup",
+    "text": "com.xiaomi.calendar:id/action_bar_month_container",
+    "bounds": "55,126,285,278",
+    "children": []
+  },
+  {
+    "index": 62,
+    "resourceId": "com.xiaomi.calendar:id/action_bar_month_year_view",
+    "className": "TextView",
+    "text": "2026",
+    "bounds": "55,154,190,247",
+    "children": []
+  },
+  {
+    "index": 63,
+    "resourceId": "com.xiaomi.calendar:id/action_bar_month_view",
+    "className": "TextView",
+    "text": "Jan",
+    "bounds": "201,154,285,247",
+    "children": []
+  },
+  {
+    "index": 64,
+    "resourceId": "com.xiaomi.calendar:id/action_bar_month_view_for_anim",
+    "className": "TextView",
+    "text": "com.xiaomi.calendar:id/action_bar_month_view_for_anim",
+    "bounds": "201,160,285,241",
+    "children": []
+  },
+  {
+    "index": 65,
+    "resourceId": "com.xiaomi.calendar:id/lang_button",
+    "className": "ImageView",
+    "text": "Select Calendar language",
+    "bounds": "632,138,752,258",
+    "children": []
+  },
+  {
+    "index": 66,
+    "resourceId": "com.xiaomi.calendar:id/tab_button",
+    "className": "ImageView",
+    "text": "Switch between views",
+    "bounds": "782,138,902,258",
+    "children": []
+  },
+  {
+    "index": 67,
+    "resourceId": "com.xiaomi.calendar:id/settings_button",
+    "className": "ImageView",
+    "text": "Settings",
+    "bounds": "932,138,1052,258",
+    "children": []
+  },
+  {
+    "index": 68,
+    "resourceId": "com.xiaomi.calendar:id/menu_root",
+    "className": "RelativeLayout",
+    "text": "com.xiaomi.calendar:id/menu_root",
+    "bounds": "0,0,1080,2240",
+    "children": []
+  },
+  {
+    "index": 69,
+    "resourceId": "com.xiaomi.calendar:id/new_event_container",
+    "className": "FrameLayout",
+    "text": "com.xiaomi.calendar:id/new_event_container",
+    "bounds": "821,1981,1059,2219",
+    "children": []
+  },
+  {
+    "index": 70,
+    "resourceId": "com.xiaomi.calendar:id/new_event",
+    "className": "ImageView",
+    "text": "New",
+    "bounds": "865,2025,1015,2175",
+    "children": []
+  }
+]
