@@ -1,0 +1,338 @@
+[
+  {
+    "index": 1,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "0,0,1080,2400",
+    "children": []
+  },
+  {
+    "index": 2,
+    "resourceId": "com.whatsapp:id/whatsapp_toolbar_home",
+    "className": "Button",
+    "text": "Back",
+    "bounds": "0,114,132,246",
+    "children": []
+  },
+  {
+    "index": 3,
+    "resourceId": "com.whatsapp:id/contact_photo_view",
+    "className": "FrameLayout",
+    "text": "com.whatsapp:id/contact_photo_view",
+    "bounds": "132,114,264,246",
+    "children": []
+  },
+  {
+    "index": 4,
+    "resourceId": "com.whatsapp:id/conversation_contact_photo",
+    "className": "Button",
+    "text": "com.whatsapp:id/conversation_contact_photo",
+    "bounds": "139,127,251,237",
+    "children": []
+  },
+  {
+    "index": 5,
+    "resourceId": "com.whatsapp:id/conversation_contact",
+    "className": "LinearLayout",
+    "text": "com.whatsapp:id/conversation_contact",
+    "bounds": "264,103,837,257",
+    "children": []
+  },
+  {
+    "index": 6,
+    "resourceId": "com.whatsapp:id/conversation_contact_name",
+    "className": "TextView",
+    "text": "CPuccino",
+    "bounds": "275,122,479,190",
+    "children": []
+  },
+  {
+    "index": 7,
+    "resourceId": "com.whatsapp:id/conversation_contact_status",
+    "className": "TextView",
+    "text": "Anuj, Golem, Sarthak 512, +91 70298 44960, +91 73200 36378, +91 87896 86217, +91 91086 71095, +91 92086 68502, +91 95551 39902, +91 98607 23698, You, 59 others",
+    "bounds": "275,190,837,232",
+    "children": []
+  },
+  {
+    "index": 8,
+    "resourceId": "",
+    "className": "ImageButton",
+    "text": "Open voice chat",
+    "bounds": "837,114,969,246",
+    "children": []
+  },
+  {
+    "index": 9,
+    "resourceId": "com.whatsapp:id/menuitem_overflow",
+    "className": "ImageView",
+    "text": "More options",
+    "bounds": "969,114,1080,246",
+    "children": []
+  },
+  {
+    "index": 10,
+    "resourceId": "com.whatsapp:id/coordinator",
+    "className": "ViewGroup",
+    "text": "com.whatsapp:id/coordinator",
+    "bounds": "0,257,1080,2240",
+    "children": []
+  },
+  {
+    "index": 11,
+    "resourceId": "com.whatsapp:id/pinnedMessagesBanner",
+    "className": "LinearLayout",
+    "text": "com.whatsapp:id/pinnedMessagesBanner",
+    "bounds": "0,257,1080,392",
+    "children": []
+  },
+  {
+    "index": 12,
+    "resourceId": "com.whatsapp:id/pinnedMessagesBanner_pinned_icon",
+    "className": "ImageView",
+    "text": "Pinned message",
+    "bounds": "50,284,127,361",
+    "children": []
+  },
+  {
+    "index": 13,
+    "resourceId": "com.whatsapp:id/pinnedMessagesBanner_content",
+    "className": "TextView",
+    "text": "https://codeforces.com/profile/AryanJajodia26",
+    "bounds": "149,295,1080,351",
+    "children": []
+  },
+  {
+    "index": 14,
+    "resourceId": "com.whatsapp:id/drag_n_drop_overlay",
+    "className": "View",
+    "text": "com.whatsapp:id/drag_n_drop_overlay",
+    "bounds": "0,392,1080,2240",
+    "children": []
+  },
+  {
+    "index": 15,
+    "resourceId": "android:id/list",
+    "className": "ListView",
+    "text": "android:id/list",
+    "bounds": "0,392,1080,2087",
+    "children": []
+  },
+  {
+    "index": 16,
+    "resourceId": "",
+    "className": "ViewGroup",
+    "text": "android.view.ViewGroup",
+    "bounds": "0,392,1080,538",
+    "children": []
+  },
+  {
+    "index": 17,
+    "resourceId": "com.whatsapp:id/sticker_image",
+    "className": "ImageView",
+    "text": "Sticker",
+    "bounds": "358,392,702,463",
+    "children": []
+  },
+  {
+    "index": 18,
+    "resourceId": "com.whatsapp:id/date",
+    "className": "TextView",
+    "text": "10:58 pm",
+    "bounds": "773,469,910,524",
+    "children": []
+  },
+  {
+    "index": 19,
+    "resourceId": "",
+    "className": "ViewGroup",
+    "text": "android.view.ViewGroup",
+    "bounds": "0,538,1080,713",
+    "children": []
+  },
+  {
+    "index": 20,
+    "resourceId": "com.whatsapp:id/name_in_group_tv",
+    "className": "TextView",
+    "text": "Krishna (mnc) 427",
+    "bounds": "157,560,508,626",
+    "children": []
+  },
+  {
+    "index": 21,
+    "resourceId": "com.whatsapp:id/message_text",
+    "className": "TextView",
+    "text": "#69",
+    "bounds": "130,626,253,704",
+    "children": []
+  },
+  {
+    "index": 22,
+    "resourceId": "com.whatsapp:id/date",
+    "className": "TextView",
+    "text": "10:58 pm",
+    "bounds": "381,649,518,704",
+    "children": []
+  },
+  {
+    "index": 23,
+    "resourceId": "",
+    "className": "ViewGroup",
+    "text": "android.view.ViewGroup",
+    "bounds": "0,713,1080,823",
+    "children": []
+  },
+  {
+    "index": 24,
+    "resourceId": "com.whatsapp:id/message_text",
+    "className": "TextView",
+    "text": "@⁨~Aryan Jajodia⁩",
+    "bounds": "130,721,541,814",
+    "children": []
+  },
+  {
+    "index": 25,
+    "resourceId": "com.whatsapp:id/date",
+    "className": "TextView",
+    "text": "10:58 pm",
+    "bounds": "558,759,695,814",
+    "children": []
+  },
+  {
+    "index": 26,
+    "resourceId": "",
+    "className": "ViewGroup",
+    "text": "android.view.ViewGroup",
+    "bounds": "0,823,1080,935",
+    "children": []
+  },
+  {
+    "index": 27,
+    "resourceId": "com.whatsapp:id/message_text",
+    "className": "TextView",
+    "text": "#opener",
+    "bounds": "130,831,339,915",
+    "children": []
+  },
+  {
+    "index": 28,
+    "resourceId": "com.whatsapp:id/date",
+    "className": "TextView",
+    "text": "10:58 pm",
+    "bounds": "356,860,493,915",
+    "children": []
+  },
+  {
+    "index": 29,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "0,935,1080,1070",
+    "children": []
+  },
+  {
+    "index": 30,
+    "resourceId": "com.whatsapp:id/unread_divider_tv",
+    "className": "TextView",
+    "text": "1 unread message",
+    "bounds": "339,957,740,1048",
+    "children": []
+  },
+  {
+    "index": 31,
+    "resourceId": "",
+    "className": "ViewGroup",
+    "text": "android.view.ViewGroup",
+    "bounds": "0,1070,1080,2087",
+    "children": []
+  },
+  {
+    "index": 32,
+    "resourceId": "com.whatsapp:id/name_in_group_tv",
+    "className": "TextView",
+    "text": "Umang Khatri",
+    "bounds": "157,1092,417,1158",
+    "children": []
+  },
+  {
+    "index": 33,
+    "resourceId": "com.whatsapp:id/media_container",
+    "className": "FrameLayout",
+    "text": "com.whatsapp:id/media_container",
+    "bounds": "124,1158,826,2073",
+    "children": []
+  },
+  {
+    "index": 34,
+    "resourceId": "com.whatsapp:id/image",
+    "className": "ImageView",
+    "text": "Photo",
+    "bounds": "135,1169,815,2062",
+    "children": []
+  },
+  {
+    "index": 35,
+    "resourceId": "com.whatsapp:id/control_btn",
+    "className": "Button",
+    "text": "19 KB",
+    "bounds": "331,1549,619,1681",
+    "children": []
+  },
+  {
+    "index": 36,
+    "resourceId": "com.whatsapp:id/date",
+    "className": "TextView",
+    "text": "10:59 pm",
+    "bounds": "663,1999,798,2054",
+    "children": []
+  },
+  {
+    "index": 37,
+    "resourceId": "com.whatsapp:id/emoji_picker_btn",
+    "className": "ImageButton",
+    "text": "Emoji, GIFs and stickers",
+    "bounds": "11,2096,143,2228",
+    "children": []
+  },
+  {
+    "index": 38,
+    "resourceId": "com.whatsapp:id/entry",
+    "className": "EditText",
+    "text": "Message",
+    "bounds": "143,2115,529,2209",
+    "children": []
+  },
+  {
+    "index": 39,
+    "resourceId": "com.whatsapp:id/input_attach_button",
+    "className": "ImageButton",
+    "text": "Attach",
+    "bounds": "529,2096,661,2228",
+    "children": []
+  },
+  {
+    "index": 40,
+    "resourceId": "com.whatsapp:id/payment_button",
+    "className": "ImageButton",
+    "text": "Payment",
+    "bounds": "661,2096,793,2228",
+    "children": []
+  },
+  {
+    "index": 41,
+    "resourceId": "com.whatsapp:id/camera_btn",
+    "className": "ImageButton",
+    "text": "Camera",
+    "bounds": "793,2096,925,2228",
+    "children": []
+  },
+  {
+    "index": 42,
+    "resourceId": "com.whatsapp:id/voice_note_btn",
+    "className": "ImageButton",
+    "text": "Voice message, Button. Double tap and hold to record, slide left to cancel recording, slide up to lock recording on. Release to send.",
+    "bounds": "936,2096,1068,2228",
+    "children": []
+  }
+]

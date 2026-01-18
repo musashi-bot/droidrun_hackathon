@@ -1,0 +1,274 @@
+[
+  {
+    "index": 1,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "0,0,1080,2408",
+    "children": []
+  },
+  {
+    "index": 2,
+    "resourceId": "com.whatsapp:id/whatsapp_toolbar_home",
+    "className": "Button",
+    "text": "Back",
+    "bounds": "0,76,135,211",
+    "children": []
+  },
+  {
+    "index": 3,
+    "resourceId": "com.whatsapp:id/contact_photo_view",
+    "className": "FrameLayout",
+    "text": "com.whatsapp:id/contact_photo_view",
+    "bounds": "135,76,270,211",
+    "children": []
+  },
+  {
+    "index": 4,
+    "resourceId": "com.whatsapp:id/conversation_contact_photo",
+    "className": "Button",
+    "text": "com.whatsapp:id/conversation_contact_photo",
+    "bounds": "142,90,257,202",
+    "children": []
+  },
+  {
+    "index": 5,
+    "resourceId": "com.whatsapp:id/conversation_contact",
+    "className": "LinearLayout",
+    "text": "com.whatsapp:id/conversation_contact",
+    "bounds": "270,65,696,223",
+    "children": []
+  },
+  {
+    "index": 6,
+    "resourceId": "com.whatsapp:id/conversation_contact_name",
+    "className": "TextView",
+    "text": "‎# Freshers IITP 2024 Discussion #",
+    "bounds": "281,85,696,150",
+    "children": []
+  },
+  {
+    "index": 7,
+    "resourceId": "com.whatsapp:id/conversation_contact_status",
+    "className": "TextView",
+    "text": "13 online",
+    "bounds": "281,150,423,196",
+    "children": []
+  },
+  {
+    "index": 8,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "‎# Freshers IITP 2024 Discussion #, community group icon",
+    "bounds": "696,76,831,211",
+    "children": []
+  },
+  {
+    "index": 9,
+    "resourceId": "",
+    "className": "ImageButton",
+    "text": "Open voice chat",
+    "bounds": "831,76,967,211",
+    "children": []
+  },
+  {
+    "index": 10,
+    "resourceId": "com.whatsapp:id/menuitem_overflow",
+    "className": "ImageView",
+    "text": "More options",
+    "bounds": "967,76,1080,211",
+    "children": []
+  },
+  {
+    "index": 11,
+    "resourceId": "com.whatsapp:id/coordinator",
+    "className": "ViewGroup",
+    "text": "com.whatsapp:id/coordinator",
+    "bounds": "0,223,1080,2273",
+    "children": []
+  },
+  {
+    "index": 12,
+    "resourceId": "com.whatsapp:id/drag_n_drop_overlay",
+    "className": "View",
+    "text": "com.whatsapp:id/drag_n_drop_overlay",
+    "bounds": "0,223,1080,2273",
+    "children": []
+  },
+  {
+    "index": 13,
+    "resourceId": "android:id/list",
+    "className": "ListView",
+    "text": "android:id/list",
+    "bounds": "0,223,1080,2117",
+    "children": []
+  },
+  {
+    "index": 14,
+    "resourceId": "",
+    "className": "ViewGroup",
+    "text": "android.view.ViewGroup",
+    "bounds": "0,223,1080,892",
+    "children": []
+  },
+  {
+    "index": 15,
+    "resourceId": "com.whatsapp:id/message_text",
+    "className": "TextView",
+    "text": "Hey Everyone!\n\nThe Anime Club is officially bringing AnimeCon to Anwesha'26 fest! We are turning the campus into a sanctuary for all things weeb, and we want you to be the main attraction. Whether you're planning a high-tier Gojo cosplay or just want to represent your favorite slice-of-life character, we’re here to facilitate it. We are currently gathering data to see how many people are interested and what kind of support you need.\n\n Tell us your preference:\n\nThe Crafters: If you are building your own gear, let us know! We might be able to provide a dedicated Station for costume design before the event.\n\nThe Renters: If you need help finding quality costumes or props, we are looking into bulk rental options/discounts.\n\n[https://forms.gle/BmfR5D32BYuJ7e276]",
+    "bounds": "133,223,823,872",
+    "children": []
+  },
+  {
+    "index": 16,
+    "resourceId": "",
+    "className": "View",
+    "text": "https://forms.gle/BmfR5D32BYuJ7e276",
+    "bounds": "156,750,800,858",
+    "children": []
+  },
+  {
+    "index": 17,
+    "resourceId": "com.whatsapp:id/date",
+    "className": "TextView",
+    "text": "3:30 pm",
+    "bounds": "684,826,806,872",
+    "children": []
+  },
+  {
+    "index": 18,
+    "resourceId": "",
+    "className": "ViewGroup",
+    "text": "android.view.ViewGroup",
+    "bounds": "0,892,1080,2117",
+    "children": []
+  },
+  {
+    "index": 19,
+    "resourceId": "com.whatsapp:id/conversation_row_date_divider",
+    "className": "TextView",
+    "text": "21 December 2025",
+    "bounds": "362,902,718,989",
+    "children": []
+  },
+  {
+    "index": 20,
+    "resourceId": "com.whatsapp:id/name_in_group_tv",
+    "className": "TextView",
+    "text": "~ Abhijeet S. Jadaun",
+    "bounds": "161,1018,495,1072",
+    "children": []
+  },
+  {
+    "index": 21,
+    "resourceId": "com.whatsapp:id/link_preview_frame",
+    "className": "FrameLayout",
+    "text": "com.whatsapp:id/link_preview_frame",
+    "bounds": "138,1050,818,1659",
+    "children": []
+  },
+  {
+    "index": 22,
+    "resourceId": "com.whatsapp:id/web_page_preview_video_duration_text",
+    "className": "TextView",
+    "text": "0:28",
+    "bounds": "214,1371,287,1418",
+    "children": []
+  },
+  {
+    "index": 23,
+    "resourceId": "com.whatsapp:id/title",
+    "className": "TextView",
+    "text": "Celesta, IIT Patna on Instagram: \"Celesta IIT Patna has already sparked unforgettable moments ⚡ From the electrifying Under 25 Summit, where ideas met",
+    "bounds": "161,1446,795,1555",
+    "children": []
+  },
+  {
+    "index": 24,
+    "resourceId": "com.whatsapp:id/url_layout",
+    "className": "LinearLayout",
+    "text": "com.whatsapp:id/url_layout",
+    "bounds": "161,1555,795,1636",
+    "children": []
+  },
+  {
+    "index": 25,
+    "resourceId": "com.whatsapp:id/url",
+    "className": "TextView",
+    "text": "instagram.com",
+    "bounds": "217,1589,727,1636",
+    "children": []
+  },
+  {
+    "index": 26,
+    "resourceId": "com.whatsapp:id/message_text",
+    "className": "TextView",
+    "text": "Celesta 2025: A Journey of Innovation\n\nFrom the Under 25 Summit to the Exhibition, watch Celesta’s journey of creativity, technology, and vision unfold in one spectacular reel.🎥\n\nhttps://www.instagram.com/reel/DSh3A_mjIWK/?igsh=czRyZ2ptZjZveDRy\n\n Discover, explore, and get inspired by the future of innovation.✨\n\n#CelestaIITPatna #Under25Summit #InnovationInAction #TechExhibition",
+    "bounds": "133,1620,823,2117",
+    "children": []
+  },
+  {
+    "index": 27,
+    "resourceId": "com.whatsapp:id/action_button",
+    "className": "ImageView",
+    "text": "Forward to…",
+    "bounds": "852,1751,942,1841",
+    "children": []
+  },
+  {
+    "index": 28,
+    "resourceId": "com.whatsapp:id/scroll_bottom",
+    "className": "FrameLayout",
+    "text": "Go to most recent message",
+    "bounds": "922,1954,1080,2083",
+    "children": []
+  },
+  {
+    "index": 29,
+    "resourceId": "com.whatsapp:id/emoji_picker_btn",
+    "className": "ImageButton",
+    "text": "Emoji, GIFs and stickers",
+    "bounds": "11,2126,146,2261",
+    "children": []
+  },
+  {
+    "index": 30,
+    "resourceId": "com.whatsapp:id/entry",
+    "className": "EditText",
+    "text": "Message",
+    "bounds": "146,2148,516,2238",
+    "children": []
+  },
+  {
+    "index": 31,
+    "resourceId": "com.whatsapp:id/input_attach_button",
+    "className": "ImageButton",
+    "text": "Attach",
+    "bounds": "516,2126,652,2261",
+    "children": []
+  },
+  {
+    "index": 32,
+    "resourceId": "com.whatsapp:id/payment_button",
+    "className": "ImageButton",
+    "text": "Payment",
+    "bounds": "652,2126,787,2261",
+    "children": []
+  },
+  {
+    "index": 33,
+    "resourceId": "com.whatsapp:id/camera_btn",
+    "className": "ImageButton",
+    "text": "Camera",
+    "bounds": "787,2126,922,2261",
+    "children": []
+  },
+  {
+    "index": 34,
+    "resourceId": "com.whatsapp:id/voice_note_btn",
+    "className": "ImageButton",
+    "text": "Voice message, Button. Double tap and hold to record, slide left to cancel recording, slide up to lock recording on. Release to send.",
+    "bounds": "933,2126,1068,2261",
+    "children": []
+  }
+]

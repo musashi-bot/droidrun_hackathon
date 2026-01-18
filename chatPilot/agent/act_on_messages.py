@@ -13,7 +13,7 @@ from droidrun.config_manager.config_manager import (
 )
 from llama_index.llms.google_genai import GoogleGenAI
 
-from agent.prompts.whatsapp_prompts import (
+from chatPilot.agent.prompts.whatsapp_prompts import (
     CREATE_REMINDER_GOAL,
     DRAFT_REPLY_GOAL,
     DAILY_SUMMARY_GOAL,

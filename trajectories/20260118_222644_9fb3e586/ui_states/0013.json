@@ -1,0 +1,202 @@
+[
+  {
+    "index": 1,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "0,0,1080,2408",
+    "children": []
+  },
+  {
+    "index": 2,
+    "resourceId": "com.whatsapp:id/whatsapp_toolbar_home",
+    "className": "Button",
+    "text": "Back",
+    "bounds": "0,76,135,211",
+    "children": []
+  },
+  {
+    "index": 3,
+    "resourceId": "com.whatsapp:id/contact_photo_view",
+    "className": "FrameLayout",
+    "text": "com.whatsapp:id/contact_photo_view",
+    "bounds": "135,76,270,211",
+    "children": []
+  },
+  {
+    "index": 4,
+    "resourceId": "com.whatsapp:id/conversation_contact_photo",
+    "className": "Button",
+    "text": "com.whatsapp:id/conversation_contact_photo",
+    "bounds": "142,90,257,202",
+    "children": []
+  },
+  {
+    "index": 5,
+    "resourceId": "com.whatsapp:id/conversation_contact",
+    "className": "LinearLayout",
+    "text": "com.whatsapp:id/conversation_contact",
+    "bounds": "270,65,832,223",
+    "children": []
+  },
+  {
+    "index": 6,
+    "resourceId": "com.whatsapp:id/conversation_contact_name",
+    "className": "TextView",
+    "text": "Sophomores IITP 2024",
+    "bounds": "292,85,779,150",
+    "children": []
+  },
+  {
+    "index": 7,
+    "resourceId": "com.whatsapp:id/conversation_contact_status",
+    "className": "TextView",
+    "text": "Announcements",
+    "bounds": "292,150,548,196",
+    "children": []
+  },
+  {
+    "index": 8,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "Sophomores IITP 2024, community group icon",
+    "bounds": "832,76,967,211",
+    "children": []
+  },
+  {
+    "index": 9,
+    "resourceId": "com.whatsapp:id/menuitem_overflow",
+    "className": "ImageView",
+    "text": "More options",
+    "bounds": "967,76,1080,211",
+    "children": []
+  },
+  {
+    "index": 10,
+    "resourceId": "com.whatsapp:id/coordinator",
+    "className": "ViewGroup",
+    "text": "com.whatsapp:id/coordinator",
+    "bounds": "0,223,1080,2273",
+    "children": []
+  },
+  {
+    "index": 11,
+    "resourceId": "com.whatsapp:id/drag_n_drop_overlay",
+    "className": "View",
+    "text": "com.whatsapp:id/drag_n_drop_overlay",
+    "bounds": "0,223,1080,2273",
+    "children": []
+  },
+  {
+    "index": 12,
+    "resourceId": "android:id/list",
+    "className": "ListView",
+    "text": "android:id/list",
+    "bounds": "0,223,1080,2127",
+    "children": []
+  },
+  {
+    "index": 13,
+    "resourceId": "",
+    "className": "ViewGroup",
+    "text": "android.view.ViewGroup",
+    "bounds": "0,223,1080,841",
+    "children": []
+  },
+  {
+    "index": 14,
+    "resourceId": "com.whatsapp:id/caption",
+    "className": "TextView",
+    "text": "20 DAYS TO GO - ANWESHA'26 🔥\n\nThe countdown is officially ON and the excitement is real! ✨\n\nFrom electrifying performances to mind-blowing acts, music, dance, talent, and unforgettable moments - Anwesha is where memories are made.\n\nGet ready for the biggest campus vibes, cultural madness, and non-stop energy as IIT Patna gears up for its grand fest. 🎶💃🕺\n\nMark your calendars and stay tuned -  the celebration is just getting started! \n\nhttps://www.instagram.com/reel/DTmnRtkEnZ0\n\nFor more updates follow us on:\nhttps://www.instagram.com/anwesha_iitpatna?igsh=MWUyaGxzajBtdjN2ag==",
+    "bounds": "73,223,1007,784",
+    "children": []
+  },
+  {
+    "index": 15,
+    "resourceId": "",
+    "className": "View",
+    "text": "https://www.instagram.com/reel/DTmnRtkEnZ0",
+    "bounds": "101,447,979,553",
+    "children": []
+  },
+  {
+    "index": 16,
+    "resourceId": "",
+    "className": "View",
+    "text": "https://www.instagram.com/anwesha_iitpatna?igsh=MWUyaGxzajBtdjN2ag==",
+    "bounds": "101,659,979,767",
+    "children": []
+  },
+  {
+    "index": 17,
+    "resourceId": "com.whatsapp:id/date",
+    "className": "TextView",
+    "text": "2:05 pm",
+    "bounds": "857,784,979,830",
+    "children": []
+  },
+  {
+    "index": 18,
+    "resourceId": "",
+    "className": "ViewGroup",
+    "text": "android.view.ViewGroup",
+    "bounds": "0,841,1080,2127",
+    "children": []
+  },
+  {
+    "index": 19,
+    "resourceId": "com.whatsapp:id/name_in_group_tv",
+    "className": "TextView",
+    "text": "~ Sparsh Choudhary",
+    "bounds": "242,897,620,951",
+    "children": []
+  },
+  {
+    "index": 20,
+    "resourceId": "com.whatsapp:id/conversation_row_name_in_group_role",
+    "className": "TextView",
+    "text": "Community admin",
+    "bounds": "208,951,551,998",
+    "children": []
+  },
+  {
+    "index": 21,
+    "resourceId": "com.whatsapp:id/message_text",
+    "className": "TextView",
+    "text": "HEY EVERYONE! \n\nWe’re creating something special today - a Handprint Poster and we want YOU to be a part of it! Soon enough when the energy is high, we will have a Poster Drop for Anwesha 2026! \n\nNo work, no stress, no seriousness \nJust pure laughter, and fun moments with friends \n\nCome leave your handprint, chill for a bit, click pictures, and enjoy the vibe!\n\nTime: 9:15 PM\nVenue: Gymkhana Corridor\n\nDon’t miss it - see you all there! 🙌🔥",
+    "bounds": "79,1021,1001,2072",
+    "children": []
+  },
+  {
+    "index": 22,
+    "resourceId": "com.whatsapp:id/date",
+    "className": "TextView",
+    "text": "9:01 pm",
+    "bounds": "862,2072,984,2118",
+    "children": []
+  },
+  {
+    "index": 23,
+    "resourceId": "com.whatsapp:id/read_only_chat_info_container",
+    "className": "LinearLayout",
+    "text": "com.whatsapp:id/read_only_chat_info_container",
+    "bounds": "0,2127,1080,2273",
+    "children": []
+  },
+  {
+    "index": 24,
+    "resourceId": "com.whatsapp:id/read_only_chat_info",
+    "className": "TextView",
+    "text": "You can reply to announcements, but only community admins can send them.",
+    "bounds": "0,2151,1080,2250",
+    "children": []
+  },
+  {
+    "index": 25,
+    "resourceId": "",
+    "className": "View",
+    "text": "community admins",
+    "bounds": "234,2203,570,2250",
+    "children": []
+  }
+]

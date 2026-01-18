@@ -1,0 +1,191 @@
+{
+  "version": "1.0",
+  "description": "\nYou are a calendar reminder creation agent.\n\nTASK: Create ONE calendar event and stop.\n\nSTEPS:\n1. Open Google Calendar (package: com.google.android.calendar)\n2. Tap the \"+\" or \"Create\" button\n3. Select \"Event\" or \"Reminder\"\n4. Enter title: \"Meet tomorrow at 9 AM\"\n5. Set time: Tomorrow 9 AM\n6. Save the event\n7. STOP immediately after saving\n\nRULES:\n- Create ONLY ONE event\n- Do NOT edit existing events\n- Do NOT create multiple reminders\n- Do NOT navigate to other screens after saving\n\nTERMINATION:\nOnce the event is saved and visible in the calendar, stop all actions.\nReturn to idle state.\n",
+  "timestamp": "20260118_231722",
+  "total_actions": 19,
+  "actions": [
+    {
+      "type": "StartAppEvent",
+      "action_type": "start_app",
+      "description": "Start app com.xiaomi.calendar",
+      "package": "com.xiaomi.calendar",
+      "activity": "com.android.calendar.homepage.AllInOneActivity"
+    },
+    {
+      "type": "TapActionEvent",
+      "action_type": "tap",
+      "description": "Tap element at index 70: 'New' (ImageView) at coordinates (940, 2100)",
+      "x": 940,
+      "y": 2100,
+      "element_index": 70,
+      "element_text": "New",
+      "element_bounds": "865,2025,1015,2175"
+    },
+    {
+      "type": "TapActionEvent",
+      "action_type": "tap",
+      "description": "Tap element at index 13: 'Event name' (EditText) at coordinates (540, 833)",
+      "x": 540,
+      "y": 833,
+      "element_index": 13,
+      "element_text": "Event name",
+      "element_bounds": "30,744,1050,922"
+    },
+    {
+      "type": "InputTextActionEvent",
+      "action_type": "input_text",
+      "description": "Input text: 'Meet tomorrow at 9 AM' (clear=False)",
+      "text": "Meet tomorrow at 9 AM"
+    },
+    {
+      "type": "TapActionEvent",
+      "action_type": "tap",
+      "description": "Tap element at index 18: 'Sun, 18 January 2026 11:30 pm' (TextView) at coordinates (595, 1165)",
+      "x": 595,
+      "y": 1165,
+      "element_index": 18,
+      "element_text": "Sun, 18 January 2026 11:30 pm",
+      "element_bounds": "185,1134,1006,1197"
+    },
+    {
+      "type": "SwipeActionEvent",
+      "action_type": "swipe",
+      "description": "Swipe from (275, 1800) to (275, 1600) in 1000 milliseconds",
+      "start_x": 275,
+      "start_y": 1800,
+      "end_x": 275,
+      "end_y": 1600,
+      "duration_ms": 1000
+    },
+    {
+      "type": "SwipeActionEvent",
+      "action_type": "swipe",
+      "description": "Swipe from (682, 1600) to (682, 1800) in 1000 milliseconds",
+      "start_x": 682,
+      "start_y": 1600,
+      "end_x": 682,
+      "end_y": 1800,
+      "duration_ms": 1000
+    },
+    {
+      "type": "SwipeActionEvent",
+      "action_type": "swipe",
+      "description": "Swipe from (682, 1600) to (682, 1800) in 1000 milliseconds",
+      "start_x": 682,
+      "start_y": 1600,
+      "end_x": 682,
+      "end_y": 1800,
+      "duration_ms": 1000
+    },
+    {
+      "type": "SwipeActionEvent",
+      "action_type": "swipe",
+      "description": "Swipe from (682, 1600) to (682, 1800) in 1000 milliseconds",
+      "start_x": 682,
+      "start_y": 1600,
+      "end_x": 682,
+      "end_y": 1800,
+      "duration_ms": 1000
+    },
+    {
+      "type": "SwipeActionEvent",
+      "action_type": "swipe",
+      "description": "Swipe from (682, 1600) to (682, 1800) in 1000 milliseconds",
+      "start_x": 682,
+      "start_y": 1600,
+      "end_x": 682,
+      "end_y": 1800,
+      "duration_ms": 1000
+    },
+    {
+      "type": "SwipeActionEvent",
+      "action_type": "swipe",
+      "description": "Swipe from (682, 1600) to (682, 1800) in 1000 milliseconds",
+      "start_x": 682,
+      "start_y": 1600,
+      "end_x": 682,
+      "end_y": 1800,
+      "duration_ms": 1000
+    },
+    {
+      "type": "SwipeActionEvent",
+      "action_type": "swipe",
+      "description": "Swipe from (682, 1600) to (682, 1800) in 1000 milliseconds",
+      "start_x": 682,
+      "start_y": 1600,
+      "end_x": 682,
+      "end_y": 1800,
+      "duration_ms": 1000
+    },
+    {
+      "type": "SwipeActionEvent",
+      "action_type": "swipe",
+      "description": "Swipe from (682, 1600) to (682, 1800) in 1000 milliseconds",
+      "start_x": 682,
+      "start_y": 1600,
+      "end_x": 682,
+      "end_y": 1800,
+      "duration_ms": 1000
+    },
+    {
+      "type": "SwipeActionEvent",
+      "action_type": "swipe",
+      "description": "Swipe from (947, 1600) to (947, 1800) in 1000 milliseconds",
+      "start_x": 947,
+      "start_y": 1600,
+      "end_x": 947,
+      "end_y": 1800,
+      "duration_ms": 1000
+    },
+    {
+      "type": "SwipeActionEvent",
+      "action_type": "swipe",
+      "description": "Swipe from (947, 1600) to (947, 1800) in 1000 milliseconds",
+      "start_x": 947,
+      "start_y": 1600,
+      "end_x": 947,
+      "end_y": 1800,
+      "duration_ms": 1000
+    },
+    {
+      "type": "SwipeActionEvent",
+      "action_type": "swipe",
+      "description": "Swipe from (947, 1600) to (947, 1800) in 1000 milliseconds",
+      "start_x": 947,
+      "start_y": 1600,
+      "end_x": 947,
+      "end_y": 1800,
+      "duration_ms": 1000
+    },
+    {
+      "type": "SwipeActionEvent",
+      "action_type": "swipe",
+      "description": "Swipe from (947, 1600) to (947, 1800) in 1000 milliseconds",
+      "start_x": 947,
+      "start_y": 1600,
+      "end_x": 947,
+      "end_y": 1800,
+      "duration_ms": 1000
+    },
+    {
+      "type": "TapActionEvent",
+      "action_type": "tap",
+      "description": "Tap element at index 9: 'OK' (Button) at coordinates (779, 2090)",
+      "x": 779,
+      "y": 2090,
+      "element_index": 9,
+      "element_text": "OK",
+      "element_bounds": "559,2020,1000,2160"
+    },
+    {
+      "type": "TapActionEvent",
+      "action_type": "tap",
+      "description": "Tap element at index 5: 'OK' (ImageButton) at coordinates (982, 183)",
+      "x": 982,
+      "y": 183,
+      "element_index": 5,
+      "element_text": "OK",
+      "element_bounds": "932,133,1032,233"
+    }
+  ]
+}

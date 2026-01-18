@@ -1,0 +1,290 @@
+[
+  {
+    "index": 1,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "0,0,1080,2400",
+    "children": []
+  },
+  {
+    "index": 2,
+    "resourceId": "com.miui.home:id/workspace",
+    "className": "ScreenView",
+    "text": "com.miui.home:id/workspace",
+    "bounds": "0,0,1080,2240",
+    "children": []
+  },
+  {
+    "index": 3,
+    "resourceId": "",
+    "className": "RelativeLayout",
+    "text": "Clock",
+    "bounds": "41,164,374,605",
+    "children": []
+  },
+  {
+    "index": 4,
+    "resourceId": "com.miui.home:id/icon_icon",
+    "className": "ImageView",
+    "text": "Clock",
+    "bounds": "115,180,299,364",
+    "children": []
+  },
+  {
+    "index": 5,
+    "resourceId": "com.miui.home:id/icon_title",
+    "className": "TextView",
+    "text": "Clock",
+    "bounds": "41,374,374,605",
+    "children": []
+  },
+  {
+    "index": 6,
+    "resourceId": "",
+    "className": "RelativeLayout",
+    "text": "Digital Wellbeing",
+    "bounds": "374,164,707,605",
+    "children": []
+  },
+  {
+    "index": 7,
+    "resourceId": "com.miui.home:id/icon_icon",
+    "className": "ImageView",
+    "text": "Digital Wellbeing",
+    "bounds": "448,180,632,364",
+    "children": []
+  },
+  {
+    "index": 8,
+    "resourceId": "com.miui.home:id/icon_title",
+    "className": "TextView",
+    "text": "Digital Wellbeing",
+    "bounds": "374,374,707,605",
+    "children": []
+  },
+  {
+    "index": 9,
+    "resourceId": "",
+    "className": "RelativeLayout",
+    "text": "Indus Appstore",
+    "bounds": "707,164,1040,605",
+    "children": []
+  },
+  {
+    "index": 10,
+    "resourceId": "com.miui.home:id/icon_icon",
+    "className": "ImageView",
+    "text": "Indus Appstore",
+    "bounds": "781,180,965,364",
+    "children": []
+  },
+  {
+    "index": 11,
+    "resourceId": "com.miui.home:id/icon_title",
+    "className": "TextView",
+    "text": "Indus Appstore",
+    "bounds": "707,374,1040,605",
+    "children": []
+  },
+  {
+    "index": 12,
+    "resourceId": "",
+    "className": "RelativeLayout",
+    "text": "🪳",
+    "bounds": "41,611,374,1052",
+    "children": []
+  },
+  {
+    "index": 13,
+    "resourceId": "com.miui.home:id/icon_icon",
+    "className": "ImageView",
+    "text": "🪳",
+    "bounds": "115,627,299,811",
+    "children": []
+  },
+  {
+    "index": 14,
+    "resourceId": "com.miui.home:id/icon_title",
+    "className": "TextView",
+    "text": "🪳",
+    "bounds": "41,821,374,1052",
+    "children": []
+  },
+  {
+    "index": 15,
+    "resourceId": "",
+    "className": "RelativeLayout",
+    "text": "1 unread from 🪳",
+    "bounds": "374,611,707,1052",
+    "children": []
+  },
+  {
+    "index": 16,
+    "resourceId": "com.miui.home:id/icon_icon",
+    "className": "ImageView",
+    "text": "🪳",
+    "bounds": "448,627,632,811",
+    "children": []
+  },
+  {
+    "index": 17,
+    "resourceId": "com.miui.home:id/icon_msg",
+    "className": "TextView",
+    "text": "1",
+    "bounds": "588,611,643,666",
+    "children": []
+  },
+  {
+    "index": 18,
+    "resourceId": "com.miui.home:id/icon_title",
+    "className": "TextView",
+    "text": "🪳",
+    "bounds": "374,821,707,1052",
+    "children": []
+  },
+  {
+    "index": 19,
+    "resourceId": "",
+    "className": "RelativeLayout",
+    "text": "🪳",
+    "bounds": "707,611,1040,1052",
+    "children": []
+  },
+  {
+    "index": 20,
+    "resourceId": "com.miui.home:id/icon_icon",
+    "className": "ImageView",
+    "text": "🪳",
+    "bounds": "781,627,965,811",
+    "children": []
+  },
+  {
+    "index": 21,
+    "resourceId": "com.miui.home:id/icon_title",
+    "className": "TextView",
+    "text": "🪳",
+    "bounds": "707,821,1040,1052",
+    "children": []
+  },
+  {
+    "index": 22,
+    "resourceId": "",
+    "className": "RelativeLayout",
+    "text": "🪳",
+    "bounds": "41,1058,374,1499",
+    "children": []
+  },
+  {
+    "index": 23,
+    "resourceId": "com.miui.home:id/icon_icon",
+    "className": "ImageView",
+    "text": "🪳",
+    "bounds": "115,1074,299,1258",
+    "children": []
+  },
+  {
+    "index": 24,
+    "resourceId": "com.miui.home:id/icon_title",
+    "className": "TextView",
+    "text": "🪳",
+    "bounds": "41,1268,374,1499",
+    "children": []
+  },
+  {
+    "index": 25,
+    "resourceId": "",
+    "className": "RelativeLayout",
+    "text": "Gemini",
+    "bounds": "374,1058,707,1499",
+    "children": []
+  },
+  {
+    "index": 26,
+    "resourceId": "com.miui.home:id/icon_icon",
+    "className": "ImageView",
+    "text": "Gemini",
+    "bounds": "448,1074,632,1258",
+    "children": []
+  },
+  {
+    "index": 27,
+    "resourceId": "com.miui.home:id/icon_title",
+    "className": "TextView",
+    "text": "Gemini",
+    "bounds": "374,1268,707,1499",
+    "children": []
+  },
+  {
+    "index": 28,
+    "resourceId": "",
+    "className": "RelativeLayout",
+    "text": "WhatsApp",
+    "bounds": "707,1058,1040,1499",
+    "children": []
+  },
+  {
+    "index": 29,
+    "resourceId": "com.miui.home:id/icon_icon",
+    "className": "ImageView",
+    "text": "WhatsApp",
+    "bounds": "781,1074,965,1258",
+    "children": []
+  },
+  {
+    "index": 30,
+    "resourceId": "com.miui.home:id/icon_title",
+    "className": "TextView",
+    "text": "WhatsApp",
+    "bounds": "707,1268,1040,1499",
+    "children": []
+  },
+  {
+    "index": 31,
+    "resourceId": "",
+    "className": "RelativeLayout",
+    "text": "Phone",
+    "bounds": "40,2034,373,2240",
+    "children": []
+  },
+  {
+    "index": 32,
+    "resourceId": "com.miui.home:id/icon_icon",
+    "className": "ImageView",
+    "text": "Phone",
+    "bounds": "114,2050,298,2234",
+    "children": []
+  },
+  {
+    "index": 33,
+    "resourceId": "",
+    "className": "RelativeLayout",
+    "text": "Messaging",
+    "bounds": "373,2034,706,2240",
+    "children": []
+  },
+  {
+    "index": 34,
+    "resourceId": "com.miui.home:id/icon_icon",
+    "className": "ImageView",
+    "text": "Messaging",
+    "bounds": "447,2050,631,2234",
+    "children": []
+  },
+  {
+    "index": 35,
+    "resourceId": "",
+    "className": "RelativeLayout",
+    "text": "Camera",
+    "bounds": "706,2034,1039,2240",
+    "children": []
+  },
+  {
+    "index": 36,
+    "resourceId": "com.miui.home:id/icon_icon",
+    "className": "ImageView",
+    "text": "Camera",
+    "bounds": "780,2050,964,2234",
+    "children": []
+  }
+]

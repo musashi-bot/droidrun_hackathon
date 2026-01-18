@@ -1,0 +1,282 @@
+[
+  {
+    "index": 1,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "0,0,1080,2400",
+    "children": []
+  },
+  {
+    "index": 2,
+    "resourceId": "com.xiaomi.calendar:id/action_bar",
+    "className": "ViewGroup",
+    "text": "com.xiaomi.calendar:id/action_bar",
+    "bounds": "0,103,1080,433",
+    "children": []
+  },
+  {
+    "index": 3,
+    "resourceId": "com.xiaomi.calendar:id/action_cancel",
+    "className": "ImageButton",
+    "text": "Cancel",
+    "bounds": "58,133,158,233",
+    "children": []
+  },
+  {
+    "index": 4,
+    "resourceId": "com.xiaomi.calendar:id/action_bar_title",
+    "className": "TextView",
+    "text": "Event",
+    "bounds": "461,162,619,244",
+    "children": []
+  },
+  {
+    "index": 5,
+    "resourceId": "com.xiaomi.calendar:id/action_done",
+    "className": "ImageButton",
+    "text": "OK",
+    "bounds": "932,133,1032,233",
+    "children": []
+  },
+  {
+    "index": 6,
+    "resourceId": "com.xiaomi.calendar:id/action_bar_title_expand",
+    "className": "TextView",
+    "text": "Event",
+    "bounds": "74,271,320,398",
+    "children": []
+  },
+  {
+    "index": 7,
+    "resourceId": "com.xiaomi.calendar:id/event_tab_container",
+    "className": "RelativeLayout",
+    "text": "Event",
+    "bounds": "0,433,270,644",
+    "children": []
+  },
+  {
+    "index": 8,
+    "resourceId": "com.xiaomi.calendar:id/birthday_tab_container",
+    "className": "RelativeLayout",
+    "text": "Birthday",
+    "bounds": "270,433,540,644",
+    "children": []
+  },
+  {
+    "index": 9,
+    "resourceId": "com.xiaomi.calendar:id/anniversary_tab_container",
+    "className": "RelativeLayout",
+    "text": "Anniversary",
+    "bounds": "540,433,810,644",
+    "children": []
+  },
+  {
+    "index": 10,
+    "resourceId": "com.xiaomi.calendar:id/countdown_tab_container",
+    "className": "RelativeLayout",
+    "text": "Countdown",
+    "bounds": "810,433,1080,644",
+    "children": []
+  },
+  {
+    "index": 11,
+    "resourceId": "com.xiaomi.calendar:id/scroll_view",
+    "className": "ScrollView",
+    "text": "com.xiaomi.calendar:id/scroll_view",
+    "bounds": "0,666,1080,2240",
+    "children": []
+  },
+  {
+    "index": 12,
+    "resourceId": "com.xiaomi.calendar:id/title",
+    "className": "EditText",
+    "text": "Meet tomorrow at 9 AM",
+    "bounds": "30,744,1050,922",
+    "children": []
+  },
+  {
+    "index": 13,
+    "resourceId": "com.xiaomi.calendar:id/all_day_row",
+    "className": "LinearLayout",
+    "text": "com.xiaomi.calendar:id/all_day_row",
+    "bounds": "0,940,1080,1092",
+    "children": []
+  },
+  {
+    "index": 14,
+    "resourceId": "com.xiaomi.calendar:id/is_all_day_label",
+    "className": "TextView",
+    "text": "All day",
+    "bounds": "70,974,872,1057",
+    "children": []
+  },
+  {
+    "index": 15,
+    "resourceId": "com.xiaomi.calendar:id/is_all_day",
+    "className": "CheckBox",
+    "text": "All day event",
+    "bounds": "872,940,1006,1092",
+    "children": []
+  },
+  {
+    "index": 16,
+    "resourceId": "com.xiaomi.calendar:id/from_row",
+    "className": "LinearLayout",
+    "text": "com.xiaomi.calendar:id/from_row",
+    "bounds": "0,1092,1080,1240",
+    "children": []
+  },
+  {
+    "index": 17,
+    "resourceId": "com.xiaomi.calendar:id/from_label",
+    "className": "TextView",
+    "text": "From",
+    "bounds": "70,1130,185,1202",
+    "children": []
+  },
+  {
+    "index": 18,
+    "resourceId": "com.xiaomi.calendar:id/start_date",
+    "className": "TextView",
+    "text": "Mon, 19 January 2026 09:00 am",
+    "bounds": "185,1134,1006,1197",
+    "children": []
+  },
+  {
+    "index": 19,
+    "resourceId": "com.xiaomi.calendar:id/to_row",
+    "className": "LinearLayout",
+    "text": "com.xiaomi.calendar:id/to_row",
+    "bounds": "0,1240,1080,1388",
+    "children": []
+  },
+  {
+    "index": 20,
+    "resourceId": "com.xiaomi.calendar:id/to_label",
+    "className": "TextView",
+    "text": "To",
+    "bounds": "70,1278,136,1350",
+    "children": []
+  },
+  {
+    "index": 21,
+    "resourceId": "com.xiaomi.calendar:id/end_date",
+    "className": "TextView",
+    "text": "Mon, 19 January 2026 10:00 am",
+    "bounds": "136,1282,1006,1345",
+    "children": []
+  },
+  {
+    "index": 22,
+    "resourceId": "com.xiaomi.calendar:id/repeats_row",
+    "className": "LinearLayout",
+    "text": "com.xiaomi.calendar:id/repeats_row",
+    "bounds": "0,1388,1080,1536",
+    "children": []
+  },
+  {
+    "index": 23,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "Repeat",
+    "bounds": "70,1426,235,1498",
+    "children": []
+  },
+  {
+    "index": 24,
+    "resourceId": "com.xiaomi.calendar:id/repeats",
+    "className": "Spinner",
+    "text": "Repeat",
+    "bounds": "235,1434,1006,1489",
+    "children": []
+  },
+  {
+    "index": 25,
+    "resourceId": "android:id/text1",
+    "className": "TextView",
+    "text": "One-time event",
+    "bounds": "731,1434,1006,1489",
+    "children": []
+  },
+  {
+    "index": 26,
+    "resourceId": "com.xiaomi.calendar:id/reminders_row",
+    "className": "LinearLayout",
+    "text": "com.xiaomi.calendar:id/reminders_row",
+    "bounds": "0,1657,1080,1805",
+    "children": []
+  },
+  {
+    "index": 27,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "Reminders",
+    "bounds": "70,1695,312,1767",
+    "children": []
+  },
+  {
+    "index": 28,
+    "resourceId": "com.xiaomi.calendar:id/reminders",
+    "className": "TextView",
+    "text": "5 minutes before",
+    "bounds": "312,1703,1006,1758",
+    "children": []
+  },
+  {
+    "index": 29,
+    "resourceId": "com.xiaomi.calendar:id/calendar_selector_group",
+    "className": "LinearLayout",
+    "text": "com.xiaomi.calendar:id/calendar_selector_group",
+    "bounds": "0,1926,1080,2074",
+    "children": []
+  },
+  {
+    "index": 30,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "Account",
+    "bounds": "70,1964,263,2036",
+    "children": []
+  },
+  {
+    "index": 31,
+    "resourceId": "com.xiaomi.calendar:id/calendars_spinner",
+    "className": "Spinner",
+    "text": "com.xiaomi.calendar:id/calendars_spinner",
+    "bounds": "263,1976,1006,2024",
+    "children": []
+  },
+  {
+    "index": 32,
+    "resourceId": "com.xiaomi.calendar:id/event_calendar_name",
+    "className": "TextView",
+    "text": "psd742006@gmail.com",
+    "bounds": "602,1976,1006,2024",
+    "children": []
+  },
+  {
+    "index": 33,
+    "resourceId": "com.xiaomi.calendar:id/timezone_button_row",
+    "className": "LinearLayout",
+    "text": "com.xiaomi.calendar:id/timezone_button_row",
+    "bounds": "0,2074,1080,2222",
+    "children": []
+  },
+  {
+    "index": 34,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "Time zone",
+    "bounds": "70,2106,312,2189",
+    "children": []
+  },
+  {
+    "index": 35,
+    "resourceId": "com.xiaomi.calendar:id/timezone_button",
+    "className": "Button",
+    "text": "(GMT+5:30) Kolkata",
+    "bounds": "340,2120,1006,2175",
+    "children": []
+  }
+]

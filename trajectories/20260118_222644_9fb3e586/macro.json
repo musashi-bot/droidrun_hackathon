@@ -1,0 +1,145 @@
+{
+  "version": "1.0",
+  "description": "\nYou are an automation agent.\n\nGoal:\n- Read WhatsApp messages in a controlled manner.\n\nInstructions:\n1. Open WhatsApp using package name com.whatsapp.android.\n2. Go to the Chats tab.\n3. Identify chats with unread messages.\n4. Read ONLY the latest unread message.\n5. Do NOT scroll further.\n6. Do NOT open another chat.\n7. Do NOT send any reply.\n\nAfter result is success exit the chat\n\nReturn the following details in JSON format only:\n\n{\n  \"sender_name\": \"string\",\n  \"message_text\": \"string\",\n  \"timestamp\": \"string\",\n  \"chat_type\": \"personal | group\"\n}\n\nOutput only the JSON string. No extra text.\n",
+  "timestamp": "20260118_222930",
+  "total_actions": 14,
+  "actions": [
+    {
+      "type": "StartAppEvent",
+      "action_type": "start_app",
+      "description": "Start app com.whatsapp",
+      "package": "com.whatsapp",
+      "activity": ".Main"
+    },
+    {
+      "type": "TapActionEvent",
+      "action_type": "tap",
+      "description": "Tap element at index 81: 'Chats, More than 99 new notifications' (FrameLayout) at coordinates (135, 2160)",
+      "x": 135,
+      "y": 2160,
+      "element_index": 81,
+      "element_text": "Chats, More than 99 new notifications",
+      "element_bounds": "0,2048,270,2273"
+    },
+    {
+      "type": "TapActionEvent",
+      "action_type": "tap",
+      "description": "Tap element at index 34: 'com.whatsapp:id/contact_row_container' (LinearLayout) at coordinates (540, 1108)",
+      "x": 540,
+      "y": 1108,
+      "element_index": 34,
+      "element_text": "com.whatsapp:id/contact_row_container",
+      "element_bounds": "0,1001,1080,1215"
+    },
+    {
+      "type": "TapActionEvent",
+      "action_type": "tap",
+      "description": "Tap element at index 22: 'com.whatsapp:id/contact_row_container' (LinearLayout) at coordinates (540, 1048)",
+      "x": 540,
+      "y": 1048,
+      "element_index": 22,
+      "element_text": "com.whatsapp:id/contact_row_container",
+      "element_bounds": "0,941,1080,1155"
+    },
+    {
+      "type": "SwipeActionEvent",
+      "action_type": "swipe",
+      "description": "Swipe from (540, 2000) to (540, 400) in 1000 milliseconds",
+      "start_x": 540,
+      "start_y": 2000,
+      "end_x": 540,
+      "end_y": 400,
+      "duration_ms": 1000
+    },
+    {
+      "type": "SwipeActionEvent",
+      "action_type": "swipe",
+      "description": "Swipe from (540, 2000) to (540, 400) in 1000 milliseconds",
+      "start_x": 540,
+      "start_y": 2000,
+      "end_x": 540,
+      "end_y": 400,
+      "duration_ms": 1000
+    },
+    {
+      "type": "SwipeActionEvent",
+      "action_type": "swipe",
+      "description": "Swipe from (540, 2000) to (540, 400) in 1000 milliseconds",
+      "start_x": 540,
+      "start_y": 2000,
+      "end_x": 540,
+      "end_y": 400,
+      "duration_ms": 1000
+    },
+    {
+      "type": "SwipeActionEvent",
+      "action_type": "swipe",
+      "description": "Swipe from (540, 2000) to (540, 400) in 1000 milliseconds",
+      "start_x": 540,
+      "start_y": 2000,
+      "end_x": 540,
+      "end_y": 400,
+      "duration_ms": 1000
+    },
+    {
+      "type": "SwipeActionEvent",
+      "action_type": "swipe",
+      "description": "Swipe from (540, 2000) to (540, 400) in 1000 milliseconds",
+      "start_x": 540,
+      "start_y": 2000,
+      "end_x": 540,
+      "end_y": 400,
+      "duration_ms": 1000
+    },
+    {
+      "type": "SwipeActionEvent",
+      "action_type": "swipe",
+      "description": "Swipe from (540, 2000) to (540, 400) in 1000 milliseconds",
+      "start_x": 540,
+      "start_y": 2000,
+      "end_x": 540,
+      "end_y": 400,
+      "duration_ms": 1000
+    },
+    {
+      "type": "SwipeActionEvent",
+      "action_type": "swipe",
+      "description": "Swipe from (540, 2000) to (540, 400) in 1000 milliseconds",
+      "start_x": 540,
+      "start_y": 2000,
+      "end_x": 540,
+      "end_y": 400,
+      "duration_ms": 1000
+    },
+    {
+      "type": "TapActionEvent",
+      "action_type": "tap",
+      "description": "Tap element at index 34: 'com.whatsapp:id/contact_row_container' (Button) at coordinates (540, 1108)",
+      "x": 540,
+      "y": 1108,
+      "element_index": 34,
+      "element_text": "com.whatsapp:id/contact_row_container",
+      "element_bounds": "0,1001,1080,1215"
+    },
+    {
+      "type": "TapActionEvent",
+      "action_type": "tap",
+      "description": "Tap element at index 8: 'com.whatsapp:id/contact_row_container' (LinearLayout) at coordinates (540, 533)",
+      "x": 540,
+      "y": 533,
+      "element_index": 8,
+      "element_text": "com.whatsapp:id/contact_row_container",
+      "element_bounds": "0,426,1080,640"
+    },
+    {
+      "type": "SwipeActionEvent",
+      "action_type": "swipe",
+      "description": "Swipe from (540, 2000) to (540, 400) in 1000 milliseconds",
+      "start_x": 540,
+      "start_y": 2000,
+      "end_x": 540,
+      "end_y": 400,
+      "duration_ms": 1000
+    }
+  ]
+}

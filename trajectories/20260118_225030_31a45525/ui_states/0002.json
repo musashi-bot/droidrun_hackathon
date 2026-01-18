@@ -1,0 +1,242 @@
+[
+  {
+    "index": 1,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "0,0,1080,2400",
+    "children": []
+  },
+  {
+    "index": 2,
+    "resourceId": "com.whatsapp:id/pager",
+    "className": "ViewPager",
+    "text": "com.whatsapp:id/pager",
+    "bounds": "0,103,1080,2019",
+    "children": []
+  },
+  {
+    "index": 3,
+    "resourceId": "",
+    "className": "ViewGroup",
+    "text": "android.view.ViewGroup",
+    "bounds": "0,103,1080,2019",
+    "children": []
+  },
+  {
+    "index": 4,
+    "resourceId": "com.whatsapp:id/my_search_bar",
+    "className": "FrameLayout",
+    "text": "Search",
+    "bounds": "0,268,1080,400",
+    "children": []
+  },
+  {
+    "index": 5,
+    "resourceId": "com.whatsapp:id/search_icon",
+    "className": "ImageView",
+    "text": "com.whatsapp:id/search_icon",
+    "bounds": "44,279,154,389",
+    "children": []
+  },
+  {
+    "index": 6,
+    "resourceId": "com.whatsapp:id/search_text",
+    "className": "TextView",
+    "text": "Search unread chats",
+    "bounds": "154,297,1047,371",
+    "children": []
+  },
+  {
+    "index": 7,
+    "resourceId": "android:id/list",
+    "className": "RecyclerView",
+    "text": "Swipe down to reveal additional actions",
+    "bounds": "0,422,1080,2019",
+    "children": []
+  },
+  {
+    "index": 8,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "0,422,1080,444",
+    "children": []
+  },
+  {
+    "index": 9,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "0,444,1080,598",
+    "children": []
+  },
+  {
+    "index": 10,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "Inbox filters, Radio Group",
+    "bounds": "0,444,1080,598",
+    "children": []
+  },
+  {
+    "index": 11,
+    "resourceId": "com.whatsapp:id/conversations_swipe_to_reveal_filter_recycler_view",
+    "className": "RecyclerView",
+    "text": "com.whatsapp:id/conversations_swipe_to_reveal_filter_recycler_view",
+    "bounds": "0,444,1080,576",
+    "children": []
+  },
+  {
+    "index": 12,
+    "resourceId": "",
+    "className": "RadioButton",
+    "text": "All filter, , unselected",
+    "bounds": "44,444,169,576",
+    "children": []
+  },
+  {
+    "index": 13,
+    "resourceId": "",
+    "className": "RadioButton",
+    "text": "Unread filter, , selected",
+    "bounds": "185,444,383,576",
+    "children": []
+  },
+  {
+    "index": 14,
+    "resourceId": "com.whatsapp:id/conversations_filter_debug_view_id_favorite",
+    "className": "RadioButton",
+    "text": "Favourites filter, , unselected",
+    "bounds": "399,444,664,576",
+    "children": []
+  },
+  {
+    "index": 15,
+    "resourceId": "",
+    "className": "RadioButton",
+    "text": "Groups filter, , unselected",
+    "bounds": "680,444,872,576",
+    "children": []
+  },
+  {
+    "index": 16,
+    "resourceId": "",
+    "className": "RadioButton",
+    "text": "Add new list",
+    "bounds": "888,444,987,576",
+    "children": []
+  },
+  {
+    "index": 17,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "0,598,1080,2019",
+    "children": []
+  },
+  {
+    "index": 18,
+    "resourceId": "com.whatsapp:id/no_filter_text",
+    "className": "TextView",
+    "text": "No unread chats",
+    "bounds": "0,1188,1080,1252",
+    "children": []
+  },
+  {
+    "index": 19,
+    "resourceId": "com.whatsapp:id/to_view_all_chats",
+    "className": "Button",
+    "text": "View all chats",
+    "bounds": "0,1296,1080,1428",
+    "children": []
+  },
+  {
+    "index": 20,
+    "resourceId": "",
+    "className": "LinearLayout",
+    "text": "WhatsApp",
+    "bounds": "44,103,594,257",
+    "children": []
+  },
+  {
+    "index": 21,
+    "resourceId": "com.whatsapp:id/menuitem_payment_qr",
+    "className": "ImageButton",
+    "text": "Scan to Pay",
+    "bounds": "705,114,837,246",
+    "children": []
+  },
+  {
+    "index": 22,
+    "resourceId": "com.whatsapp:id/menuitem_camera",
+    "className": "ImageButton",
+    "text": "Camera",
+    "bounds": "837,114,969,246",
+    "children": []
+  },
+  {
+    "index": 23,
+    "resourceId": "com.whatsapp:id/menuitem_overflow",
+    "className": "ImageView",
+    "text": "More options",
+    "bounds": "969,114,1080,246",
+    "children": []
+  },
+  {
+    "index": 24,
+    "resourceId": "com.whatsapp:id/extended_mini_fab",
+    "className": "LinearLayout",
+    "text": "Message your assistant",
+    "bounds": "897,1656,1014,1766",
+    "children": []
+  },
+  {
+    "index": 25,
+    "resourceId": "com.whatsapp:id/fab",
+    "className": "ImageButton",
+    "text": "New chat",
+    "bounds": "882,1821,1036,1975",
+    "children": []
+  },
+  {
+    "index": 26,
+    "resourceId": "",
+    "className": "ViewGroup",
+    "text": "android.view.ViewGroup",
+    "bounds": "0,2020,1080,2240",
+    "children": []
+  },
+  {
+    "index": 27,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "Chats",
+    "bounds": "0,2020,270,2240",
+    "children": []
+  },
+  {
+    "index": 28,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "Updates",
+    "bounds": "270,2020,540,2240",
+    "children": []
+  },
+  {
+    "index": 29,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "Communities",
+    "bounds": "540,2020,810,2240",
+    "children": []
+  },
+  {
+    "index": 30,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "Calls",
+    "bounds": "810,2020,1080,2240",
+    "children": []
+  }
+]

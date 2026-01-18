@@ -1,0 +1,35 @@
+{
+  "version": "1.0",
+  "description": "\nYou are an automation agent.\n\nGoal:\n- Read WhatsApp messages in a controlled manner.\n\nInstructions:\n1. Open WhatsApp using package name com.whatsapp.android.\n2. Go to the Chats tab.\n3. Identify chats with unread messages.\n4. Read ONLY the latest unread message.\n5. Do NOT scroll further.\n6. Do NOT open another chat.\n7. Do NOT send any reply.\n\nAfter result is success exit the chat\n\nReturn the following details in JSON format only:\n\n{\n  \"sender_name\": \"string\",\n  \"message_text\": \"string\",\n  \"timestamp\": \"string\",\n  \"chat_type\": \"personal | group\"\n}\n\nOutput only the JSON string. No extra text.\n",
+  "timestamp": "20260118_223046",
+  "total_actions": 3,
+  "actions": [
+    {
+      "type": "StartAppEvent",
+      "action_type": "start_app",
+      "description": "Start app com.whatsapp",
+      "package": "com.whatsapp",
+      "activity": ".Main"
+    },
+    {
+      "type": "TapActionEvent",
+      "action_type": "tap",
+      "description": "Tap element at index 47: 'com.whatsapp:id/contact_row_container' (LinearLayout) at coordinates (540, 1536)",
+      "x": 540,
+      "y": 1536,
+      "element_index": 47,
+      "element_text": "com.whatsapp:id/contact_row_container",
+      "element_bounds": "0,1429,1080,1643"
+    },
+    {
+      "type": "TapActionEvent",
+      "action_type": "tap",
+      "description": "Tap element at index 2: 'Back' (Button) at coordinates (67, 143)",
+      "x": 67,
+      "y": 143,
+      "element_index": 2,
+      "element_text": "Back",
+      "element_bounds": "0,76,135,211"
+    }
+  ]
+}

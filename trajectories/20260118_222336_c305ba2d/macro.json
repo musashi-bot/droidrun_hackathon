@@ -1,0 +1,25 @@
+{
+  "version": "1.0",
+  "description": "\nYou are an automation agent.\n\nGoal:\n- Read WhatsApp messages in a controlled manner.\n\nInstructions:\n1. Open WhatsApp using package name com.whatsapp.android.\n2. Go to the Chats tab.\n3. Identify chats with unread messages.\n4. Open ONLY the first unread chat.\n5. Read ONLY the latest unread message.\n6. Do NOT scroll further.\n7. Do NOT open another chat.\n8. Do NOT send any reply.\n\nStopping conditions:\n- Stop immediately after reading one message.\n- If no unread messages are found, stop execution.\n- After returning the data, remain idle and perform no further navigation.\n\nReturn the following details in JSON format only:\n\n{\n  \"sender_name\": \"string\",\n  \"message_text\": \"string\",\n  \"timestamp\": \"string\",\n  \"chat_type\": \"personal | group\"\n}\n\nOutput only the JSON string. No extra text.\n",
+  "timestamp": "20260118_222437",
+  "total_actions": 2,
+  "actions": [
+    {
+      "type": "StartAppEvent",
+      "action_type": "start_app",
+      "description": "Start app com.whatsapp",
+      "package": "com.whatsapp",
+      "activity": ".Main"
+    },
+    {
+      "type": "TapActionEvent",
+      "action_type": "tap",
+      "description": "Tap element at index 44: 'Vansh' (TextView) at coordinates (267, 1211)",
+      "x": 267,
+      "y": 1211,
+      "element_index": 44,
+      "element_text": "Vansh",
+      "element_bounds": "203,1181,331,1242"
+    }
+  ]
+}

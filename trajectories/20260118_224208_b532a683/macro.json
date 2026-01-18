@@ -1,0 +1,25 @@
+{
+  "version": "1.0",
+  "description": "\nYou are an automation agent.\n\nGoal:\n- Read WhatsApp messages in a controlled manner.\n\nInstructions:\n1. Open WhatsApp using package name com.whatsapp.android.\n2. Go to the Chats tab.\n3. Identify chats with unread messages.\n4. Read ONLY the latest unread message.\n5. Do NOT scroll further.\n6. Do NOT open another chat.\n7. Do NOT send any reply.\n\nAfter result is success exit the chat\n\nReturn the following details in JSON format only:\n\n{\n  \"sender_name\": \"string\",\n  \"message_text\": \"string\",\n  \"timestamp\": \"string\",\n  \"chat_type\": \"personal | group\"\n}\n\nOutput only the JSON string. No extra text.\n",
+  "timestamp": "20260118_224254",
+  "total_actions": 2,
+  "actions": [
+    {
+      "type": "TapActionEvent",
+      "action_type": "tap",
+      "description": "Tap element at index 17: 'com.whatsapp:id/contact_row_container' (LinearLayout) at coordinates (540, 702)",
+      "x": 540,
+      "y": 702,
+      "element_index": 17,
+      "element_text": "com.whatsapp:id/contact_row_container",
+      "element_bounds": "0,598,1080,807"
+    },
+    {
+      "type": "KeyPressActionEvent",
+      "action_type": "key_press",
+      "description": "Pressed key BACK",
+      "keycode": 4,
+      "key_name": "BACK"
+    }
+  ]
+}
