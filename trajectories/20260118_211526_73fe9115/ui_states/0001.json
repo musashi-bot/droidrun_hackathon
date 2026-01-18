@@ -1,0 +1,450 @@
+[
+  {
+    "index": 1,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "0,0,1080,2400",
+    "children": []
+  },
+  {
+    "index": 2,
+    "resourceId": "com.android.systemui:id/notification_panel",
+    "className": "FrameLayout",
+    "text": "com.android.systemui:id/notification_panel",
+    "bounds": "0,0,1080,2400",
+    "children": []
+  },
+  {
+    "index": 3,
+    "resourceId": "com.android.systemui:id/big_time",
+    "className": "TextView",
+    "text": "9:15",
+    "bounds": "33,136,229,282",
+    "children": []
+  },
+  {
+    "index": 4,
+    "resourceId": "com.android.systemui:id/date_time",
+    "className": "TextView",
+    "text": "Sun, Jan 18",
+    "bounds": "33,282,186,323",
+    "children": []
+  },
+  {
+    "index": 5,
+    "resourceId": "com.android.systemui:id/notification_shade_shortcut",
+    "className": "ImageView",
+    "text": "Settings",
+    "bounds": "969,226,1047,304",
+    "children": []
+  },
+  {
+    "index": 6,
+    "resourceId": "com.android.systemui:id/notification_shade_carrier",
+    "className": "TextView",
+    "text": "Vi India",
+    "bounds": "33,323,145,379",
+    "children": []
+  },
+  {
+    "index": 7,
+    "resourceId": "com.android.systemui:id/fullscreen_network_speed_view",
+    "className": "TextView",
+    "text": "0.6KB/s",
+    "bounds": "588,323,710,379",
+    "children": []
+  },
+  {
+    "index": 8,
+    "resourceId": "",
+    "className": "ImageView",
+    "text": "Bluetooth on.",
+    "bounds": "710,323,750,379",
+    "children": []
+  },
+  {
+    "index": 9,
+    "resourceId": "com.android.systemui:id/mobile_combo",
+    "className": "LinearLayout",
+    "text": "G Phone signal full.",
+    "bounds": "750,323,858,379",
+    "children": []
+  },
+  {
+    "index": 10,
+    "resourceId": "com.android.systemui:id/wifi_combo",
+    "className": "FrameLayout",
+    "text": "Wi-Fi signal full.",
+    "bounds": "858,323,918,379",
+    "children": []
+  },
+  {
+    "index": 11,
+    "resourceId": "com.android.systemui:id/battery",
+    "className": "LinearLayout",
+    "text": "Battery charging, 27 percent.",
+    "bounds": "918,323,1047,379",
+    "children": []
+  },
+  {
+    "index": 12,
+    "resourceId": "com.android.systemui:id/qs_footer_data_usage",
+    "className": "FrameLayout",
+    "text": "com.android.systemui:id/qs_footer_data_usage",
+    "bounds": "68,644,1012,736",
+    "children": []
+  },
+  {
+    "index": 13,
+    "resourceId": "",
+    "className": "LinearLayout",
+    "text": "android.widget.LinearLayout",
+    "bounds": "68,644,1012,736",
+    "children": []
+  },
+  {
+    "index": 14,
+    "resourceId": "com.android.systemui:id/data_usage",
+    "className": "TextView",
+    "text": "Today: 430.9 MB   This month: 25.84 GB",
+    "bounds": "133,644,1012,736",
+    "children": []
+  },
+  {
+    "index": 15,
+    "resourceId": "com.android.systemui:id/slider",
+    "className": "SeekBar",
+    "text": "Display brightness",
+    "bounds": "33,762,1047,872",
+    "children": []
+  },
+  {
+    "index": 16,
+    "resourceId": "com.android.systemui:id/quick_qs_panel",
+    "className": "LinearLayout",
+    "text": "com.android.systemui:id/quick_qs_panel",
+    "bounds": "33,405,1047,644",
+    "children": []
+  },
+  {
+    "index": 17,
+    "resourceId": "",
+    "className": "ViewGroup",
+    "text": "android.view.ViewGroup",
+    "bounds": "33,405,1047,644",
+    "children": []
+  },
+  {
+    "index": 18,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "88,461,215,588",
+    "children": []
+  },
+  {
+    "index": 19,
+    "resourceId": "",
+    "className": "ViewGroup",
+    "text": "Mobile data,On,Phone signal full.",
+    "bounds": "88,461,215,588",
+    "children": []
+  },
+  {
+    "index": 20,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "282,461,409,588",
+    "children": []
+  },
+  {
+    "index": 21,
+    "resourceId": "",
+    "className": "ViewGroup",
+    "text": "Wi-Fi,On,Wi-Fi signal full.,Saketh's PC",
+    "bounds": "282,461,409,588",
+    "children": []
+  },
+  {
+    "index": 22,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "476,461,603,588",
+    "children": []
+  },
+  {
+    "index": 23,
+    "resourceId": "",
+    "className": "ViewGroup",
+    "text": "Bluetooth,On",
+    "bounds": "476,461,603,588",
+    "children": []
+  },
+  {
+    "index": 24,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "670,461,797,588",
+    "children": []
+  },
+  {
+    "index": 25,
+    "resourceId": "",
+    "className": "ViewGroup",
+    "text": "Torch,Off",
+    "bounds": "670,461,797,588",
+    "children": []
+  },
+  {
+    "index": 26,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "864,461,991,588",
+    "children": []
+  },
+  {
+    "index": 27,
+    "resourceId": "",
+    "className": "ViewGroup",
+    "text": "Battery saver,Off",
+    "bounds": "864,461,991,588",
+    "children": []
+  },
+  {
+    "index": 28,
+    "resourceId": "com.android.systemui:id/notification_stack_scroller",
+    "className": "ScrollView",
+    "text": "com.android.systemui:id/notification_stack_scroller",
+    "bounds": "0,0,1080,2240",
+    "children": []
+  },
+  {
+    "index": 29,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "33,951,1047,1281",
+    "children": []
+  },
+  {
+    "index": 30,
+    "resourceId": "android:id/notification_header",
+    "className": "RelativeLayout",
+    "text": "android:id/notification_header",
+    "bounds": "33,951,1047,1105",
+    "children": []
+  },
+  {
+    "index": 31,
+    "resourceId": "android:id/notification_top_line",
+    "className": "ViewGroup",
+    "text": "android:id/notification_top_line",
+    "bounds": "33,1000,893,1055",
+    "children": []
+  },
+  {
+    "index": 32,
+    "resourceId": "android:id/app_name_text",
+    "className": "TextView",
+    "text": "WhatsApp",
+    "bounds": "176,1000,334,1048",
+    "children": []
+  },
+  {
+    "index": 33,
+    "resourceId": "android:id/header_text_divider",
+    "className": "TextView",
+    "text": "•",
+    "bounds": "346,1000,354,1048",
+    "children": []
+  },
+  {
+    "index": 34,
+    "resourceId": "android:id/header_text",
+    "className": "TextView",
+    "text": "2 messages from 2 chats",
+    "bounds": "366,1000,751,1055",
+    "children": []
+  },
+  {
+    "index": 35,
+    "resourceId": "android:id/time_divider",
+    "className": "TextView",
+    "text": "•",
+    "bounds": "763,1000,771,1048",
+    "children": []
+  },
+  {
+    "index": 36,
+    "resourceId": "android:id/time",
+    "className": "TextView",
+    "text": "31 minutes ago",
+    "bounds": "783,1000,845,1048",
+    "children": []
+  },
+  {
+    "index": 37,
+    "resourceId": "android:id/expand_button",
+    "className": "Button",
+    "text": "Expand",
+    "bounds": "893,951,1047,1105",
+    "children": []
+  },
+  {
+    "index": 38,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "33,1083,1047,1149",
+    "children": []
+  },
+  {
+    "index": 39,
+    "resourceId": "com.android.systemui:id/notification_title",
+    "className": "TextView",
+    "text": "Vansh",
+    "bounds": "253,1088,385,1144",
+    "children": []
+  },
+  {
+    "index": 40,
+    "resourceId": "com.android.systemui:id/notification_text",
+    "className": "TextView",
+    "text": "Meet tomorrow at 9 AM",
+    "bounds": "385,1087,1014,1145",
+    "children": []
+  },
+  {
+    "index": 41,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "33,1171,1047,1237",
+    "children": []
+  },
+  {
+    "index": 42,
+    "resourceId": "com.android.systemui:id/notification_title",
+    "className": "TextView",
+    "text": "Topri Pe Kobzaa",
+    "bounds": "253,1172,584,1236",
+    "children": []
+  },
+  {
+    "index": 43,
+    "resourceId": "com.android.systemui:id/notification_text",
+    "className": "TextView",
+    "text": "Hello are you free today ?",
+    "bounds": "584,1175,1014,1233",
+    "children": []
+  },
+  {
+    "index": 44,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "33,1311,1047,1341",
+    "children": []
+  },
+  {
+    "index": 45,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "33,1359,1047,1685",
+    "children": []
+  },
+  {
+    "index": 46,
+    "resourceId": "android:id/notification_header",
+    "className": "RelativeLayout",
+    "text": "android:id/notification_header",
+    "bounds": "33,1359,1047,1513",
+    "children": []
+  },
+  {
+    "index": 47,
+    "resourceId": "android:id/notification_top_line",
+    "className": "ViewGroup",
+    "text": "android:id/notification_top_line",
+    "bounds": "33,1408,893,1463",
+    "children": []
+  },
+  {
+    "index": 48,
+    "resourceId": "android:id/app_name_text",
+    "className": "TextView",
+    "text": "Android System",
+    "bounds": "176,1408,429,1463",
+    "children": []
+  },
+  {
+    "index": 49,
+    "resourceId": "android:id/expand_button",
+    "className": "Button",
+    "text": "Expand",
+    "bounds": "893,1359,1047,1513",
+    "children": []
+  },
+  {
+    "index": 50,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "33,1491,1047,1555",
+    "children": []
+  },
+  {
+    "index": 51,
+    "resourceId": "com.android.systemui:id/notification_title",
+    "className": "TextView",
+    "text": "USB debugging is on",
+    "bounds": "176,1491,633,1555",
+    "children": []
+  },
+  {
+    "index": 52,
+    "resourceId": "com.android.systemui:id/notification_text",
+    "className": "TextView",
+    "text": "Tap to turn off USB debugging",
+    "bounds": "633,1497,1014,1555",
+    "children": []
+  },
+  {
+    "index": 53,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "33,1577,1047,1641",
+    "children": []
+  },
+  {
+    "index": 54,
+    "resourceId": "com.android.systemui:id/notification_title",
+    "className": "TextView",
+    "text": "Charging this device via USB",
+    "bounds": "176,1577,820,1641",
+    "children": []
+  },
+  {
+    "index": 55,
+    "resourceId": "com.android.systemui:id/notification_text",
+    "className": "TextView",
+    "text": "Tap for more options.",
+    "bounds": "820,1583,1014,1641",
+    "children": []
+  },
+  {
+    "index": 56,
+    "resourceId": "com.android.systemui:id/dismiss_view",
+    "className": "View",
+    "text": "Clear all notifications.",
+    "bounds": "420,1945,660,2185",
+    "children": []
+  }
+]

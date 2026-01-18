@@ -1,0 +1,18 @@
+{
+  "version": "1.0",
+  "description": "\n1. Open WhatsApp using package name com.whatsapp.android\n2. Go to the Chats tab.\n3. Open the first chat with unread messages.\n4. Read the latest unread message without sending any reply.\n5. Return the following details in JSON format:\n\n{\n  \"sender_name\": \"string\",\n  \"message_text\": \"string\",\n  \"timestamp\": \"string\",\n  \"chat_type\": \"personal | group\"\n}\n\nOutput only the JSON string, do not include any other text.\n",
+  "timestamp": "20260118_211935",
+  "total_actions": 1,
+  "actions": [
+    {
+      "type": "TapActionEvent",
+      "action_type": "tap",
+      "description": "Tap element at index 23: 'com.whatsapp:id/contact_row_container' (LinearLayout) at coordinates (540, 875)",
+      "x": 540,
+      "y": 875,
+      "element_index": 23,
+      "element_text": "com.whatsapp:id/contact_row_container",
+      "element_bounds": "0,771,1080,980"
+    }
+  ]
+}

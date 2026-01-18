@@ -1,0 +1,274 @@
+[
+  {
+    "index": 1,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "0,0,1080,2408",
+    "children": []
+  },
+  {
+    "index": 2,
+    "resourceId": "",
+    "className": "ScrollView",
+    "text": "android.widget.ScrollView",
+    "bounds": "0,65,1080,2092",
+    "children": []
+  },
+  {
+    "index": 3,
+    "resourceId": "com.whatsapp:id/community_navigation_communityName",
+    "className": "TextView",
+    "text": "Sophomores IITP 2024",
+    "bounds": "248,223,844,299",
+    "children": []
+  },
+  {
+    "index": 4,
+    "resourceId": "com.whatsapp:id/community_navigation_communityStatus",
+    "className": "TextView",
+    "text": "Community · 4 groups",
+    "bounds": "248,310,643,363",
+    "children": []
+  },
+  {
+    "index": 5,
+    "resourceId": "",
+    "className": "ImageButton",
+    "text": "Navigate up",
+    "bounds": "0,65,135,223",
+    "children": []
+  },
+  {
+    "index": 6,
+    "resourceId": "com.whatsapp:id/menuitem_overflow",
+    "className": "ImageView",
+    "text": "More options",
+    "bounds": "967,76,1080,211",
+    "children": []
+  },
+  {
+    "index": 7,
+    "resourceId": "com.whatsapp:id/community_navigation_subgroup_recycler_view",
+    "className": "RecyclerView",
+    "text": "com.whatsapp:id/community_navigation_subgroup_recycler_view",
+    "bounds": "0,426,1080,2092",
+    "children": []
+  },
+  {
+    "index": 8,
+    "resourceId": "com.whatsapp:id/contact_row_container",
+    "className": "LinearLayout",
+    "text": "com.whatsapp:id/contact_row_container",
+    "bounds": "0,426,1080,640",
+    "children": []
+  },
+  {
+    "index": 9,
+    "resourceId": "com.whatsapp:id/conversations_row_header",
+    "className": "Button",
+    "text": "Announcements",
+    "bounds": "203,468,1035,529",
+    "children": []
+  },
+  {
+    "index": 10,
+    "resourceId": "com.whatsapp:id/conversations_row_contact_name",
+    "className": "TextView",
+    "text": "Announcements",
+    "bounds": "203,468,539,529",
+    "children": []
+  },
+  {
+    "index": 11,
+    "resourceId": "com.whatsapp:id/conversations_row_date",
+    "className": "TextView",
+    "text": "Yesterday",
+    "bounds": "870,475,1035,521",
+    "children": []
+  },
+  {
+    "index": 12,
+    "resourceId": "com.whatsapp:id/msg_from_tv",
+    "className": "TextView",
+    "text": "+91 91536 31165: ",
+    "bounds": "203,535,558,598",
+    "children": []
+  },
+  {
+    "index": 13,
+    "resourceId": "com.whatsapp:id/single_msg_tv",
+    "className": "TextView",
+    "text": "HEY EVERYONE!   We’re creating something special today - a Handprint Poster and we want YOU to be a part of it! Soon enough when",
+    "bounds": "558,535,1035,598",
+    "children": []
+  },
+  {
+    "index": 14,
+    "resourceId": "",
+    "className": "ViewGroup",
+    "text": "android.view.ViewGroup",
+    "bounds": "0,640,1080,727",
+    "children": []
+  },
+  {
+    "index": 15,
+    "resourceId": "com.whatsapp:id/header_textview",
+    "className": "TextView",
+    "text": "Groups you're in",
+    "bounds": "45,674,1035,727",
+    "children": []
+  },
+  {
+    "index": 16,
+    "resourceId": "com.whatsapp:id/contact_row_container",
+    "className": "LinearLayout",
+    "text": "com.whatsapp:id/contact_row_container",
+    "bounds": "0,727,1080,941",
+    "children": []
+  },
+  {
+    "index": 17,
+    "resourceId": "com.whatsapp:id/conversations_row_header",
+    "className": "Button",
+    "text": "IIT PATNA ",
+    "bounds": "203,769,1035,830",
+    "children": []
+  },
+  {
+    "index": 18,
+    "resourceId": "com.whatsapp:id/conversations_row_contact_name",
+    "className": "TextView",
+    "text": "IIT PATNA ",
+    "bounds": "203,769,425,830",
+    "children": []
+  },
+  {
+    "index": 19,
+    "resourceId": "com.whatsapp:id/conversations_row_date",
+    "className": "TextView",
+    "text": "10:22 pm",
+    "bounds": "879,776,1035,822",
+    "children": []
+  },
+  {
+    "index": 20,
+    "resourceId": "com.whatsapp:id/msg_from_tv",
+    "className": "TextView",
+    "text": "+91 72530 74360: ",
+    "bounds": "203,836,558,899",
+    "children": []
+  },
+  {
+    "index": 21,
+    "resourceId": "com.whatsapp:id/single_msg_tv",
+    "className": "TextView",
+    "text": "When the FCs move, th…",
+    "bounds": "558,836,1035,899",
+    "children": []
+  },
+  {
+    "index": 22,
+    "resourceId": "com.whatsapp:id/contact_row_container",
+    "className": "LinearLayout",
+    "text": "com.whatsapp:id/contact_row_container",
+    "bounds": "0,941,1080,1155",
+    "children": []
+  },
+  {
+    "index": 23,
+    "resourceId": "com.whatsapp:id/conversations_row_header",
+    "className": "Button",
+    "text": "‎# Freshers IITP 2024 Discussion #",
+    "bounds": "203,983,1035,1044",
+    "children": []
+  },
+  {
+    "index": 24,
+    "resourceId": "com.whatsapp:id/conversations_row_contact_name",
+    "className": "TextView",
+    "text": "‎# Freshers IITP 2024 Discussion #",
+    "bounds": "203,983,879,1044",
+    "children": []
+  },
+  {
+    "index": 25,
+    "resourceId": "com.whatsapp:id/conversations_row_date",
+    "className": "TextView",
+    "text": "10:22 pm",
+    "bounds": "879,990,1035,1036",
+    "children": []
+  },
+  {
+    "index": 26,
+    "resourceId": "com.whatsapp:id/msg_from_tv",
+    "className": "TextView",
+    "text": "+91 72530 74360: ",
+    "bounds": "203,1050,558,1113",
+    "children": []
+  },
+  {
+    "index": 27,
+    "resourceId": "com.whatsapp:id/single_msg_tv",
+    "className": "TextView",
+    "text": "When the FCs move, th…",
+    "bounds": "558,1050,1035,1113",
+    "children": []
+  },
+  {
+    "index": 28,
+    "resourceId": "com.whatsapp:id/contact_row_container",
+    "className": "LinearLayout",
+    "text": "com.whatsapp:id/contact_row_container",
+    "bounds": "0,1155,1080,1369",
+    "children": []
+  },
+  {
+    "index": 29,
+    "resourceId": "com.whatsapp:id/conversations_row_header",
+    "className": "Button",
+    "text": "IIT PATNA SOPHOMORES",
+    "bounds": "203,1197,1035,1258",
+    "children": []
+  },
+  {
+    "index": 30,
+    "resourceId": "com.whatsapp:id/conversations_row_contact_name",
+    "className": "TextView",
+    "text": "IIT PATNA SOPHOMORES",
+    "bounds": "203,1197,731,1258",
+    "children": []
+  },
+  {
+    "index": 31,
+    "resourceId": "com.whatsapp:id/conversations_row_date",
+    "className": "TextView",
+    "text": "Yesterday",
+    "bounds": "870,1204,1035,1250",
+    "children": []
+  },
+  {
+    "index": 32,
+    "resourceId": "com.whatsapp:id/msg_from_tv",
+    "className": "TextView",
+    "text": "+91 91536 31165: ",
+    "bounds": "203,1264,558,1327",
+    "children": []
+  },
+  {
+    "index": 33,
+    "resourceId": "com.whatsapp:id/single_msg_tv",
+    "className": "TextView",
+    "text": "HEY EVERYONE!   We’re creating something special today - a Handprint Poster and we want YOU to be a part of it! Soon enough when",
+    "bounds": "558,1264,1035,1327",
+    "children": []
+  },
+  {
+    "index": 34,
+    "resourceId": "com.whatsapp:id/community_navigation_add_group_button",
+    "className": "Button",
+    "text": "ADD GROUP",
+    "bounds": "23,2115,1057,2250",
+    "children": []
+  }
+]

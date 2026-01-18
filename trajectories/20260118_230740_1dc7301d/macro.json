@@ -1,0 +1,87 @@
+{
+  "version": "1.0",
+  "description": "\nYou are a WhatsApp reply drafting agent.\n\nTASK: Draft a reply message WITHOUT sending it.\n\nSTEPS:\n1. Open WhatsApp (package: com.whatsapp.android)\n2. Navigate to the chat with \"~ Abhinav Gupta\"\n3. Read the most recent message to understand context\n4. Tap the message input field\n5. Type a brief, appropriate reply\n6. DO NOT tap the send button\n7. STOP - Leave the draft in the input field\n\nCRITICAL RULES:\n- Draft the reply but DO NOT SEND\n- Keep the reply concise and professional\n- Do NOT navigate away from this chat\n- Do NOT open other conversations\n\nTERMINATION:\nStop immediately after the draft text is visible in the input field.\nThe user will review and send manually.\n",
+  "timestamp": "20260118_230951",
+  "total_actions": 9,
+  "actions": [
+    {
+      "type": "TapActionEvent",
+      "action_type": "tap",
+      "description": "Tap element at index 5: 'com.whatsapp:id/search_icon' (ImageView) at coordinates (99, 334)",
+      "x": 99,
+      "y": 334,
+      "element_index": 5,
+      "element_text": "com.whatsapp:id/search_icon",
+      "element_bounds": "44,279,154,389"
+    },
+    {
+      "type": "TapActionEvent",
+      "action_type": "tap",
+      "description": "Tap element at index 70: 'Ask Meta AI or Search' (EditText) at coordinates (606, 169)",
+      "x": 606,
+      "y": 169,
+      "element_index": 70,
+      "element_text": "Ask Meta AI or Search",
+      "element_bounds": "165,125,1047,213"
+    },
+    {
+      "type": "InputTextActionEvent",
+      "action_type": "input_text",
+      "description": "Input text: '~ Abhinav Gupta' (clear=True)",
+      "text": "~ Abhinav Gupta"
+    },
+    {
+      "type": "KeyPressActionEvent",
+      "action_type": "key_press",
+      "description": "Pressed key BACK",
+      "keycode": 4,
+      "key_name": "BACK"
+    },
+    {
+      "type": "SwipeActionEvent",
+      "action_type": "swipe",
+      "description": "Swipe from (540, 1800) to (540, 600) in 1000 milliseconds",
+      "start_x": 540,
+      "start_y": 1800,
+      "end_x": 540,
+      "end_y": 600,
+      "duration_ms": 1000
+    },
+    {
+      "type": "SwipeActionEvent",
+      "action_type": "swipe",
+      "description": "Swipe from (540, 1800) to (540, 600) in 1000 milliseconds",
+      "start_x": 540,
+      "start_y": 1800,
+      "end_x": 540,
+      "end_y": 600,
+      "duration_ms": 1000
+    },
+    {
+      "type": "TapActionEvent",
+      "action_type": "tap",
+      "description": "Tap element at index 68: 'Ask Meta AI or Search' (EditText) at coordinates (606, 169)",
+      "x": 606,
+      "y": 169,
+      "element_index": 68,
+      "element_text": "Ask Meta AI or Search",
+      "element_bounds": "165,125,1047,213"
+    },
+    {
+      "type": "TapActionEvent",
+      "action_type": "tap",
+      "description": "Tap element at index 70: 'Ask Meta AI or Search' (EditText) at coordinates (606, 169)",
+      "x": 606,
+      "y": 169,
+      "element_index": 70,
+      "element_text": "Ask Meta AI or Search",
+      "element_bounds": "165,125,1047,213"
+    },
+    {
+      "type": "InputTextActionEvent",
+      "action_type": "input_text",
+      "description": "Input text: '~ Abhinav Gupta' (clear=True)",
+      "text": "~ Abhinav Gupta"
+    }
+  ]
+}
