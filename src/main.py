@@ -11,6 +11,28 @@ from droidrun.config_manager.config_manager import (
     LoggingConfig,
 )
 from llama_index.llms.google_genai import GoogleGenAI
+from colorama import init, Fore, Style
+
+init(autoreset=True)
+
+def print_banner():
+    banner = f"""
+{Fore.CYAN}{Style.BRIGHT}
+██████╗ ██╗  ██╗ █████╗ ████████╗██████╗ ██╗██╗     ██████╗  ████████╗
+██╔════╝██║  ██║██╔══██╗╚══██╔══╝██╔══██╗██║██║    ██╔═══██╗╚══██╔══╝
+██║     ███████║███████║   ██║   ██████╔╝██║██║    ██║   ██║   ██║   
+██║     ██╔══██║██╔══██║   ██║   ██╔═══╝ ██║██║    ██║   ██║   ██║   
+██████╗ ██║  ██║██║  ██║   ██║   ██║     ██║███████╗╚██████╔╝  ██║   
+{Style.RESET_ALL}
+{Fore.YELLOW}{Style.BRIGHT}   🚀 CHATPILOT – AI That Pilots Your Chats and Actions 🚀{Style.RESET_ALL}
+{Fore.GREEN}        Press Enter to start scanning prospects...{Style.RESET_ALL}
+"""
+    print(banner)
+
+
+if __name__ == "__main__":
+    print_banner()
+    input()
 
 
 async def main():
