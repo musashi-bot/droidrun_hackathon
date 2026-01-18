@@ -1,198 +1,156 @@
+
 import asyncio
 import os
+from colorama import init, Fore, Style
 from dotenv import load_dotenv
+
+# Load env vars
 load_dotenv()
 
-
-from droidrun import DroidAgent
-from droidrun.config_manager.config_manager import (
-    DroidrunConfig,
-    AgentConfig,
-    LoggingConfig,
-)
-from llama_index.llms.google_genai import GoogleGenAI
-from colorama import init, Fore, Style
-
+# Initialize colorama
 init(autoreset=True)
 
+# Import ChatPilot agents
+from agent.read_messages import read_messages
+from agent.classify_messages import classify_messages
+from agent.act_on_messages import act_on_messages
+
+
+# ---------------- Banner ----------------
 def print_banner():
     banner = f"""
 {Fore.CYAN}{Style.BRIGHT}
-██████╗ ██╗  ██╗  █████╗ ████████╗██████╗ ██╗██╗     ██████╗  ████████╗
-██╔════╝██║  ██║ ██╔══██╗╚══██╔══╝██╔══██╗██║██║    ██╔═══██╗╚══██╔══╝
-██║     ███████║ ███████║   ██║   ██████╔╝██║██║    ██║   ██║   ██║   
-██║     ██╔══██║ ██╔══██║   ██║   ██╔═══╝ ██║██║    ██║   ██║   ██║   
-██████╗ ██║  ██║ ██║  ██║   ██║   ██║     ██║███████╗╚██████╝   ██║   
+ ██████╗██╗  ██╗ █████╗ ████████╗██████╗ ██╗██╗     ██████╗ ████████╗
+██╔════╝██║  ██║██╔══██╗╚══██╔══╝██╔══██╗██║██║    ██╔═══██╗╚══██╔══╝
+██║     ███████║███████║   ██║   ██████╔╝██║██║    ██║   ██║   ██║
+██║     ██╔══██║██╔══██║   ██║   ██╔═══╝ ██║██║    ██║   ██║   ██║
+██████╗ ██║  ██║██║  ██║   ██║   ██║     ██║███████╗╚██████╔╝  ██║
 {Style.RESET_ALL}
-{Fore.YELLOW}{Style.BRIGHT}   🚀 CHATPILOT – AI That Pilots Your Chats and Actions 🚀{Style.RESET_ALL}
-{Fore.GREEN}        Press Enter to start scanning prospects...{Style.RESET_ALL}
+{Fore.YELLOW}{Style.BRIGHT} 🤖 ChatPilot – AI That Turns WhatsApp Messages Into Actions 🤖{Style.RESET_ALL}
+{Fore.GREEN} Press Enter to start the productivity cycle...{Style.RESET_ALL}
 """
     print(banner)
 
 
-if __name__ == "__main__":
-    print_banner()
-    input()
+def print_agent_status(agent_name: str, color: str = Fore.BLUE):
+    print(f"\n{color}{Style.BRIGHT}🚀 Running Agent: {agent_name}{Style.RESET_ALL}")
+    print(f"{color}{'=' * 50}{Style.RESET_ALL}")
 
-async def run_job_application_cycle():
+
+# ---------------- Main Cycle ----------------
+async def run_chatpilot_cycle():
     cycle_count = 1
     max_retries = 3
 
     while True:
         print(
-            f"\n{Fore.MAGENTA}{Style.BRIGHT}🔄 Starting Job Application Cycle #{cycle_count}{Style.RESET_ALL}"
+            f"\n{Fore.MAGENTA}{Style.BRIGHT}🔄 Starting ChatPilot Cycle #{cycle_count}{Style.RESET_ALL}"
         )
-        print(f"{Fore.MAGENTA}{'='*60}{Style.RESET_ALL}")
+        print(f"{Fore.MAGENTA}{'=' * 60}{Style.RESET_ALL}")
 
-        # Step 1: Search for jobs with retry logic
-        job_file_path = None
+        # ---------- STEP 1: READ MESSAGES ----------
+        messages_file = None
         for attempt in range(max_retries):
             try:
-                print_agent_status("SEARCH_JOBS", Fore.CYAN)
-                if attempt > 0:
-                    print(
-                        f"{Fore.YELLOW}🔄 Retry attempt {attempt + 1}/{max_retries}{Style.RESET_ALL}"
-                    )
+                print_agent_status("READ_MESSAGES", Fore.CYAN)
 
-                job_file_path = await find_job()
-
-                if job_file_path and os.path.exists(job_file_path):
+                messages_file = await read_messages()
+                if messages_file and os.path.exists(messages_file):
                     print(
-                        f"{Fore.GREEN}✅ Job found and saved to: {job_file_path}{Style.RESET_ALL}"
+                        f"{Fore.GREEN}✅ Messages read successfully → {messages_file}{Style.RESET_ALL}"
                     )
                     break
                 else:
-                    print(
-                        f"{Fore.RED}❌ Failed to find job. Attempt {attempt + 1}/{max_retries}{Style.RESET_ALL}"
-                    )
-                    if attempt == max_retries - 1:
-                        print(
-                            f"{Fore.RED}❌ All search attempts failed. Moving to next cycle...{Style.RESET_ALL}"
-                        )
+                    raise RuntimeError("read_messages returned no file")
 
             except Exception as e:
                 print(
-                    f"{Fore.RED}❌ Error in SEARCH_JOBS (attempt {attempt + 1}/{max_retries}): {str(e)}{Style.RESET_ALL}"
+                    f"{Fore.RED}❌ READ_MESSAGES failed "
+                    f"(attempt {attempt + 1}/{max_retries}): {e}{Style.RESET_ALL}"
                 )
-                if attempt == max_retries - 1:
-                    print(
-                        f"{Fore.RED}❌ All search attempts failed. Moving to next cycle...{Style.RESET_ALL}"
-                    )
 
-        # If job search failed completely, skip to next cycle
-        if not job_file_path or not os.path.exists(job_file_path):
+        if not messages_file:
+            print(f"{Fore.RED}⏭️ Skipping cycle due to read failure{Style.RESET_ALL}")
             cycle_count += 1
             continue
 
-        # Step 2: Send connection requests with retry logic
-        connection_success = False
+        # ---------- STEP 2: CLASSIFY MESSAGES ----------
+        decisions_file = None
         for attempt in range(max_retries):
             try:
-                print_agent_status("CONNECTION", Fore.GREEN)
-                if attempt > 0:
-                    print(
-                        f"{Fore.YELLOW}🔄 Retry attempt {attempt + 1}/{max_retries}{Style.RESET_ALL}"
-                    )
+                print_agent_status("CLASSIFY_MESSAGES", Fore.YELLOW)
 
-                connection_success = await send_connection_requests(job_file_path)
-
-                if connection_success:
+                decisions_file = await classify_messages(messages_file)
+                if decisions_file and os.path.exists(decisions_file):
                     print(
-                        f"{Fore.GREEN}✅ Successfully sent connection requests!{Style.RESET_ALL}"
+                        f"{Fore.GREEN}✅ Messages classified → {decisions_file}{Style.RESET_ALL}"
                     )
                     break
                 else:
-                    print(
-                        f"{Fore.RED}❌ Failed to send connection requests. Attempt {attempt + 1}/{max_retries}{Style.RESET_ALL}"
-                    )
+                    raise RuntimeError("classify_messages returned no file")
 
             except Exception as e:
                 print(
-                    f"{Fore.RED}❌ Error in CONNECTION (attempt {attempt + 1}/{max_retries}): {str(e)}{Style.RESET_ALL}"
+                    f"{Fore.RED}❌ CLASSIFY_MESSAGES failed "
+                    f"(attempt {attempt + 1}/{max_retries}): {e}{Style.RESET_ALL}"
                 )
 
-        # Step 3: Apply to the job with retry logic
-        apply_success = False
+        if not decisions_file:
+            print(f"{Fore.RED}⏭️ Skipping execution phase{Style.RESET_ALL}")
+            cycle_count += 1
+            continue
+
+        # ---------- STEP 3: ACT ON MESSAGES ----------
         for attempt in range(max_retries):
             try:
-                print_agent_status("APPLY", Fore.YELLOW)
-                if attempt > 0:
-                    print(
-                        f"{Fore.YELLOW}🔄 Retry attempt {attempt + 1}/{max_retries}{Style.RESET_ALL}"
-                    )
+                print_agent_status("ACT_ON_MESSAGES", Fore.GREEN)
 
-                apply_success = await apply_to_job(
-                    job_data_file=job_file_path,
-                    candidate_data_file="candidate_data.json",
-                    phone_resume_location="Documents/resume.pdf",
+                await act_on_messages(
+                    messages_file=messages_file,
+                    decisions_file=decisions_file,
                 )
 
-                if apply_success:
-                    print(
-                        f"{Fore.GREEN}✅ Successfully applied to the job!{Style.RESET_ALL}"
-                    )
-                    break
-                else:
-                    print(
-                        f"{Fore.RED}❌ Failed to apply to the job. Attempt {attempt + 1}/{max_retries}{Style.RESET_ALL}"
-                    )
+                print(
+                    f"{Fore.GREEN}✅ Actions executed successfully{Style.RESET_ALL}"
+                )
+                break
 
             except Exception as e:
                 print(
-                    f"{Fore.RED}❌ Error in APPLY (attempt {attempt + 1}/{max_retries}): {str(e)}{Style.RESET_ALL}"
+                    f"{Fore.RED}❌ ACT_ON_MESSAGES failed "
+                    f"(attempt {attempt + 1}/{max_retries}): {e}{Style.RESET_ALL}"
                 )
 
-        # Cycle completion summary
+        # ---------- Cycle Summary ----------
         print(
-            f"\n{Fore.MAGENTA}{Style.BRIGHT}📊 Cycle #{cycle_count} Summary:{Style.RESET_ALL}"
+            f"\n{Fore.MAGENTA}{Style.BRIGHT}📊 Cycle #{cycle_count} Summary{Style.RESET_ALL}"
         )
-        print(
-            f"{Fore.CYAN}   Job Search: {'✅ Success' if job_file_path else '❌ Failed'}{Style.RESET_ALL}"
-        )
-        print(
-            f"{Fore.GREEN}   Connections: {'✅ Success' if connection_success else '❌ Failed'}{Style.RESET_ALL}"
-        )
-        print(
-            f"{Fore.YELLOW}   Job Apply: {'✅ Success' if apply_success else '❌ Failed'}{Style.RESET_ALL}"
-        )
+        print(f"{Fore.CYAN}   Read Messages: ✅{Style.RESET_ALL}")
+        print(f"{Fore.YELLOW}   Classified:   ✅{Style.RESET_ALL}")
+        print(f"{Fore.GREEN}   Actions Done: ✅{Style.RESET_ALL}")
 
-        # Ask user if they want to continue
+        # Ask user to continue
         print(
-            f"\n{Fore.BLUE}🤔 Do you want to run another cycle? (y/n): {Style.RESET_ALL}",
+            f"\n{Fore.BLUE}🤔 Run another cycle? (y/n): {Style.RESET_ALL}",
             end="",
         )
         user_input = input().strip().lower()
 
         if user_input not in ["y", "yes", ""]:
             print(
-                f"{Fore.CYAN}👋 JobDroid session ended. Happy job hunting!{Style.RESET_ALL}"
+                f"{Fore.CYAN}👋 ChatPilot session ended. Stay productive!{Style.RESET_ALL}"
             )
             break
 
         cycle_count += 1
 
+
+# ---------------- Entry Point ----------------
 async def main():
-    """Main function"""
     print_banner()
-    input()  # Wait for user to press Enter
-
-    print(f"{Fore.GREEN}{Style.BRIGHT}🚀 JobDroid is starting up...{Style.RESET_ALL}")
-
-    # Check if required files exist
-    required_files = ["candidate_data.json"]
-    for file in required_files:
-        if not os.path.exists(file):
-            print(f"{Fore.RED}❌ Required file missing: {file}{Style.RESET_ALL}")
-            print(
-                f"{Fore.YELLOW}Please ensure all required files are present before running JobDroid.{Style.RESET_ALL}"
-            )
-            return
-
-    print(
-        f"{Fore.GREEN}✅ All required files found. Starting job application process...{Style.RESET_ALL}"
-    )
-
-    await run_job_application_cycle()
+    input()
+    print(f"{Fore.GREEN}{Style.BRIGHT}🚀 ChatPilot is starting...{Style.RESET_ALL}")
+    await run_chatpilot_cycle()
 
 
 if __name__ == "__main__":
