@@ -18,7 +18,7 @@ async def main():
         logging=LoggingConfig(debug=False, save_trajectory="action", rich_text=True),
     )
 
-    llm = GoogleGenAI(model="gemini-2.5-pro", temperature=0, api_key="AIzaSyCEMBkhcF0KsEUAqmxO8caOmanMJLO0HfQ")
+    llm = GoogleGenAI(model="gemini-2.5-pro", temperature=0, api_key="")
 
     # Create agent
     # LLMs are automatically loaded from config.llm_profiles
