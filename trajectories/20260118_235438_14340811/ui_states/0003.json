@@ -1,0 +1,330 @@
+[
+  {
+    "index": 1,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "0,0,1080,2408",
+    "children": []
+  },
+  {
+    "index": 2,
+    "resourceId": "com.whatsapp:id/whatsapp_toolbar_home",
+    "className": "Button",
+    "text": "Back",
+    "bounds": "0,76,135,211",
+    "children": []
+  },
+  {
+    "index": 3,
+    "resourceId": "com.whatsapp:id/contact_photo_view",
+    "className": "FrameLayout",
+    "text": "com.whatsapp:id/contact_photo_view",
+    "bounds": "135,76,270,211",
+    "children": []
+  },
+  {
+    "index": 4,
+    "resourceId": "com.whatsapp:id/conversation_contact_photo",
+    "className": "Button",
+    "text": "com.whatsapp:id/conversation_contact_photo",
+    "bounds": "142,90,257,202",
+    "children": []
+  },
+  {
+    "index": 5,
+    "resourceId": "com.whatsapp:id/conversation_contact",
+    "className": "LinearLayout",
+    "text": "com.whatsapp:id/conversation_contact",
+    "bounds": "270,65,831,223",
+    "children": []
+  },
+  {
+    "index": 6,
+    "resourceId": "com.whatsapp:id/conversation_contact_name",
+    "className": "TextView",
+    "text": "CPuccino",
+    "bounds": "281,85,484,150",
+    "children": []
+  },
+  {
+    "index": 7,
+    "resourceId": "com.whatsapp:id/conversation_contact_status",
+    "className": "TextView",
+    "text": "2 online",
+    "bounds": "281,150,403,196",
+    "children": []
+  },
+  {
+    "index": 8,
+    "resourceId": "",
+    "className": "ImageButton",
+    "text": "Open voice chat",
+    "bounds": "831,76,967,211",
+    "children": []
+  },
+  {
+    "index": 9,
+    "resourceId": "com.whatsapp:id/menuitem_overflow",
+    "className": "ImageView",
+    "text": "More options",
+    "bounds": "967,76,1080,211",
+    "children": []
+  },
+  {
+    "index": 10,
+    "resourceId": "com.whatsapp:id/coordinator",
+    "className": "ViewGroup",
+    "text": "com.whatsapp:id/coordinator",
+    "bounds": "0,223,1080,2273",
+    "children": []
+  },
+  {
+    "index": 11,
+    "resourceId": "com.whatsapp:id/pinnedMessagesBanner",
+    "className": "LinearLayout",
+    "text": "com.whatsapp:id/pinnedMessagesBanner",
+    "bounds": "0,223,1080,361",
+    "children": []
+  },
+  {
+    "index": 12,
+    "resourceId": "com.whatsapp:id/pinnedMessagesBanner_pinned_icon",
+    "className": "ImageView",
+    "text": "Pinned message",
+    "bounds": "51,251,130,330",
+    "children": []
+  },
+  {
+    "index": 13,
+    "resourceId": "com.whatsapp:id/pinnedMessagesBanner_content",
+    "className": "TextView",
+    "text": "https://codeforces.com/profile/AryanJajodia26",
+    "bounds": "153,264,1080,317",
+    "children": []
+  },
+  {
+    "index": 14,
+    "resourceId": "com.whatsapp:id/drag_n_drop_overlay",
+    "className": "View",
+    "text": "com.whatsapp:id/drag_n_drop_overlay",
+    "bounds": "0,361,1080,2273",
+    "children": []
+  },
+  {
+    "index": 15,
+    "resourceId": "android:id/list",
+    "className": "ListView",
+    "text": "android:id/list",
+    "bounds": "0,361,1080,2117",
+    "children": []
+  },
+  {
+    "index": 16,
+    "resourceId": "",
+    "className": "ViewGroup",
+    "text": "android.view.ViewGroup",
+    "bounds": "0,361,1080,638",
+    "children": []
+  },
+  {
+    "index": 17,
+    "resourceId": "com.whatsapp:id/sticker_image",
+    "className": "ImageView",
+    "text": "Sticker",
+    "bounds": "354,361,706,572",
+    "children": []
+  },
+  {
+    "index": 18,
+    "resourceId": "com.whatsapp:id/date",
+    "className": "TextView",
+    "text": "10:58 pm",
+    "bounds": "764,578,905,624",
+    "children": []
+  },
+  {
+    "index": 19,
+    "resourceId": "",
+    "className": "ViewGroup",
+    "text": "android.view.ViewGroup",
+    "bounds": "0,638,1080,798",
+    "children": []
+  },
+  {
+    "index": 20,
+    "resourceId": "com.whatsapp:id/name_in_group_tv",
+    "className": "TextView",
+    "text": "~ ~ Krishna Srivastav",
+    "bounds": "161,660,558,714",
+    "children": []
+  },
+  {
+    "index": 21,
+    "resourceId": "com.whatsapp:id/message_text",
+    "className": "TextView",
+    "text": "#69",
+    "bounds": "133,714,257,789",
+    "children": []
+  },
+  {
+    "index": 22,
+    "resourceId": "com.whatsapp:id/date",
+    "className": "TextView",
+    "text": "10:58 pm",
+    "bounds": "728,743,869,789",
+    "children": []
+  },
+  {
+    "index": 23,
+    "resourceId": "",
+    "className": "ViewGroup",
+    "text": "android.view.ViewGroup",
+    "bounds": "0,798,1080,896",
+    "children": []
+  },
+  {
+    "index": 24,
+    "resourceId": "com.whatsapp:id/message_text",
+    "className": "TextView",
+    "text": "@⁨~Aryan Jajodia⁩",
+    "bounds": "133,806,525,887",
+    "children": []
+  },
+  {
+    "index": 25,
+    "resourceId": "com.whatsapp:id/date",
+    "className": "TextView",
+    "text": "10:58 pm",
+    "bounds": "542,841,683,887",
+    "children": []
+  },
+  {
+    "index": 26,
+    "resourceId": "",
+    "className": "ViewGroup",
+    "text": "android.view.ViewGroup",
+    "bounds": "0,896,1080,1005",
+    "children": []
+  },
+  {
+    "index": 27,
+    "resourceId": "com.whatsapp:id/message_text",
+    "className": "TextView",
+    "text": "#opener",
+    "bounds": "133,904,346,985",
+    "children": []
+  },
+  {
+    "index": 28,
+    "resourceId": "com.whatsapp:id/date",
+    "className": "TextView",
+    "text": "10:58 pm",
+    "bounds": "363,939,504,985",
+    "children": []
+  },
+  {
+    "index": 29,
+    "resourceId": "",
+    "className": "ViewGroup",
+    "text": "android.view.ViewGroup",
+    "bounds": "0,1005,1080,2010",
+    "children": []
+  },
+  {
+    "index": 30,
+    "resourceId": "com.whatsapp:id/name_in_group_tv",
+    "className": "TextView",
+    "text": "umang Khatri AIDS",
+    "bounds": "161,1027,499,1081",
+    "children": []
+  },
+  {
+    "index": 31,
+    "resourceId": "com.whatsapp:id/media_container",
+    "className": "FrameLayout",
+    "text": "com.whatsapp:id/media_container",
+    "bounds": "127,1081,829,1996",
+    "children": []
+  },
+  {
+    "index": 32,
+    "resourceId": "com.whatsapp:id/image",
+    "className": "ImageView",
+    "text": "Photo",
+    "bounds": "138,1092,818,1985",
+    "children": []
+  },
+  {
+    "index": 33,
+    "resourceId": "com.whatsapp:id/control_btn",
+    "className": "Button",
+    "text": "13 KB",
+    "bounds": "335,1470,621,1605",
+    "children": []
+  },
+  {
+    "index": 34,
+    "resourceId": "com.whatsapp:id/date",
+    "className": "TextView",
+    "text": "10:59 pm",
+    "bounds": "660,1930,801,1976",
+    "children": []
+  },
+  {
+    "index": 35,
+    "resourceId": "com.whatsapp:id/info",
+    "className": "Button",
+    "text": "~ Venkatesh Singh added ~ Jalaj Choubey",
+    "bounds": "171,2020,909,2110",
+    "children": []
+  },
+  {
+    "index": 36,
+    "resourceId": "com.whatsapp:id/emoji_picker_btn",
+    "className": "ImageButton",
+    "text": "Emoji, GIFs and stickers",
+    "bounds": "11,2126,146,2261",
+    "children": []
+  },
+  {
+    "index": 37,
+    "resourceId": "com.whatsapp:id/entry",
+    "className": "EditText",
+    "text": "Message",
+    "bounds": "146,2148,516,2238",
+    "children": []
+  },
+  {
+    "index": 38,
+    "resourceId": "com.whatsapp:id/input_attach_button",
+    "className": "ImageButton",
+    "text": "Attach",
+    "bounds": "516,2126,652,2261",
+    "children": []
+  },
+  {
+    "index": 39,
+    "resourceId": "com.whatsapp:id/payment_button",
+    "className": "ImageButton",
+    "text": "Payment",
+    "bounds": "652,2126,787,2261",
+    "children": []
+  },
+  {
+    "index": 40,
+    "resourceId": "com.whatsapp:id/camera_btn",
+    "className": "ImageButton",
+    "text": "Camera",
+    "bounds": "787,2126,922,2261",
+    "children": []
+  },
+  {
+    "index": 41,
+    "resourceId": "com.whatsapp:id/voice_note_btn",
+    "className": "ImageButton",
+    "text": "Voice message, Button. Double tap and hold to record, slide left to cancel recording, slide up to lock recording on. Release to send.",
+    "bounds": "933,2126,1068,2261",
+    "children": []
+  }
+]

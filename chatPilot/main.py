@@ -14,26 +14,35 @@ from chatPilot.agent.classify_messages import classify_messages
 from chatPilot.agent.act_on_messages import act_on_messages
 
 
+def clear_cycle_files():
+    files_to_clear = [
+        "chatPilot/data/messages.json",
+        "chatPilot/data/decisions.json",
+    ]
 
 def print_banner():
     banner = f"""
 {Fore.CYAN}{Style.BRIGHT}
-██████╗ ██╗  ██╗ █████╗ ████████╗██████╗ ██╗██╗ ██████╗ ████████╗
-██╔════╝██║  ██║██╔══██╗╚══██╔══╝██╔══██╗██║██║ ██╔═══██╗╚══██╔══╝
-██║     ███████║███████║   ██║   ██████╔╝██║██║ ██║   ██║   ██║
-██║     ██╔══██║██╔══██║   ██║   ██╔═══╝ ██║██║ ██║   ██║   ██║
-██████╗ ██║  ██║██║  ██║   ██║   ██║     ██║██║ ╚██████╔╝   ██║
+  ██████╗ ██╗  ██╗ █████╗ ████████╗██████╗ ██╗██╗      ██████╗ ████████╗
+  ██╔═══╝ ██║  ██║██╔══██╗╚══██╔══╝██╔══██╗██║██║     ██╔═══██╗╚══██╔══╝
+  ██║     ███████║███████║   ██║   ██████╔╝██║██║     ██║   ██║   ██║
+  ██║     ██╔══██║██╔══██║   ██║   ██╔═══╝ ██║██║     ██║   ██║   ██║
+  ██████╗ ██║  ██║██║  ██║   ██║   ██║     ██║███████╗╚██████╔╝   ██║
 {Style.RESET_ALL}
-{Fore.YELLOW}{Style.BRIGHT} 🚀 CHATPILOT – AI That Pilots Your Chats and Actions 🚀{Style.RESET_ALL}
-{Fore.GREEN} Press Enter to start processing WhatsApp messages...{Style.RESET_ALL}
+{Fore.YELLOW}{Style.BRIGHT} 🚀 ChatPilot — AI That Turns WhatsApp Messages Into Actions 🚀{Style.RESET_ALL}
+{Fore.GREEN} Press Enter to start your productivity cycle...{Style.RESET_ALL}
 """
     print(banner)
+
 
 
 async def run_chat_pilot_app_cycle():
     cycle_count = 1
     max_retries = 3
-
+    user_context=""
+    print(f"{Fore.GREEN}{Style.BRIGHT}Enter your schedule for today...{Style.RESET_ALL}")
+    user_context = input(f"{Fore.YELLOW}>> {Style.RESET_ALL}")
+    clear_cycle_files()
     while True:
         print(
             f"\n{Fore.MAGENTA}{Style.BRIGHT}🔄 Starting ChatPilot Cycle #{cycle_count}{Style.RESET_ALL}"
@@ -104,6 +113,7 @@ async def run_chat_pilot_app_cycle():
                 await act_on_messages(
                     messages_file=messages_file,
                     decisions_file=decisions_file,
+                    user_context=user_context
                 )
 
                 print(f"{Fore.GREEN}✅ Actions executed successfully{Style.RESET_ALL}")
@@ -116,23 +126,16 @@ async def run_chat_pilot_app_cycle():
                 )
 
         # ---------- CYCLE SUMMARY ----------
-        print(
-            f"\n{Fore.MAGENTA}{Style.BRIGHT}📊 Cycle #{cycle_count} completed{Style.RESET_ALL}"
-        )
-
-        print(
-            f"\n{Fore.BLUE}🤔 Run another cycle? (y/n): {Style.RESET_ALL}",
-            end="",
-        )
-        user_input = input().strip().lower()
-
-        if user_input not in ["y", "yes", ""]:
+        if(cycle_count == 5):
             print(
-                f"{Fore.CYAN}👋 ChatPilot session ended. Stay productive!{Style.RESET_ALL}"
+                f"\n{Fore.BLUE}{Style.BRIGHT}📝 Cycle Summary after {cycle_count} cycles:{Style.RESET_ALL}"
             )
+            print(f"{Fore.BLUE}- Messages File: {messages_file}{Style.RESET_ALL}")
+            print(f"{Fore.BLUE}- Decisions File: {decisions_file}{Style.RESET_ALL}")
             break
-
         cycle_count += 1
+        clear_cycle_files()
+        
 
 
 async def main():

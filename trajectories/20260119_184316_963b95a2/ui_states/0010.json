@@ -1,0 +1,170 @@
+[
+  {
+    "index": 1,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "84,446,996,1940",
+    "children": []
+  },
+  {
+    "index": 2,
+    "resourceId": "",
+    "className": "ViewGroup",
+    "text": "android.view.ViewGroup",
+    "bounds": "84,446,996,1940",
+    "children": []
+  },
+  {
+    "index": 3,
+    "resourceId": "com.google.android.calendar:id/header_title",
+    "className": "TextView",
+    "text": "Select time",
+    "bounds": "156,494,351,550",
+    "children": []
+  },
+  {
+    "index": 4,
+    "resourceId": "com.google.android.calendar:id/material_hour_tv",
+    "className": "View",
+    "text": "09",
+    "bounds": "216,602,504,842",
+    "children": []
+  },
+  {
+    "index": 5,
+    "resourceId": "com.google.android.calendar:id/material_minute_tv",
+    "className": "View",
+    "text": "00",
+    "bounds": "576,602,864,842",
+    "children": []
+  },
+  {
+    "index": 6,
+    "resourceId": "com.google.android.calendar:id/material_clock_face",
+    "className": "ViewGroup",
+    "text": "com.google.android.calendar:id/material_clock_face",
+    "bounds": "156,950,924,1718",
+    "children": []
+  },
+  {
+    "index": 7,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "55",
+    "bounds": "318,1003,463,1147",
+    "children": []
+  },
+  {
+    "index": 8,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "00",
+    "bounds": "469,963,613,1107",
+    "children": []
+  },
+  {
+    "index": 9,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "50",
+    "bounds": "209,1112,353,1257",
+    "children": []
+  },
+  {
+    "index": 10,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "05",
+    "bounds": "619,1003,763,1147",
+    "children": []
+  },
+  {
+    "index": 11,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "10",
+    "bounds": "728,1112,872,1257",
+    "children": []
+  },
+  {
+    "index": 12,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "45",
+    "bounds": "169,1262,313,1406",
+    "children": []
+  },
+  {
+    "index": 13,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "15",
+    "bounds": "769,1263,913,1407",
+    "children": []
+  },
+  {
+    "index": 14,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "40",
+    "bounds": "209,1413,353,1557",
+    "children": []
+  },
+  {
+    "index": 15,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "35",
+    "bounds": "319,1522,463,1666",
+    "children": []
+  },
+  {
+    "index": 16,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "30",
+    "bounds": "469,1563,613,1707",
+    "children": []
+  },
+  {
+    "index": 17,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "25",
+    "bounds": "619,1522,763,1666",
+    "children": []
+  },
+  {
+    "index": 18,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "20",
+    "bounds": "728,1413,872,1557",
+    "children": []
+  },
+  {
+    "index": 19,
+    "resourceId": "com.google.android.calendar:id/material_timepicker_mode_button",
+    "className": "Button",
+    "text": "Switch to text input mode for the time input.",
+    "bounds": "120,1790,264,1934",
+    "children": []
+  },
+  {
+    "index": 20,
+    "resourceId": "com.google.android.calendar:id/material_timepicker_cancel_button",
+    "className": "Button",
+    "text": "Cancel",
+    "bounds": "523,1796,756,1940",
+    "children": []
+  },
+  {
+    "index": 21,
+    "resourceId": "com.google.android.calendar:id/material_timepicker_ok_button",
+    "className": "Button",
+    "text": "OK",
+    "bounds": "780,1796,972,1940",
+    "children": []
+  }
+]

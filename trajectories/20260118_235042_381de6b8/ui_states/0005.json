@@ -1,0 +1,250 @@
+[
+  {
+    "index": 1,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "0,0,1080,2408",
+    "children": []
+  },
+  {
+    "index": 2,
+    "resourceId": "com.samsung.android.calendar:id/repeat_toolbar",
+    "className": "ViewGroup",
+    "text": "com.samsung.android.calendar:id/repeat_toolbar",
+    "bounds": "0,65,1080,290",
+    "children": []
+  },
+  {
+    "index": 3,
+    "resourceId": "",
+    "className": "ImageButton",
+    "text": "Navigate up",
+    "bounds": "0,110,169,290",
+    "children": []
+  },
+  {
+    "index": 4,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "Repeat",
+    "bounds": "169,159,365,241",
+    "children": []
+  },
+  {
+    "index": 5,
+    "resourceId": "com.samsung.android.calendar:id/repeat_scroll_view",
+    "className": "ScrollView",
+    "text": "com.samsung.android.calendar:id/repeat_scroll_view",
+    "bounds": "0,290,1080,2273",
+    "children": []
+  },
+  {
+    "index": 6,
+    "resourceId": "com.samsung.android.calendar:id/repeat_description_text",
+    "className": "TextView",
+    "text": "This event doesn't repeat.",
+    "bounds": "79,317,1001,380",
+    "children": []
+  },
+  {
+    "index": 7,
+    "resourceId": "com.samsung.android.calendar:id/repeat_item_list",
+    "className": "RecyclerView",
+    "text": "com.samsung.android.calendar:id/repeat_item_list",
+    "bounds": "28,442,1052,1239",
+    "children": []
+  },
+  {
+    "index": 8,
+    "resourceId": "",
+    "className": "LinearLayout",
+    "text": "Selected, Don't repeat , Radio button",
+    "bounds": "28,442,1052,602",
+    "children": []
+  },
+  {
+    "index": 9,
+    "resourceId": "com.samsung.android.calendar:id/container",
+    "className": "LinearLayout",
+    "text": "com.samsung.android.calendar:id/container",
+    "bounds": "28,442,1052,599",
+    "children": []
+  },
+  {
+    "index": 10,
+    "resourceId": "com.samsung.android.calendar:id/radio_button",
+    "className": "RadioButton",
+    "text": "com.samsung.android.calendar:id/radio_button",
+    "bounds": "73,475,163,565",
+    "children": []
+  },
+  {
+    "index": 11,
+    "resourceId": "com.samsung.android.calendar:id/item_title_pre_interval",
+    "className": "TextView",
+    "text": "Don't repeat",
+    "bounds": "163,487,470,553",
+    "children": []
+  },
+  {
+    "index": 12,
+    "resourceId": "",
+    "className": "LinearLayout",
+    "text": "Not selected, Every1 day, Radio button",
+    "bounds": "28,602,1052,762",
+    "children": []
+  },
+  {
+    "index": 13,
+    "resourceId": "com.samsung.android.calendar:id/container",
+    "className": "LinearLayout",
+    "text": "com.samsung.android.calendar:id/container",
+    "bounds": "28,602,1052,759",
+    "children": []
+  },
+  {
+    "index": 14,
+    "resourceId": "com.samsung.android.calendar:id/radio_button",
+    "className": "RadioButton",
+    "text": "com.samsung.android.calendar:id/radio_button",
+    "bounds": "73,635,163,725",
+    "children": []
+  },
+  {
+    "index": 15,
+    "resourceId": "com.samsung.android.calendar:id/item_title_pre_interval",
+    "className": "TextView",
+    "text": "Every",
+    "bounds": "163,647,327,713",
+    "children": []
+  },
+  {
+    "index": 16,
+    "resourceId": "com.samsung.android.calendar:id/item_title_post_interval",
+    "className": "TextView",
+    "text": " day",
+    "bounds": "406,647,497,713",
+    "children": []
+  },
+  {
+    "index": 17,
+    "resourceId": "",
+    "className": "LinearLayout",
+    "text": "Not selected, Every1 week, Radio button",
+    "bounds": "28,762,1052,922",
+    "children": []
+  },
+  {
+    "index": 18,
+    "resourceId": "com.samsung.android.calendar:id/container",
+    "className": "LinearLayout",
+    "text": "com.samsung.android.calendar:id/container",
+    "bounds": "28,762,1052,919",
+    "children": []
+  },
+  {
+    "index": 19,
+    "resourceId": "com.samsung.android.calendar:id/radio_button",
+    "className": "RadioButton",
+    "text": "com.samsung.android.calendar:id/radio_button",
+    "bounds": "73,795,163,885",
+    "children": []
+  },
+  {
+    "index": 20,
+    "resourceId": "com.samsung.android.calendar:id/item_title_pre_interval",
+    "className": "TextView",
+    "text": "Every",
+    "bounds": "163,807,327,873",
+    "children": []
+  },
+  {
+    "index": 21,
+    "resourceId": "com.samsung.android.calendar:id/item_title_post_interval",
+    "className": "TextView",
+    "text": " week",
+    "bounds": "406,807,535,873",
+    "children": []
+  },
+  {
+    "index": 22,
+    "resourceId": "",
+    "className": "LinearLayout",
+    "text": "Not selected, Every1 month, Radio button",
+    "bounds": "28,922,1052,1082",
+    "children": []
+  },
+  {
+    "index": 23,
+    "resourceId": "com.samsung.android.calendar:id/container",
+    "className": "LinearLayout",
+    "text": "com.samsung.android.calendar:id/container",
+    "bounds": "28,922,1052,1079",
+    "children": []
+  },
+  {
+    "index": 24,
+    "resourceId": "com.samsung.android.calendar:id/radio_button",
+    "className": "RadioButton",
+    "text": "com.samsung.android.calendar:id/radio_button",
+    "bounds": "73,955,163,1045",
+    "children": []
+  },
+  {
+    "index": 25,
+    "resourceId": "com.samsung.android.calendar:id/item_title_pre_interval",
+    "className": "TextView",
+    "text": "Every",
+    "bounds": "163,967,327,1033",
+    "children": []
+  },
+  {
+    "index": 26,
+    "resourceId": "com.samsung.android.calendar:id/item_title_post_interval",
+    "className": "TextView",
+    "text": " month",
+    "bounds": "406,967,559,1033",
+    "children": []
+  },
+  {
+    "index": 27,
+    "resourceId": "",
+    "className": "LinearLayout",
+    "text": "Not selected, Every1 year, Radio button",
+    "bounds": "28,1082,1052,1239",
+    "children": []
+  },
+  {
+    "index": 28,
+    "resourceId": "com.samsung.android.calendar:id/container",
+    "className": "LinearLayout",
+    "text": "com.samsung.android.calendar:id/container",
+    "bounds": "28,1082,1052,1239",
+    "children": []
+  },
+  {
+    "index": 29,
+    "resourceId": "com.samsung.android.calendar:id/radio_button",
+    "className": "RadioButton",
+    "text": "com.samsung.android.calendar:id/radio_button",
+    "bounds": "73,1115,163,1205",
+    "children": []
+  },
+  {
+    "index": 30,
+    "resourceId": "com.samsung.android.calendar:id/item_title_pre_interval",
+    "className": "TextView",
+    "text": "Every",
+    "bounds": "163,1127,327,1193",
+    "children": []
+  },
+  {
+    "index": 31,
+    "resourceId": "com.samsung.android.calendar:id/item_title_post_interval",
+    "className": "TextView",
+    "text": " year",
+    "bounds": "406,1127,513,1193",
+    "children": []
+  }
+]

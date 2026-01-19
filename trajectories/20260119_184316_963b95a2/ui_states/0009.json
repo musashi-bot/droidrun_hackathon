@@ -1,0 +1,266 @@
+[
+  {
+    "index": 1,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "84,446,996,1940",
+    "children": []
+  },
+  {
+    "index": 2,
+    "resourceId": "",
+    "className": "ViewGroup",
+    "text": "android.view.ViewGroup",
+    "bounds": "84,446,996,1940",
+    "children": []
+  },
+  {
+    "index": 3,
+    "resourceId": "com.google.android.calendar:id/header_title",
+    "className": "TextView",
+    "text": "Select time",
+    "bounds": "156,494,351,550",
+    "children": []
+  },
+  {
+    "index": 4,
+    "resourceId": "com.google.android.calendar:id/material_hour_tv",
+    "className": "View",
+    "text": "19",
+    "bounds": "216,602,504,842",
+    "children": []
+  },
+  {
+    "index": 5,
+    "resourceId": "com.google.android.calendar:id/material_minute_tv",
+    "className": "View",
+    "text": "00",
+    "bounds": "576,602,864,842",
+    "children": []
+  },
+  {
+    "index": 6,
+    "resourceId": "com.google.android.calendar:id/material_clock_face",
+    "className": "ViewGroup",
+    "text": "com.google.android.calendar:id/material_clock_face",
+    "bounds": "156,950,924,1718",
+    "children": []
+  },
+  {
+    "index": 7,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "11",
+    "bounds": "318,1003,463,1147",
+    "children": []
+  },
+  {
+    "index": 8,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "0",
+    "bounds": "469,963,613,1107",
+    "children": []
+  },
+  {
+    "index": 9,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "10",
+    "bounds": "209,1112,353,1257",
+    "children": []
+  },
+  {
+    "index": 10,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "23",
+    "bounds": "370,1091,514,1235",
+    "children": []
+  },
+  {
+    "index": 11,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "12",
+    "bounds": "469,1065,613,1209",
+    "children": []
+  },
+  {
+    "index": 12,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "13",
+    "bounds": "568,1091,712,1235",
+    "children": []
+  },
+  {
+    "index": 13,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "1",
+    "bounds": "619,1003,763,1147",
+    "children": []
+  },
+  {
+    "index": 14,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "2",
+    "bounds": "728,1112,872,1257",
+    "children": []
+  },
+  {
+    "index": 15,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "9",
+    "bounds": "169,1262,313,1406",
+    "children": []
+  },
+  {
+    "index": 16,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "21",
+    "bounds": "271,1262,415,1406",
+    "children": []
+  },
+  {
+    "index": 17,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "22",
+    "bounds": "297,1164,441,1308",
+    "children": []
+  },
+  {
+    "index": 18,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "14",
+    "bounds": "640,1164,784,1308",
+    "children": []
+  },
+  {
+    "index": 19,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "20",
+    "bounds": "297,1362,441,1506",
+    "children": []
+  },
+  {
+    "index": 20,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "16",
+    "bounds": "640,1362,784,1506",
+    "children": []
+  },
+  {
+    "index": 21,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "15",
+    "bounds": "667,1263,811,1407",
+    "children": []
+  },
+  {
+    "index": 22,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "3",
+    "bounds": "769,1263,913,1407",
+    "children": []
+  },
+  {
+    "index": 23,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "8",
+    "bounds": "209,1413,353,1557",
+    "children": []
+  },
+  {
+    "index": 24,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "7",
+    "bounds": "319,1522,463,1666",
+    "children": []
+  },
+  {
+    "index": 25,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "19",
+    "bounds": "370,1434,514,1578",
+    "children": []
+  },
+  {
+    "index": 26,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "18",
+    "bounds": "469,1461,613,1605",
+    "children": []
+  },
+  {
+    "index": 27,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "6",
+    "bounds": "469,1563,613,1707",
+    "children": []
+  },
+  {
+    "index": 28,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "17",
+    "bounds": "567,1434,712,1578",
+    "children": []
+  },
+  {
+    "index": 29,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "5",
+    "bounds": "619,1522,763,1666",
+    "children": []
+  },
+  {
+    "index": 30,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "4",
+    "bounds": "728,1413,872,1557",
+    "children": []
+  },
+  {
+    "index": 31,
+    "resourceId": "com.google.android.calendar:id/material_timepicker_mode_button",
+    "className": "Button",
+    "text": "Switch to text input mode for the time input.",
+    "bounds": "120,1790,264,1934",
+    "children": []
+  },
+  {
+    "index": 32,
+    "resourceId": "com.google.android.calendar:id/material_timepicker_cancel_button",
+    "className": "Button",
+    "text": "Cancel",
+    "bounds": "523,1796,756,1940",
+    "children": []
+  },
+  {
+    "index": 33,
+    "resourceId": "com.google.android.calendar:id/material_timepicker_ok_button",
+    "className": "Button",
+    "text": "OK",
+    "bounds": "780,1796,972,1940",
+    "children": []
+  }
+]

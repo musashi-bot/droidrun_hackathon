@@ -25,6 +25,7 @@ load_dotenv()
 async def act_on_messages(
     messages_file: str = "data/messages.json",
     decisions_file: str = "data/decisions.json",
+    user_context: str = ""
 ):
     # Load data
     with open(messages_file, "r") as f:
@@ -32,13 +33,13 @@ async def act_on_messages(
 
     with open(decisions_file, "r") as f:
         decisions = json.load(f)
-
+    
     # LLM
     llm = GoogleGenAI(
         api_key=os.environ["GEMINI_API_KEY"],
-        model="gemini-2.5-pro",
+        model="gemini-2.5-flash",
     )
-
+    
     config = DroidrunConfig(
         agent=AgentConfig(reasoning=True, max_steps=30),
         tracing=TracingConfig(enabled=False),
@@ -70,7 +71,8 @@ async def act_on_messages(
         elif action == "reply":
             agent = DroidAgent(
                 goal=DRAFT_REPLY_GOAL(
-                    sender_name=message["sender_name"]
+                    sender_name=message["sender_name"],
+                    user_context=user_context
                 ),
                 config=config,
                 llms=llm,

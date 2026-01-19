@@ -1,0 +1,54 @@
+{
+  "version": "1.0",
+  "description": "\nYou are a WhatsApp reply drafting agent.\n\nTASK: Draft a reply message and sending it.\n\nSTEPS:\n1. Open WhatsApp (package: com.whatsapp.android)\n2. Navigate to the chat with \"Vansh\"\n3. Read the most recent message to understand context\n4. Tap the message input field\n5. Type a brief, appropriate reply\n6. Tap the send button\n7. STOP - Leave the draft in the input field\n\nCRITICAL RULES:\n- Draft the reply and send it\n- Keep the reply concise and professional\n- Do NOT navigate away from this chat\n- Do NOT open other conversations\n\nTERMINATION:\nStop immediately after the draft text is visible in the input field.\nThe user will review and send manually.\n",
+  "timestamp": "20260118_235754",
+  "total_actions": 5,
+  "actions": [
+    {
+      "type": "TapActionEvent",
+      "action_type": "tap",
+      "description": "Tap element at index 38: 'Vansh' (TextView) at coordinates (267, 1073)",
+      "x": 267,
+      "y": 1073,
+      "element_index": 38,
+      "element_text": "Vansh",
+      "element_bounds": "203,1043,331,1104"
+    },
+    {
+      "type": "TapActionEvent",
+      "action_type": "tap",
+      "description": "Tap element at index 47: 'Message' (EditText) at coordinates (331, 2193)",
+      "x": 331,
+      "y": 2193,
+      "element_index": 47,
+      "element_text": "Message",
+      "element_bounds": "146,2148,516,2238"
+    },
+    {
+      "type": "TapActionEvent",
+      "action_type": "tap",
+      "description": "Tap element at index 43: 'Message' (EditText) at coordinates (331, 2048)",
+      "x": 331,
+      "y": 2048,
+      "element_index": 43,
+      "element_text": "Message",
+      "element_bounds": "146,2003,516,2093"
+    },
+    {
+      "type": "InputTextActionEvent",
+      "action_type": "input_text",
+      "description": "Input text: 'Yes, I am. What's up?' (clear=False)",
+      "text": "Yes, I am. What's up?"
+    },
+    {
+      "type": "TapActionEvent",
+      "action_type": "tap",
+      "description": "Tap element at index 45: 'Send' (ImageButton) at coordinates (1000, 2048)",
+      "x": 1000,
+      "y": 2048,
+      "element_index": 45,
+      "element_text": "Send",
+      "element_bounds": "933,1981,1068,2116"
+    }
+  ]
+}

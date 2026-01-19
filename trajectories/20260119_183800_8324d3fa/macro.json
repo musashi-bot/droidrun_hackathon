@@ -1,0 +1,108 @@
+{
+  "version": "1.0",
+  "description": "\nYou are a calendar reminder creation agent.\n\nTASK: Create ONE calendar event and stop .\nFIRST RETURN TO HOME SCREEN BEFORE STARTING.\nSTEPS:\n1. Open Google Calendar (package: com.google.android.calendar)\n2. Tap the \"+\" or \"Create\" button\n3. Select \"Event\" or \"Reminder\"\n4. Enter title: \"Your interview for Google is scheduled on 25 january\"\n5. Set time: Tomorrow 9 AM\n6. Save the event\n7. STOP immediately after saving\n\nRULES:\n- Create ONLY ONE event\n- Do NOT edit existing events\n- Do NOT create multiple reminders\n- Do NOT navigate to other screens after saving\n\nTERMINATION:\nOnce the event is saved and visible in the calendar, stop all actions.\nReturn to idle state.\n",
+  "timestamp": "20260119_183932",
+  "total_actions": 11,
+  "actions": [
+    {
+      "type": "KeyPressActionEvent",
+      "action_type": "key_press",
+      "description": "Pressed key HOME",
+      "keycode": 3,
+      "key_name": "HOME"
+    },
+    {
+      "type": "StartAppEvent",
+      "action_type": "start_app",
+      "description": "Start app com.samsung.android.calendar",
+      "package": "com.samsung.android.calendar",
+      "activity": "com.samsung.android.app.calendar.activity.MainActivity"
+    },
+    {
+      "type": "TapActionEvent",
+      "action_type": "tap",
+      "description": "Tap element at index 59: 'Add detailed event' (ImageButton) at coordinates (933, 2126)",
+      "x": 933,
+      "y": 2126,
+      "element_index": 59,
+      "element_text": "Add detailed event",
+      "element_bounds": "854,2047,1012,2205"
+    },
+    {
+      "type": "TapActionEvent",
+      "action_type": "tap",
+      "description": "Tap element at index 5: 'Title' (AutoCompleteTextView) at coordinates (424, 309)",
+      "x": 424,
+      "y": 309,
+      "element_index": 5,
+      "element_text": "Title",
+      "element_bounds": "68,245,781,374"
+    },
+    {
+      "type": "InputTextActionEvent",
+      "action_type": "input_text",
+      "description": "Input text: 'Your interview for Google is scheduled on 25 janua...' (clear=False)",
+      "text": "Your interview for Google is scheduled on 25 january"
+    },
+    {
+      "type": "TapActionEvent",
+      "action_type": "tap",
+      "description": "Tap element at index 13: '7:00\u202fpm' (TextView) at coordinates (261, 823)",
+      "x": 261,
+      "y": 823,
+      "element_index": 13,
+      "element_text": "7:00\u202fpm",
+      "element_bounds": "154,779,369,867"
+    },
+    {
+      "type": "TapActionEvent",
+      "action_type": "tap",
+      "description": "Tap element at index 12: 'Mon, 19 Jan' (TextView) at coordinates (261, 701)",
+      "x": 261,
+      "y": 701,
+      "element_index": 12,
+      "element_text": "Mon, 19 Jan",
+      "element_bounds": "117,657,406,745"
+    },
+    {
+      "type": "TapActionEvent",
+      "action_type": "tap",
+      "description": "Tap element at index 44: 'Tuesday 20 January, 2026' (View) at coordinates (255, 1525)",
+      "x": 255,
+      "y": 1525,
+      "element_index": 44,
+      "element_text": "Tuesday 20 January, 2026",
+      "element_bounds": "184,1480,326,1570"
+    },
+    {
+      "type": "TapActionEvent",
+      "action_type": "tap",
+      "description": "Tap element at index 13: '7:00\u202fpm' (TextView) at coordinates (261, 823)",
+      "x": 261,
+      "y": 823,
+      "element_index": 13,
+      "element_text": "7:00\u202fpm",
+      "element_bounds": "154,779,369,867"
+    },
+    {
+      "type": "TapActionEvent",
+      "action_type": "tap",
+      "description": "Tap element at index 20: '8' (Button) at coordinates (220, 1352)",
+      "x": 220,
+      "y": 1352,
+      "element_index": 20,
+      "element_text": "8",
+      "element_bounds": "66,1272,374,1432"
+    },
+    {
+      "type": "TapActionEvent",
+      "action_type": "tap",
+      "description": "Tap element at index 20: '9' (Button) at coordinates (220, 1352)",
+      "x": 220,
+      "y": 1352,
+      "element_index": 20,
+      "element_text": "9",
+      "element_bounds": "66,1272,374,1432"
+    }
+  ]
+}

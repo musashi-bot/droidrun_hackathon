@@ -1,0 +1,282 @@
+[
+  {
+    "index": 1,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "0,0,1080,2408",
+    "children": []
+  },
+  {
+    "index": 2,
+    "resourceId": "com.samsung.android.calendar:id/detail_scroll_view",
+    "className": "ScrollView",
+    "text": "com.samsung.android.calendar:id/detail_scroll_view",
+    "bounds": "0,65,1080,1970",
+    "children": []
+  },
+  {
+    "index": 3,
+    "resourceId": "com.samsung.android.calendar:id/dummyToolbar",
+    "className": "LinearLayout",
+    "text": "com.samsung.android.calendar:id/dummyToolbar",
+    "bounds": "0,65,1080,245",
+    "children": []
+  },
+  {
+    "index": 4,
+    "resourceId": "com.samsung.android.calendar:id/card_container",
+    "className": "LinearLayout",
+    "text": "com.samsung.android.calendar:id/card_container",
+    "bounds": "0,245,1080,374",
+    "children": []
+  },
+  {
+    "index": 5,
+    "resourceId": "com.samsung.android.calendar:id/title",
+    "className": "AutoCompleteTextView",
+    "text": "Title",
+    "bounds": "68,245,781,374",
+    "children": []
+  },
+  {
+    "index": 6,
+    "resourceId": "com.samsung.android.calendar:id/event_sticker_container",
+    "className": "LinearLayout",
+    "text": "com.samsung.android.calendar:id/event_sticker_container",
+    "bounds": "781,245,919,356",
+    "children": []
+  },
+  {
+    "index": 7,
+    "resourceId": "com.samsung.android.calendar:id/event_sticker_button",
+    "className": "ImageButton",
+    "text": "Sticker",
+    "bounds": "829,249,902,322",
+    "children": []
+  },
+  {
+    "index": 8,
+    "resourceId": "com.samsung.android.calendar:id/event_color_container",
+    "className": "LinearLayout",
+    "text": "com.samsung.android.calendar:id/event_color_container",
+    "bounds": "919,245,1012,356",
+    "children": []
+  },
+  {
+    "index": 9,
+    "resourceId": "com.samsung.android.calendar:id/event_color_button",
+    "className": "ImageButton",
+    "text": "Default calendar colour, Select colour",
+    "bounds": "939,249,1012,322",
+    "children": []
+  },
+  {
+    "index": 10,
+    "resourceId": "com.samsung.android.calendar:id/all_day_container",
+    "className": "ViewGroup",
+    "text": "com.samsung.android.calendar:id/all_day_container",
+    "bounds": "181,377,1012,513",
+    "children": []
+  },
+  {
+    "index": 11,
+    "resourceId": "com.samsung.android.calendar:id/all_day_switch",
+    "className": "Switch",
+    "text": "All day",
+    "bounds": "897,447,995,508",
+    "children": []
+  },
+  {
+    "index": 12,
+    "resourceId": "com.samsung.android.calendar:id/start_date",
+    "className": "TextView",
+    "text": "Mon, 19 Jan",
+    "bounds": "117,583,406,671",
+    "children": []
+  },
+  {
+    "index": 13,
+    "resourceId": "com.samsung.android.calendar:id/start_time",
+    "className": "TextView",
+    "text": "12:00 am",
+    "bounds": "144,705,379,793",
+    "children": []
+  },
+  {
+    "index": 14,
+    "resourceId": "com.samsung.android.calendar:id/end_date",
+    "className": "TextView",
+    "text": "Mon, 19 Jan",
+    "bounds": "673,583,962,671",
+    "children": []
+  },
+  {
+    "index": 15,
+    "resourceId": "com.samsung.android.calendar:id/end_time",
+    "className": "TextView",
+    "text": "1:00 am",
+    "bounds": "714,705,921,793",
+    "children": []
+  },
+  {
+    "index": 16,
+    "resourceId": "com.samsung.android.calendar:id/card_container",
+    "className": "LinearLayout",
+    "text": "com.samsung.android.calendar:id/card_container",
+    "bounds": "0,855,1080,1016",
+    "children": []
+  },
+  {
+    "index": 17,
+    "resourceId": "com.samsung.android.calendar:id/location",
+    "className": "AutoCompleteTextView",
+    "text": "Location",
+    "bounds": "180,855,989,1013",
+    "children": []
+  },
+  {
+    "index": 18,
+    "resourceId": "com.samsung.android.calendar:id/calendar_selector_group",
+    "className": "ViewGroup",
+    "text": "com.samsung.android.calendar:id/calendar_selector_group",
+    "bounds": "0,1016,1080,1174",
+    "children": []
+  },
+  {
+    "index": 19,
+    "resourceId": "com.samsung.android.calendar:id/calendars_selected_item",
+    "className": "TextView",
+    "text": "abhrajitchowdhury2005@gmail.com",
+    "bounds": "180,1016,1080,1174",
+    "children": []
+  },
+  {
+    "index": 20,
+    "resourceId": "com.samsung.android.calendar:id/reminders_row",
+    "className": "LinearLayout",
+    "text": "com.samsung.android.calendar:id/reminders_row",
+    "bounds": "0,1174,1080,1335",
+    "children": []
+  },
+  {
+    "index": 21,
+    "resourceId": "com.samsung.android.calendar:id/reminders_label",
+    "className": "TextView",
+    "text": "10 mins before",
+    "bounds": "180,1174,1057,1332",
+    "children": []
+  },
+  {
+    "index": 22,
+    "resourceId": "com.samsung.android.calendar:id/card_container",
+    "className": "LinearLayout",
+    "text": "com.samsung.android.calendar:id/card_container",
+    "bounds": "0,1335,1080,1496",
+    "children": []
+  },
+  {
+    "index": 23,
+    "resourceId": "com.samsung.android.calendar:id/repeats_container",
+    "className": "LinearLayout",
+    "text": "Don't repeat, Repeat",
+    "bounds": "0,1335,1080,1496",
+    "children": []
+  },
+  {
+    "index": 24,
+    "resourceId": "com.samsung.android.calendar:id/repeat_text",
+    "className": "TextView",
+    "text": "Don't repeat",
+    "bounds": "180,1335,1012,1493",
+    "children": []
+  },
+  {
+    "index": 25,
+    "resourceId": "com.samsung.android.calendar:id/card_container",
+    "className": "LinearLayout",
+    "text": "com.samsung.android.calendar:id/card_container",
+    "bounds": "0,1496,1080,1657",
+    "children": []
+  },
+  {
+    "index": 26,
+    "resourceId": "com.samsung.android.calendar:id/note_text",
+    "className": "EditText",
+    "text": "Notes",
+    "bounds": "180,1496,1012,1654",
+    "children": []
+  },
+  {
+    "index": 27,
+    "resourceId": "com.samsung.android.calendar:id/conference_container",
+    "className": "LinearLayout",
+    "text": "com.samsung.android.calendar:id/conference_container",
+    "bounds": "0,1657,1080,1818",
+    "children": []
+  },
+  {
+    "index": 28,
+    "resourceId": "com.samsung.android.calendar:id/conference_text",
+    "className": "TextView",
+    "text": "Video conference",
+    "bounds": "180,1703,1034,1769",
+    "children": []
+  },
+  {
+    "index": 29,
+    "resourceId": "com.samsung.android.calendar:id/google_add_file_sub_container",
+    "className": "LinearLayout",
+    "text": "com.samsung.android.calendar:id/google_add_file_sub_container",
+    "bounds": "0,1818,1080,1970",
+    "children": []
+  },
+  {
+    "index": 30,
+    "resourceId": "",
+    "className": "LinearLayout",
+    "text": "android.widget.LinearLayout",
+    "bounds": "180,1864,1057,1930",
+    "children": []
+  },
+  {
+    "index": 31,
+    "resourceId": "com.samsung.android.calendar:id/google_attach_file_text",
+    "className": "TextView",
+    "text": "Attachment",
+    "bounds": "180,1864,437,1930",
+    "children": []
+  },
+  {
+    "index": 32,
+    "resourceId": "com.samsung.android.calendar:id/add_bottom_navigation",
+    "className": "FrameLayout",
+    "text": "com.samsung.android.calendar:id/add_bottom_navigation",
+    "bounds": "0,1970,1080,2128",
+    "children": []
+  },
+  {
+    "index": 33,
+    "resourceId": "",
+    "className": "ViewGroup",
+    "text": "android.view.ViewGroup",
+    "bounds": "68,1970,1012,2128",
+    "children": []
+  },
+  {
+    "index": 34,
+    "resourceId": "com.samsung.android.calendar:id/add_app_bar_menu_cancel",
+    "className": "Button",
+    "text": "Cancel",
+    "bounds": "68,1970,540,2128",
+    "children": []
+  },
+  {
+    "index": 35,
+    "resourceId": "com.samsung.android.calendar:id/add_app_bar_menu_done",
+    "className": "Button",
+    "text": "Save",
+    "bounds": "540,1970,1012,2128",
+    "children": []
+  }
+]

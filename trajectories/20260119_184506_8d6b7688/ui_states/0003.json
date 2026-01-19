@@ -1,0 +1,330 @@
+[
+  {
+    "index": 1,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "0,0,1080,2412",
+    "children": []
+  },
+  {
+    "index": 2,
+    "resourceId": "",
+    "className": "ScrollView",
+    "text": "android.widget.ScrollView",
+    "bounds": "0,107,1080,2088",
+    "children": []
+  },
+  {
+    "index": 3,
+    "resourceId": "com.whatsapp:id/community_navigation_communityName",
+    "className": "TextView",
+    "text": "NJACK B.Tech'24",
+    "bounds": "264,275,747,356",
+    "children": []
+  },
+  {
+    "index": 4,
+    "resourceId": "com.whatsapp:id/community_navigation_communityStatus",
+    "className": "TextView",
+    "text": "Community · 5 groups",
+    "bounds": "264,368,689,425",
+    "children": []
+  },
+  {
+    "index": 5,
+    "resourceId": "",
+    "className": "ImageButton",
+    "text": "Navigate up",
+    "bounds": "0,107,144,275",
+    "children": []
+  },
+  {
+    "index": 6,
+    "resourceId": "com.whatsapp:id/menuitem_overflow",
+    "className": "ImageView",
+    "text": "More options",
+    "bounds": "960,119,1080,263",
+    "children": []
+  },
+  {
+    "index": 7,
+    "resourceId": "com.whatsapp:id/community_navigation_subgroup_recycler_view",
+    "className": "RecyclerView",
+    "text": "com.whatsapp:id/community_navigation_subgroup_recycler_view",
+    "bounds": "0,491,1080,2088",
+    "children": []
+  },
+  {
+    "index": 8,
+    "resourceId": "com.whatsapp:id/contact_row_container",
+    "className": "LinearLayout",
+    "text": "com.whatsapp:id/contact_row_container",
+    "bounds": "0,491,1080,719",
+    "children": []
+  },
+  {
+    "index": 9,
+    "resourceId": "com.whatsapp:id/conversations_row_header",
+    "className": "Button",
+    "text": "Announcements",
+    "bounds": "216,536,1032,601",
+    "children": []
+  },
+  {
+    "index": 10,
+    "resourceId": "com.whatsapp:id/conversations_row_contact_name",
+    "className": "TextView",
+    "text": "Announcements",
+    "bounds": "216,536,577,601",
+    "children": []
+  },
+  {
+    "index": 11,
+    "resourceId": "com.whatsapp:id/conversations_row_date",
+    "className": "TextView",
+    "text": "06/08/2025",
+    "bounds": "832,544,1032,593",
+    "children": []
+  },
+  {
+    "index": 12,
+    "resourceId": "com.whatsapp:id/msg_from_tv",
+    "className": "TextView",
+    "text": "+91 79797 37747: ",
+    "bounds": "216,607,589,674",
+    "children": []
+  },
+  {
+    "index": 13,
+    "resourceId": "com.whatsapp:id/single_msg_tv",
+    "className": "TextView",
+    "text": "Hi! Just a quick reminder Quantfest registrations close tommorow at 11:59 PM. We won’t be able to extend the deadline under any ",
+    "bounds": "589,607,960,674",
+    "children": []
+  },
+  {
+    "index": 14,
+    "resourceId": "com.whatsapp:id/conversations_row_message_count",
+    "className": "View",
+    "text": "1 unread message",
+    "bounds": "972,610,1032,670",
+    "children": []
+  },
+  {
+    "index": 15,
+    "resourceId": "",
+    "className": "ViewGroup",
+    "text": "android.view.ViewGroup",
+    "bounds": "0,719,1080,812",
+    "children": []
+  },
+  {
+    "index": 16,
+    "resourceId": "com.whatsapp:id/header_textview",
+    "className": "TextView",
+    "text": "Groups you're in",
+    "bounds": "48,755,1032,812",
+    "children": []
+  },
+  {
+    "index": 17,
+    "resourceId": "com.whatsapp:id/contact_row_container",
+    "className": "LinearLayout",
+    "text": "com.whatsapp:id/contact_row_container",
+    "bounds": "0,812,1080,1040",
+    "children": []
+  },
+  {
+    "index": 18,
+    "resourceId": "com.whatsapp:id/conversations_row_header",
+    "className": "Button",
+    "text": "NJACK CP - 24 Sophomores",
+    "bounds": "216,857,1032,922",
+    "children": []
+  },
+  {
+    "index": 19,
+    "resourceId": "com.whatsapp:id/conversations_row_contact_name",
+    "className": "TextView",
+    "text": "NJACK CP - 24 Sophomores",
+    "bounds": "216,857,837,922",
+    "children": []
+  },
+  {
+    "index": 20,
+    "resourceId": "com.whatsapp:id/conversations_row_date",
+    "className": "TextView",
+    "text": "18:30",
+    "bounds": "930,865,1032,914",
+    "children": []
+  },
+  {
+    "index": 21,
+    "resourceId": "com.whatsapp:id/msg_from_tv",
+    "className": "TextView",
+    "text": "+91 63001 27522: ",
+    "bounds": "216,928,589,995",
+    "children": []
+  },
+  {
+    "index": 22,
+    "resourceId": "com.whatsapp:id/single_msg_tv",
+    "className": "TextView",
+    "text": "Hello Everyone,  All the Codefest Participants are to required to join this WhatsApp group at the earliest. Link to Join :  http",
+    "bounds": "589,928,936,995",
+    "children": []
+  },
+  {
+    "index": 23,
+    "resourceId": "com.whatsapp:id/conversations_row_message_count",
+    "className": "View",
+    "text": "477 unread messages",
+    "bounds": "948,931,1032,991",
+    "children": []
+  },
+  {
+    "index": 24,
+    "resourceId": "com.whatsapp:id/contact_row_container",
+    "className": "LinearLayout",
+    "text": "com.whatsapp:id/contact_row_container",
+    "bounds": "0,1040,1080,1268",
+    "children": []
+  },
+  {
+    "index": 25,
+    "resourceId": "com.whatsapp:id/conversations_row_header",
+    "className": "Button",
+    "text": "NJACK ML - 24 Sophomores",
+    "bounds": "216,1085,1032,1150",
+    "children": []
+  },
+  {
+    "index": 26,
+    "resourceId": "com.whatsapp:id/conversations_row_contact_name",
+    "className": "TextView",
+    "text": "NJACK ML - 24 Sophomores",
+    "bounds": "216,1085,832,1150",
+    "children": []
+  },
+  {
+    "index": 27,
+    "resourceId": "com.whatsapp:id/conversations_row_date",
+    "className": "TextView",
+    "text": "13/01/2026",
+    "bounds": "832,1093,1032,1142",
+    "children": []
+  },
+  {
+    "index": 28,
+    "resourceId": "com.whatsapp:id/single_msg_tv",
+    "className": "TextView",
+    "text": "+91 94245 09090 joined from the community",
+    "bounds": "216,1156,960,1223",
+    "children": []
+  },
+  {
+    "index": 29,
+    "resourceId": "com.whatsapp:id/conversations_row_message_count",
+    "className": "View",
+    "text": "3 unread messages",
+    "bounds": "972,1159,1032,1219",
+    "children": []
+  },
+  {
+    "index": 30,
+    "resourceId": "com.whatsapp:id/contact_row_container",
+    "className": "LinearLayout",
+    "text": "com.whatsapp:id/contact_row_container",
+    "bounds": "0,1268,1080,1496",
+    "children": []
+  },
+  {
+    "index": 31,
+    "resourceId": "com.whatsapp:id/conversations_row_header",
+    "className": "Button",
+    "text": "NJACK Dev&OS - 24 Sophomores",
+    "bounds": "216,1313,1032,1378",
+    "children": []
+  },
+  {
+    "index": 32,
+    "resourceId": "com.whatsapp:id/conversations_row_contact_name",
+    "className": "TextView",
+    "text": "NJACK Dev&OS - 24 Sophomores",
+    "bounds": "216,1313,830,1378",
+    "children": []
+  },
+  {
+    "index": 33,
+    "resourceId": "com.whatsapp:id/conversations_row_date",
+    "className": "TextView",
+    "text": "05/01/2026",
+    "bounds": "830,1321,1032,1370",
+    "children": []
+  },
+  {
+    "index": 34,
+    "resourceId": "com.whatsapp:id/single_msg_tv",
+    "className": "TextView",
+    "text": "+91 94245 09090 joined from the community",
+    "bounds": "216,1384,1032,1451",
+    "children": []
+  },
+  {
+    "index": 35,
+    "resourceId": "com.whatsapp:id/contact_row_container",
+    "className": "LinearLayout",
+    "text": "com.whatsapp:id/contact_row_container",
+    "bounds": "0,1496,1080,1724",
+    "children": []
+  },
+  {
+    "index": 36,
+    "resourceId": "com.whatsapp:id/conversations_row_header",
+    "className": "Button",
+    "text": "NJACK Cybersecurity Sophomores (2025-26)",
+    "bounds": "216,1541,1032,1606",
+    "children": []
+  },
+  {
+    "index": 37,
+    "resourceId": "com.whatsapp:id/conversations_row_contact_name",
+    "className": "TextView",
+    "text": "NJACK Cybersecurity Sophomores (2025-26)",
+    "bounds": "216,1541,832,1606",
+    "children": []
+  },
+  {
+    "index": 38,
+    "resourceId": "com.whatsapp:id/conversations_row_date",
+    "className": "TextView",
+    "text": "09/12/2025",
+    "bounds": "832,1549,1032,1598",
+    "children": []
+  },
+  {
+    "index": 39,
+    "resourceId": "com.whatsapp:id/single_msg_tv",
+    "className": "TextView",
+    "text": "+91 93917 64617 joined from the community",
+    "bounds": "216,1612,960,1679",
+    "children": []
+  },
+  {
+    "index": 40,
+    "resourceId": "com.whatsapp:id/conversations_row_message_count",
+    "className": "View",
+    "text": "5 unread messages",
+    "bounds": "972,1615,1032,1675",
+    "children": []
+  },
+  {
+    "index": 41,
+    "resourceId": "com.whatsapp:id/community_navigation_add_group_button",
+    "className": "Button",
+    "text": "ADD GROUP",
+    "bounds": "24,2112,1056,2256",
+    "children": []
+  }
+]

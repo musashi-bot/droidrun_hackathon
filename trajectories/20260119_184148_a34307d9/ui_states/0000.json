@@ -1,0 +1,218 @@
+[
+  {
+    "index": 1,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "0,0,1080,2412",
+    "children": []
+  },
+  {
+    "index": 2,
+    "resourceId": "com.android.launcher:id/workspace",
+    "className": "ScrollView",
+    "text": "com.android.launcher:id/workspace",
+    "bounds": "0,0,1080,2412",
+    "children": []
+  },
+  {
+    "index": 3,
+    "resourceId": "",
+    "className": "CustomLauncherAppWidgetHostView",
+    "text": "OnePlus Widget",
+    "bounds": "36,180,792,744",
+    "children": []
+  },
+  {
+    "index": 4,
+    "resourceId": "net.oneplus.widget:id/day_text",
+    "className": "TextView",
+    "text": "Monday",
+    "bounds": "75,219,469,416",
+    "children": []
+  },
+  {
+    "index": 5,
+    "resourceId": "net.oneplus.widget:id/clock_group",
+    "className": "RelativeLayout",
+    "text": "net.oneplus.widget:id/clock_group",
+    "bounds": "75,416,347,563",
+    "children": []
+  },
+  {
+    "index": 6,
+    "resourceId": "net.oneplus.widget:id/clock_hour",
+    "className": "TextView",
+    "text": "18",
+    "bounds": "75,416,199,563",
+    "children": []
+  },
+  {
+    "index": 7,
+    "resourceId": "net.oneplus.widget:id/clock_colon",
+    "className": "TextView",
+    "text": "∶",
+    "bounds": "199,416,223,563",
+    "children": []
+  },
+  {
+    "index": 8,
+    "resourceId": "net.oneplus.widget:id/clock_minute",
+    "className": "TextView",
+    "text": "46",
+    "bounds": "223,416,347,563",
+    "children": []
+  },
+  {
+    "index": 9,
+    "resourceId": "net.oneplus.widget:id/date_text",
+    "className": "TextView",
+    "text": "19 January",
+    "bounds": "75,563,273,629",
+    "children": []
+  },
+  {
+    "index": 10,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "Google TV",
+    "bounds": "36,744,288,1026",
+    "children": []
+  },
+  {
+    "index": 11,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "Play Store",
+    "bounds": "36,1308,288,1590",
+    "children": []
+  },
+  {
+    "index": 12,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "Folder: Google ",
+    "bounds": "540,1308,792,1590",
+    "children": []
+  },
+  {
+    "index": 13,
+    "resourceId": "com.android.launcher:id/folder_icon_name",
+    "className": "TextView",
+    "text": "Google ",
+    "bounds": "546,1499,786,1590",
+    "children": []
+  },
+  {
+    "index": 14,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "Games",
+    "bounds": "792,1308,1044,1590",
+    "children": []
+  },
+  {
+    "index": 15,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "Teams",
+    "bounds": "36,1590,288,1872",
+    "children": []
+  },
+  {
+    "index": 16,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "Folder: Folder",
+    "bounds": "288,1590,540,1872",
+    "children": []
+  },
+  {
+    "index": 17,
+    "resourceId": "com.android.launcher:id/folder_icon_name",
+    "className": "TextView",
+    "text": "Folder",
+    "bounds": "294,1781,534,1872",
+    "children": []
+  },
+  {
+    "index": 18,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "Folder: Folder",
+    "bounds": "540,1590,792,1872",
+    "children": []
+  },
+  {
+    "index": 19,
+    "resourceId": "com.android.launcher:id/folder_icon_name",
+    "className": "TextView",
+    "text": "Folder",
+    "bounds": "546,1781,786,1872",
+    "children": []
+  },
+  {
+    "index": 20,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "Folder: Ott",
+    "bounds": "792,1590,1044,1872",
+    "children": []
+  },
+  {
+    "index": 21,
+    "resourceId": "com.android.launcher:id/folder_icon_name",
+    "className": "TextView",
+    "text": "Ott",
+    "bounds": "798,1781,1038,1872",
+    "children": []
+  },
+  {
+    "index": 22,
+    "resourceId": "com.android.launcher:id/page_indicator",
+    "className": "FrameLayout",
+    "text": "SEARCH",
+    "bounds": "406,1908,674,1992",
+    "children": []
+  },
+  {
+    "index": 23,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "WhatsApp",
+    "bounds": "288,2028,540,2280",
+    "children": []
+  },
+  {
+    "index": 24,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "Phone has 1 notification",
+    "bounds": "540,2028,792,2280",
+    "children": []
+  },
+  {
+    "index": 25,
+    "resourceId": "com.android.launcher:id/dockview_panel",
+    "className": "ScrollView",
+    "text": "com.android.launcher:id/dockview_panel",
+    "bounds": "0,1846,1080,1966",
+    "children": []
+  },
+  {
+    "index": 26,
+    "resourceId": "com.android.launcher:id/clean_storage_button",
+    "className": "Button",
+    "text": "Clean up",
+    "bounds": "72,2051,216,2195",
+    "children": []
+  },
+  {
+    "index": 27,
+    "resourceId": "com.android.launcher:id/btn_clear",
+    "className": "Button",
+    "text": "Close",
+    "bounds": "312,2057,768,2189",
+    "children": []
+  }
+]
