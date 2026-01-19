@@ -1,0 +1,32 @@
+{
+  "version": "1.0",
+  "description": "\nYou are a WhatsApp message reading agent. Your task is to read ONE message and stop.\nALWAYS RETURN TO THE HOME SCREEN BEFORE STARTING.\nEXECUTION STEPS:\n1. Open WhatsApp (package: com.whatsapp.android)\n2. Navigate to \"Chats\" tab\n3. Find the FIRST chat with an unread badge/indicator STOP IF THERE ARE NO UNREAD CHATS\n4. Tap to open that chat\n5. Read the LAST message in the conversation (the most recent one)\n6. Immediately close the chat\n7. STOP - Do not proceed to other chats\n\nCRITICAL RULES:\n- Read ONLY ONE message from ONE chat\n- Do NOT scroll through messages\n- Do NOT open multiple chats\n- Do NOT send any replies\n\nOUTPUT REQUIRED:\nExtract these details from the message you read:\n- sender_name: The contact or group name\n- message_text: The exact text of the message\n- timestamp: The time shown next to the message\n- chat_type: \"personal\" or \"group\"\n\nTERMINATION:\nAfter extracting the message details OR IF THERE ARE NO UNREAD CHATS, STOP all actions.\n",
+  "timestamp": "20260119_183744",
+  "total_actions": 3,
+  "actions": [
+    {
+      "type": "StartAppEvent",
+      "action_type": "start_app",
+      "description": "Start app com.whatsapp",
+      "package": "com.whatsapp",
+      "activity": ".Main"
+    },
+    {
+      "type": "TapActionEvent",
+      "action_type": "tap",
+      "description": "Tap element at index 35: 'com.whatsapp:id/contact_row_container' (Button) at coordinates (540, 1108)",
+      "x": 540,
+      "y": 1108,
+      "element_index": 35,
+      "element_text": "com.whatsapp:id/contact_row_container",
+      "element_bounds": "0,1001,1080,1215"
+    },
+    {
+      "type": "KeyPressActionEvent",
+      "action_type": "key_press",
+      "description": "Pressed key BACK",
+      "keycode": 4,
+      "key_name": "BACK"
+    }
+  ]
+}

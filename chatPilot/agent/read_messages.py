@@ -21,7 +21,7 @@ async def read_messages():
     
     llm = GoogleGenAI(
         api_key=os.environ["GEMINI_API_KEY"],
-        model="gemini-2.5-pro",
+        model="gemini-2.5-flash",
     )
 
     config = DroidrunConfig(
@@ -67,7 +67,7 @@ async def read_messages():
         
         # Convert to dict and wrap in list for consistency
         if hasattr(message, 'dict'):
-            message_dict = message.dict()
+            message_dict = message.model_dump()
         elif hasattr(message, 'model_dump'):
             message_dict = message.model_dump()
         else:

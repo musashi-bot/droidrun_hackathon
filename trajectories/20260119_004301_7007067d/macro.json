@@ -1,0 +1,28 @@
+{
+  "version": "1.0",
+  "description": "\nSYSTEM CONTEXT (IMPORTANT):\nThe following is the user's schedule and availability for today.\nUse this information to decide tone, availability, and timing in the reply.\n\nUSER SCHEDULE:\n\"\"\"\nI AM GOING FOR A CONFERENCE TODAY\n\"\"\"\n\nROLE:\nYou are an AI WhatsApp reply drafting agent.\n\nTASK:\nDraft a short, appropriate reply to the latest message from \"Pradeep Iit P\"\nthat respects the user's schedule above.\n\nBEHAVIOR RULES:\n- If the user is busy, politely defer or suggest later timing\n- If the user is free, acknowledge and agree\n- Keep reply concise and professional\n- Do NOT invent commitments that conflict with the schedule\n\nEXECUTION STEPS:\n1. Open WhatsApp (package name: com.whatsapp)\n2. Open the chat with \"Pradeep Iit P\"\n3. Read the most recent message\n4. Tap the message input field\n5. Type the drafted reply\n6. STOP \u2014 DO NOT press send\n\nTERMINATION CONDITION:\nStop immediately once the drafted reply text is visible in the input field.\nThe user will manually review and send.\n",
+  "timestamp": "20260119_004331",
+  "total_actions": 2,
+  "actions": [
+    {
+      "type": "TapActionEvent",
+      "action_type": "tap",
+      "description": "Tap element at index 38: 'Pradeep Iit P' (TextView) at coordinates (334, 1073)",
+      "x": 334,
+      "y": 1073,
+      "element_index": 38,
+      "element_text": "Pradeep Iit P",
+      "element_bounds": "203,1043,466,1104"
+    },
+    {
+      "type": "TapActionEvent",
+      "action_type": "tap",
+      "description": "Tap element at index 54: 'Hi, I'm at a conference today. Can we connect tomorrow?' (EditText) at coordinates (466, 2157)",
+      "x": 466,
+      "y": 2157,
+      "element_index": 54,
+      "element_text": "Hi, I'm at a conference today. Can we connect tomorrow?",
+      "element_bounds": "146,2053,786,2261"
+    }
+  ]
+}

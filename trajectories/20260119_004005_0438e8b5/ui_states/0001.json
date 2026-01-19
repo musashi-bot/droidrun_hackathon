@@ -1,0 +1,370 @@
+[
+  {
+    "index": 1,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "0,0,1080,2408",
+    "children": []
+  },
+  {
+    "index": 2,
+    "resourceId": "com.whatsapp:id/pager",
+    "className": "ViewPager",
+    "text": "com.whatsapp:id/pager",
+    "bounds": "0,65,1080,2047",
+    "children": []
+  },
+  {
+    "index": 3,
+    "resourceId": "com.whatsapp:id/community_recycler_view",
+    "className": "RecyclerView",
+    "text": "com.whatsapp:id/community_recycler_view",
+    "bounds": "0,65,1080,2047",
+    "children": []
+  },
+  {
+    "index": 4,
+    "resourceId": "",
+    "className": "LinearLayout",
+    "text": "New community",
+    "bounds": "0,223,1080,437",
+    "children": []
+  },
+  {
+    "index": 5,
+    "resourceId": "com.whatsapp:id/community_subject",
+    "className": "TextView",
+    "text": "New community",
+    "bounds": "213,297,1080,362",
+    "children": []
+  },
+  {
+    "index": 6,
+    "resourceId": "",
+    "className": "LinearLayout",
+    "text": "android.widget.LinearLayout",
+    "bounds": "0,460,1080,674",
+    "children": []
+  },
+  {
+    "index": 7,
+    "resourceId": "com.whatsapp:id/community_subject",
+    "className": "Button",
+    "text": "Sophomores IITP 2024",
+    "bounds": "213,534,1080,599",
+    "children": []
+  },
+  {
+    "index": 8,
+    "resourceId": "com.whatsapp:id/contact_row_container",
+    "className": "LinearLayout",
+    "text": "com.whatsapp:id/contact_row_container",
+    "bounds": "0,677,1080,891",
+    "children": []
+  },
+  {
+    "index": 9,
+    "resourceId": "com.whatsapp:id/conversations_row_header",
+    "className": "Button",
+    "text": "Announcements",
+    "bounds": "214,719,1035,780",
+    "children": []
+  },
+  {
+    "index": 10,
+    "resourceId": "com.whatsapp:id/conversations_row_contact_name",
+    "className": "TextView",
+    "text": "Announcements",
+    "bounds": "214,719,550,780",
+    "children": []
+  },
+  {
+    "index": 11,
+    "resourceId": "com.whatsapp:id/conversations_row_date",
+    "className": "TextView",
+    "text": "17/01/26",
+    "bounds": "878,726,1035,772",
+    "children": []
+  },
+  {
+    "index": 12,
+    "resourceId": "com.whatsapp:id/msg_from_tv",
+    "className": "TextView",
+    "text": "+91 91536 31165: ",
+    "bounds": "214,786,569,849",
+    "children": []
+  },
+  {
+    "index": 13,
+    "resourceId": "com.whatsapp:id/single_msg_tv",
+    "className": "TextView",
+    "text": "HEY EVERYONE!   We’re creating something special today - a Handprint Poster and we want YOU to be a part of it! Soon enough when",
+    "bounds": "569,786,1035,849",
+    "children": []
+  },
+  {
+    "index": 14,
+    "resourceId": "com.whatsapp:id/contact_row_container",
+    "className": "LinearLayout",
+    "text": "com.whatsapp:id/contact_row_container",
+    "bounds": "0,891,1080,1127",
+    "children": []
+  },
+  {
+    "index": 15,
+    "resourceId": "com.whatsapp:id/conversations_row_header",
+    "className": "Button",
+    "text": "‎# Freshers IITP 2024 Discussion #",
+    "bounds": "214,944,1035,1005",
+    "children": []
+  },
+  {
+    "index": 16,
+    "resourceId": "com.whatsapp:id/conversations_row_contact_name",
+    "className": "TextView",
+    "text": "‎# Freshers IITP 2024 Discussion #",
+    "bounds": "214,944,879,1005",
+    "children": []
+  },
+  {
+    "index": 17,
+    "resourceId": "com.whatsapp:id/conversations_row_date",
+    "className": "TextView",
+    "text": "12:05 am",
+    "bounds": "879,951,1035,997",
+    "children": []
+  },
+  {
+    "index": 18,
+    "resourceId": "com.whatsapp:id/msg_from_tv",
+    "className": "TextView",
+    "text": "+91 72530 74360: ",
+    "bounds": "214,1011,569,1074",
+    "children": []
+  },
+  {
+    "index": 19,
+    "resourceId": "com.whatsapp:id/single_msg_tv",
+    "className": "TextView",
+    "text": "Everyone like comment and share on your story",
+    "bounds": "569,1011,1035,1074",
+    "children": []
+  },
+  {
+    "index": 20,
+    "resourceId": "com.whatsapp:id/contact_row_container",
+    "className": "LinearLayout",
+    "text": "com.whatsapp:id/contact_row_container",
+    "bounds": "0,1127,1080,1341",
+    "children": []
+  },
+  {
+    "index": 21,
+    "resourceId": "com.whatsapp:id/conversations_row_header",
+    "className": "Button",
+    "text": "IIT PATNA ",
+    "bounds": "214,1169,1035,1230",
+    "children": []
+  },
+  {
+    "index": 22,
+    "resourceId": "com.whatsapp:id/conversations_row_contact_name",
+    "className": "TextView",
+    "text": "IIT PATNA ",
+    "bounds": "214,1169,431,1230",
+    "children": []
+  },
+  {
+    "index": 23,
+    "resourceId": "com.whatsapp:id/conversations_row_date",
+    "className": "TextView",
+    "text": "12:05 am",
+    "bounds": "812,1176,968,1222",
+    "children": []
+  },
+  {
+    "index": 24,
+    "resourceId": "com.whatsapp:id/msg_from_tv",
+    "className": "TextView",
+    "text": "+91 72530 74360: ",
+    "bounds": "214,1236,569,1299",
+    "children": []
+  },
+  {
+    "index": 25,
+    "resourceId": "com.whatsapp:id/single_msg_tv",
+    "className": "TextView",
+    "text": "Everyone like comment and share on your story",
+    "bounds": "569,1236,1035,1299",
+    "children": []
+  },
+  {
+    "index": 26,
+    "resourceId": "",
+    "className": "RelativeLayout",
+    "text": "android.widget.RelativeLayout",
+    "bounds": "0,1341,1080,1499",
+    "children": []
+  },
+  {
+    "index": 27,
+    "resourceId": "com.whatsapp:id/view_more",
+    "className": "TextView",
+    "text": "View all",
+    "bounds": "215,1341,1080,1499",
+    "children": []
+  },
+  {
+    "index": 28,
+    "resourceId": "",
+    "className": "LinearLayout",
+    "text": "android.widget.LinearLayout",
+    "bounds": "0,1522,1080,1736",
+    "children": []
+  },
+  {
+    "index": 29,
+    "resourceId": "com.whatsapp:id/community_subject",
+    "className": "Button",
+    "text": "NJACK B.Tech'24",
+    "bounds": "213,1596,1080,1661",
+    "children": []
+  },
+  {
+    "index": 30,
+    "resourceId": "com.whatsapp:id/contact_row_container",
+    "className": "LinearLayout",
+    "text": "com.whatsapp:id/contact_row_container",
+    "bounds": "0,1739,1080,1953",
+    "children": []
+  },
+  {
+    "index": 31,
+    "resourceId": "com.whatsapp:id/conversations_row_header",
+    "className": "Button",
+    "text": "Announcements",
+    "bounds": "214,1781,1035,1842",
+    "children": []
+  },
+  {
+    "index": 32,
+    "resourceId": "com.whatsapp:id/conversations_row_contact_name",
+    "className": "TextView",
+    "text": "Announcements",
+    "bounds": "214,1781,550,1842",
+    "children": []
+  },
+  {
+    "index": 33,
+    "resourceId": "com.whatsapp:id/conversations_row_date",
+    "className": "TextView",
+    "text": "06/08/25",
+    "bounds": "878,1788,1035,1834",
+    "children": []
+  },
+  {
+    "index": 34,
+    "resourceId": "com.whatsapp:id/msg_from_tv",
+    "className": "TextView",
+    "text": "+91 79797 37747: ",
+    "bounds": "214,1848,569,1911",
+    "children": []
+  },
+  {
+    "index": 35,
+    "resourceId": "com.whatsapp:id/single_msg_tv",
+    "className": "TextView",
+    "text": "Hi! Just a quick reminder Quantfest registrations close tommorow at 11:59 PM. We won’t be able to extend the deadline under any ",
+    "bounds": "569,1848,1035,1911",
+    "children": []
+  },
+  {
+    "index": 36,
+    "resourceId": "com.whatsapp:id/contact_row_container",
+    "className": "LinearLayout",
+    "text": "com.whatsapp:id/contact_row_container",
+    "bounds": "0,1953,1080,2047",
+    "children": []
+  },
+  {
+    "index": 37,
+    "resourceId": "com.whatsapp:id/conversations_row_header",
+    "className": "Button",
+    "text": "NJACK CP - 24 Sophomores",
+    "bounds": "214,1995,1035,2047",
+    "children": []
+  },
+  {
+    "index": 38,
+    "resourceId": "com.whatsapp:id/conversations_row_contact_name",
+    "className": "TextView",
+    "text": "NJACK CP - 24 Sophomores",
+    "bounds": "214,1995,788,2047",
+    "children": []
+  },
+  {
+    "index": 39,
+    "resourceId": "com.whatsapp:id/conversations_row_date",
+    "className": "TextView",
+    "text": "Yesterday",
+    "bounds": "870,2002,1035,2047",
+    "children": []
+  },
+  {
+    "index": 40,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "Communities",
+    "bounds": "45,102,411,185",
+    "children": []
+  },
+  {
+    "index": 41,
+    "resourceId": "com.whatsapp:id/menuitem_overflow",
+    "className": "ImageView",
+    "text": "More options",
+    "bounds": "967,76,1080,211",
+    "children": []
+  },
+  {
+    "index": 42,
+    "resourceId": "",
+    "className": "ViewGroup",
+    "text": "android.view.ViewGroup",
+    "bounds": "0,2048,1080,2273",
+    "children": []
+  },
+  {
+    "index": 43,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "Chats, 4 new notifications",
+    "bounds": "0,2048,270,2273",
+    "children": []
+  },
+  {
+    "index": 44,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "Updates",
+    "bounds": "270,2048,540,2273",
+    "children": []
+  },
+  {
+    "index": 45,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "Communities",
+    "bounds": "540,2048,810,2273",
+    "children": []
+  },
+  {
+    "index": 46,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "Calls",
+    "bounds": "810,2048,1080,2273",
+    "children": []
+  }
+]

@@ -1,11 +1,11 @@
 def READ_WHATSAPP_MESSAGES_GOAL():
     return """
 You are a WhatsApp message reading agent. Your task is to read ONE message and stop.
-
+ALWAYS RETURN TO THE HOME SCREEN BEFORE STARTING.
 EXECUTION STEPS:
 1. Open WhatsApp (package: com.whatsapp.android)
 2. Navigate to "Chats" tab
-3. Find the FIRST chat with an unread badge/indicator
+3. Find the FIRST chat with an unread badge/indicator STOP IF THERE ARE NO UNREAD CHATS
 4. Tap to open that chat
 5. Read the LAST message in the conversation (the most recent one)
 6. Immediately close the chat
@@ -16,7 +16,6 @@ CRITICAL RULES:
 - Do NOT scroll through messages
 - Do NOT open multiple chats
 - Do NOT send any replies
-- Exit WhatsApp after reading
 
 OUTPUT REQUIRED:
 Extract these details from the message you read:
@@ -26,7 +25,7 @@ Extract these details from the message you read:
 - chat_type: "personal" or "group"
 
 TERMINATION:
-After extracting the message details, close WhatsApp and stop all actions.
+After extracting the message details OR IF THERE ARE NO UNREAD CHATS, STOP all actions.
 """
 
 
@@ -78,8 +77,8 @@ def CREATE_REMINDER_GOAL(reminder_text: str, time: str):
     return f"""
 You are a calendar reminder creation agent.
 
-TASK: Create ONE calendar event and stop.
-
+TASK: Create ONE calendar event and stop .
+FIRST RETURN TO HOME SCREEN BEFORE STARTING.
 STEPS:
 1. Open Google Calendar (package: com.google.android.calendar)
 2. Tap the "+" or "Create" button
@@ -101,31 +100,42 @@ Return to idle state.
 """
 
 
-def DRAFT_REPLY_GOAL(sender_name: str):
+def DRAFT_REPLY_GOAL(sender_name: str, user_context: str):
     return f"""
-You are a WhatsApp reply drafting agent.
+SYSTEM CONTEXT (IMPORTANT):
+The following is the user's schedule and availability for today.
+Use this information to decide tone, availability, and timing in the reply.
 
-TASK: Draft a reply message WITHOUT sending it.
+USER SCHEDULE:
+\"\"\"
+{user_context}
+\"\"\"
 
-STEPS:
-1. Open WhatsApp (package: com.whatsapp.android)
-2. Navigate to the chat with "{sender_name}"
-3. Read the most recent message to understand context
+ROLE:
+You are an AI WhatsApp reply drafting agent.
+
+TASK:
+Draft a short, appropriate reply to the latest message from "{sender_name}"
+that respects the user's schedule above.
+
+BEHAVIOR RULES:
+- If the user is busy, politely defer or suggest later timing
+- If the user is free, acknowledge and agree
+- Keep reply concise and professional
+- Do NOT invent commitments that conflict with the schedule
+
+EXECUTION STEPS:
+1. Open WhatsApp (package name: com.whatsapp)
+2. Open the chat with "{sender_name}"
+3. Read the most recent message
 4. Tap the message input field
-5. Type a brief, appropriate reply
-6. DO NOT tap the send button
-7. STOP - Leave the draft in the input field
+5. Type the drafted reply
+6. press send AND STOP
 
-CRITICAL RULES:
-- Draft the reply but DO NOT SEND
-- Keep the reply concise and professional
-- Do NOT navigate away from this chat
-- Do NOT open other conversations
-
-TERMINATION:
-Stop immediately after the draft text is visible in the input field.
-The user will review and send manually.
+TERMINATION CONDITION:
+Stop immediately once the drafted reply text is SENT.
 """
+
 
 
 def DAILY_SUMMARY_GOAL(task_list: str):

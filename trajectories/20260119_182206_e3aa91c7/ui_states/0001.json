@@ -1,0 +1,258 @@
+[
+  {
+    "index": 1,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "0,0,1080,2408",
+    "children": []
+  },
+  {
+    "index": 2,
+    "resourceId": "com.whatsapp:id/whatsapp_toolbar_home",
+    "className": "Button",
+    "text": "Back",
+    "bounds": "0,76,135,211",
+    "children": []
+  },
+  {
+    "index": 3,
+    "resourceId": "com.whatsapp:id/contact_photo_view",
+    "className": "FrameLayout",
+    "text": "com.whatsapp:id/contact_photo_view",
+    "bounds": "135,76,270,211",
+    "children": []
+  },
+  {
+    "index": 4,
+    "resourceId": "com.whatsapp:id/conversation_contact_photo",
+    "className": "Button",
+    "text": "com.whatsapp:id/conversation_contact_photo",
+    "bounds": "142,90,257,202",
+    "children": []
+  },
+  {
+    "index": 5,
+    "resourceId": "com.whatsapp:id/conversation_contact",
+    "className": "LinearLayout",
+    "text": "com.whatsapp:id/conversation_contact",
+    "bounds": "270,65,831,223",
+    "children": []
+  },
+  {
+    "index": 6,
+    "resourceId": "com.whatsapp:id/conversation_contact_name",
+    "className": "TextView",
+    "text": "Google Developer Groups IIT Patna'24",
+    "bounds": "281,85,831,150",
+    "children": []
+  },
+  {
+    "index": 7,
+    "resourceId": "com.whatsapp:id/conversation_contact_status",
+    "className": "TextView",
+    "text": "+91 73037 70116, +91 73780 02243, +91 81769 46388, +91 88539 48896, +91 90451 20527, +91 90606 62348, +91 91086 71095, +91 92086 68502, +91 92292 35789, +91 93343 56200, You, 407 others",
+    "bounds": "281,150,831,196",
+    "children": []
+  },
+  {
+    "index": 8,
+    "resourceId": "",
+    "className": "ImageButton",
+    "text": "Open voice chat",
+    "bounds": "831,76,967,211",
+    "children": []
+  },
+  {
+    "index": 9,
+    "resourceId": "com.whatsapp:id/menuitem_overflow",
+    "className": "ImageView",
+    "text": "More options",
+    "bounds": "967,76,1080,211",
+    "children": []
+  },
+  {
+    "index": 10,
+    "resourceId": "com.whatsapp:id/coordinator",
+    "className": "ViewGroup",
+    "text": "com.whatsapp:id/coordinator",
+    "bounds": "0,223,1080,2273",
+    "children": []
+  },
+  {
+    "index": 11,
+    "resourceId": "com.whatsapp:id/drag_n_drop_overlay",
+    "className": "View",
+    "text": "com.whatsapp:id/drag_n_drop_overlay",
+    "bounds": "0,223,1080,2273",
+    "children": []
+  },
+  {
+    "index": 12,
+    "resourceId": "android:id/list",
+    "className": "ListView",
+    "text": "android:id/list",
+    "bounds": "0,223,1080,2117",
+    "children": []
+  },
+  {
+    "index": 13,
+    "resourceId": "",
+    "className": "ViewGroup",
+    "text": "android.view.ViewGroup",
+    "bounds": "0,223,1080,599",
+    "children": []
+  },
+  {
+    "index": 14,
+    "resourceId": "com.whatsapp:id/message_text",
+    "className": "TextView",
+    "text": "I hope you've started working on something using either mobilerun cloud or droidrun framework.\nHere are some example projects using droidrun framework\nhttps://github.com/droidrun/droidrun-examples",
+    "bounds": "133,223,927,579",
+    "children": []
+  },
+  {
+    "index": 15,
+    "resourceId": "",
+    "className": "View",
+    "text": "https://github.com/droidrun/droidrun-examples",
+    "bounds": "156,457,904,565",
+    "children": []
+  },
+  {
+    "index": 16,
+    "resourceId": "com.whatsapp:id/date",
+    "className": "TextView",
+    "text": "2:42 pm",
+    "bounds": "788,533,910,579",
+    "children": []
+  },
+  {
+    "index": 17,
+    "resourceId": "com.whatsapp:id/action_button",
+    "className": "ImageView",
+    "text": "Forward to…",
+    "bounds": "956,223,1046,257",
+    "children": []
+  },
+  {
+    "index": 18,
+    "resourceId": "com.whatsapp:id/info",
+    "className": "Button",
+    "text": "umang Khatri AIDS added ~ Ayush.",
+    "bounds": "228,609,851,699",
+    "children": []
+  },
+  {
+    "index": 19,
+    "resourceId": "com.whatsapp:id/info",
+    "className": "Button",
+    "text": "umang Khatri AIDS added ~ Sagar",
+    "bounds": "236,716,843,806",
+    "children": []
+  },
+  {
+    "index": 20,
+    "resourceId": "",
+    "className": "ViewGroup",
+    "text": "android.view.ViewGroup",
+    "bounds": "0,813,1080,2117",
+    "children": []
+  },
+  {
+    "index": 21,
+    "resourceId": "com.whatsapp:id/conversation_row_date_divider",
+    "className": "TextView",
+    "text": "Today",
+    "bounds": "462,823,617,910",
+    "children": []
+  },
+  {
+    "index": 22,
+    "resourceId": "com.whatsapp:id/name_in_group_tv",
+    "className": "TextView",
+    "text": "~ Hemant",
+    "bounds": "161,939,350,993",
+    "children": []
+  },
+  {
+    "index": 23,
+    "resourceId": "com.whatsapp:id/message_text",
+    "className": "TextView",
+    "text": "📣 We’ve extended the submission deadline by 1 day!\n🕒 New deadline: 20 January 2026 at 23:59\n\nThis extension is to give you more time to:\nCreate a better demo video (it takes time, please plan for it!)\nImprove your overall solution\nAccount for minor MobileRun outages and any technical/setup challenges with DroidRun or MobileRun.\n\nUse this extra time wisely and polish your demos. We’re excited to see what you build 🚀",
+    "bounds": "133,993,927,2035",
+    "children": []
+  },
+  {
+    "index": 24,
+    "resourceId": "com.whatsapp:id/date",
+    "className": "TextView",
+    "text": "5:44 pm",
+    "bounds": "788,1989,910,2035",
+    "children": []
+  },
+  {
+    "index": 25,
+    "resourceId": "com.whatsapp:id/reactions_bubble_layout",
+    "className": "Button",
+    "text": "❤️ reaction on previous message",
+    "bounds": "149,2030,235,2103",
+    "children": []
+  },
+  {
+    "index": 26,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "❤️",
+    "bounds": "160,2036,224,2097",
+    "children": []
+  },
+  {
+    "index": 27,
+    "resourceId": "com.whatsapp:id/emoji_picker_btn",
+    "className": "ImageButton",
+    "text": "Emoji, GIFs and stickers",
+    "bounds": "11,2126,146,2261",
+    "children": []
+  },
+  {
+    "index": 28,
+    "resourceId": "com.whatsapp:id/entry",
+    "className": "EditText",
+    "text": "Message",
+    "bounds": "146,2148,516,2238",
+    "children": []
+  },
+  {
+    "index": 29,
+    "resourceId": "com.whatsapp:id/input_attach_button",
+    "className": "ImageButton",
+    "text": "Attach",
+    "bounds": "516,2126,652,2261",
+    "children": []
+  },
+  {
+    "index": 30,
+    "resourceId": "com.whatsapp:id/payment_button",
+    "className": "ImageButton",
+    "text": "Payment",
+    "bounds": "652,2126,787,2261",
+    "children": []
+  },
+  {
+    "index": 31,
+    "resourceId": "com.whatsapp:id/camera_btn",
+    "className": "ImageButton",
+    "text": "Camera",
+    "bounds": "787,2126,922,2261",
+    "children": []
+  },
+  {
+    "index": 32,
+    "resourceId": "com.whatsapp:id/voice_note_btn",
+    "className": "ImageButton",
+    "text": "Voice message, Button. Double tap and hold to record, slide left to cancel recording, slide up to lock recording on. Release to send.",
+    "bounds": "933,2126,1068,2261",
+    "children": []
+  }
+]

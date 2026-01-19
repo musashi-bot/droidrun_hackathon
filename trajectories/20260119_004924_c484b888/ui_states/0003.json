@@ -1,0 +1,426 @@
+[
+  {
+    "index": 1,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "0,0,1080,2408",
+    "children": []
+  },
+  {
+    "index": 2,
+    "resourceId": "com.whatsapp:id/whatsapp_toolbar_home",
+    "className": "Button",
+    "text": "Back",
+    "bounds": "0,76,135,211",
+    "children": []
+  },
+  {
+    "index": 3,
+    "resourceId": "com.whatsapp:id/contact_photo_view",
+    "className": "FrameLayout",
+    "text": "com.whatsapp:id/contact_photo_view",
+    "bounds": "135,76,270,211",
+    "children": []
+  },
+  {
+    "index": 4,
+    "resourceId": "com.whatsapp:id/conversation_contact_photo",
+    "className": "Button",
+    "text": "com.whatsapp:id/conversation_contact_photo",
+    "bounds": "142,90,257,202",
+    "children": []
+  },
+  {
+    "index": 5,
+    "resourceId": "com.whatsapp:id/conversation_contact",
+    "className": "LinearLayout",
+    "text": "com.whatsapp:id/conversation_contact",
+    "bounds": "270,65,695,223",
+    "children": []
+  },
+  {
+    "index": 6,
+    "resourceId": "com.whatsapp:id/conversation_contact_name",
+    "className": "TextView",
+    "text": "Pradeep Iit P",
+    "bounds": "281,108,552,173",
+    "children": []
+  },
+  {
+    "index": 7,
+    "resourceId": "",
+    "className": "ImageButton",
+    "text": "Video call",
+    "bounds": "695,76,831,211",
+    "children": []
+  },
+  {
+    "index": 8,
+    "resourceId": "",
+    "className": "ImageButton",
+    "text": "Voice call",
+    "bounds": "831,76,967,211",
+    "children": []
+  },
+  {
+    "index": 9,
+    "resourceId": "com.whatsapp:id/menuitem_overflow",
+    "className": "ImageView",
+    "text": "More options",
+    "bounds": "967,76,1080,211",
+    "children": []
+  },
+  {
+    "index": 10,
+    "resourceId": "com.whatsapp:id/coordinator",
+    "className": "ViewGroup",
+    "text": "com.whatsapp:id/coordinator",
+    "bounds": "0,223,1080,2128",
+    "children": []
+  },
+  {
+    "index": 11,
+    "resourceId": "com.whatsapp:id/drag_n_drop_overlay",
+    "className": "View",
+    "text": "com.whatsapp:id/drag_n_drop_overlay",
+    "bounds": "0,223,1080,2128",
+    "children": []
+  },
+  {
+    "index": 12,
+    "resourceId": "android:id/list",
+    "className": "ListView",
+    "text": "android:id/list",
+    "bounds": "0,223,1080,1899",
+    "children": []
+  },
+  {
+    "index": 13,
+    "resourceId": "",
+    "className": "ViewGroup",
+    "text": "android.view.ViewGroup",
+    "bounds": "0,223,1080,229",
+    "children": []
+  },
+  {
+    "index": 14,
+    "resourceId": "",
+    "className": "ViewGroup",
+    "text": "android.view.ViewGroup",
+    "bounds": "0,229,1080,506",
+    "children": []
+  },
+  {
+    "index": 15,
+    "resourceId": "com.whatsapp:id/conversation_row_date_divider",
+    "className": "TextView",
+    "text": "Saturday",
+    "bounds": "440,239,640,326",
+    "children": []
+  },
+  {
+    "index": 16,
+    "resourceId": "com.whatsapp:id/message_text",
+    "className": "TextView",
+    "text": "AIzaSyCEMBkhcF0KsEUAqmxO8caOmanMJLO0HfQ",
+    "bounds": "54,352,913,486",
+    "children": []
+  },
+  {
+    "index": 17,
+    "resourceId": "com.whatsapp:id/date",
+    "className": "TextView",
+    "text": "8:04 pm",
+    "bounds": "774,440,896,486",
+    "children": []
+  },
+  {
+    "index": 18,
+    "resourceId": "",
+    "className": "ViewGroup",
+    "text": "android.view.ViewGroup",
+    "bounds": "0,506,1080,871",
+    "children": []
+  },
+  {
+    "index": 19,
+    "resourceId": "com.whatsapp:id/conversation_row_date_divider",
+    "className": "TextView",
+    "text": "Yesterday",
+    "bounds": "431,516,648,603",
+    "children": []
+  },
+  {
+    "index": 20,
+    "resourceId": "com.whatsapp:id/quoted_message_frame",
+    "className": "FrameLayout",
+    "text": "com.whatsapp:id/quoted_message_frame",
+    "bounds": "59,635,717,770",
+    "children": []
+  },
+  {
+    "index": 21,
+    "resourceId": "com.whatsapp:id/quoted_title",
+    "className": "TextView",
+    "text": "You",
+    "bounds": "93,649,161,703",
+    "children": []
+  },
+  {
+    "index": 22,
+    "resourceId": "com.whatsapp:id/quoted_bullet_divider",
+    "className": "TextView",
+    "text": "•",
+    "bounds": "161,649,197,703",
+    "children": []
+  },
+  {
+    "index": 23,
+    "resourceId": "com.whatsapp:id/quoted_subtitle",
+    "className": "TextView",
+    "text": "AIDS EnablementSociety 😜",
+    "bounds": "197,649,694,703",
+    "children": []
+  },
+  {
+    "index": 24,
+    "resourceId": "com.whatsapp:id/quoted_text",
+    "className": "TextView",
+    "text": "Zyada dikh ja raha hai",
+    "bounds": "93,703,466,756",
+    "children": []
+  },
+  {
+    "index": 25,
+    "resourceId": "com.whatsapp:id/message_text",
+    "className": "TextView",
+    "text": "PradeepSD476",
+    "bounds": "54,770,397,851",
+    "children": []
+  },
+  {
+    "index": 26,
+    "resourceId": "com.whatsapp:id/date",
+    "className": "TextView",
+    "text": "2:55 am",
+    "bounds": "583,805,705,851",
+    "children": []
+  },
+  {
+    "index": 27,
+    "resourceId": "",
+    "className": "ViewGroup",
+    "text": "android.view.ViewGroup",
+    "bounds": "0,871,1080,991",
+    "children": []
+  },
+  {
+    "index": 28,
+    "resourceId": "com.whatsapp:id/message_text",
+    "className": "TextView",
+    "text": "Hello are you free today ?",
+    "bounds": "279,890,829,971",
+    "children": []
+  },
+  {
+    "index": 29,
+    "resourceId": "com.whatsapp:id/date",
+    "className": "TextView",
+    "text": "8:42 pm",
+    "bounds": "829,922,951,968",
+    "children": []
+  },
+  {
+    "index": 30,
+    "resourceId": "com.whatsapp:id/status",
+    "className": "ImageView",
+    "text": "Read",
+    "bounds": "951,928,1007,962",
+    "children": []
+  },
+  {
+    "index": 31,
+    "resourceId": "",
+    "className": "ViewGroup",
+    "text": "android.view.ViewGroup",
+    "bounds": "0,991,1080,1111",
+    "children": []
+  },
+  {
+    "index": 32,
+    "resourceId": "com.whatsapp:id/message_text",
+    "className": "TextView",
+    "text": "Hello are you free today ?",
+    "bounds": "54,1010,604,1091",
+    "children": []
+  },
+  {
+    "index": 33,
+    "resourceId": "com.whatsapp:id/date",
+    "className": "TextView",
+    "text": "10:21 pm",
+    "bounds": "621,1045,762,1091",
+    "children": []
+  },
+  {
+    "index": 34,
+    "resourceId": "",
+    "className": "ViewGroup",
+    "text": "android.view.ViewGroup",
+    "bounds": "0,1111,1080,1324",
+    "children": []
+  },
+  {
+    "index": 35,
+    "resourceId": "com.whatsapp:id/conversation_row_date_divider",
+    "className": "TextView",
+    "text": "Today",
+    "bounds": "462,1121,617,1208",
+    "children": []
+  },
+  {
+    "index": 36,
+    "resourceId": "com.whatsapp:id/message_text",
+    "className": "TextView",
+    "text": "Hello are you free today ?",
+    "bounds": "54,1234,604,1315",
+    "children": []
+  },
+  {
+    "index": 37,
+    "resourceId": "com.whatsapp:id/date",
+    "className": "TextView",
+    "text": "12:21 am",
+    "bounds": "621,1269,762,1315",
+    "children": []
+  },
+  {
+    "index": 38,
+    "resourceId": "",
+    "className": "ViewGroup",
+    "text": "android.view.ViewGroup",
+    "bounds": "0,1324,1080,1422",
+    "children": []
+  },
+  {
+    "index": 39,
+    "resourceId": "com.whatsapp:id/message_text",
+    "className": "TextView",
+    "text": "Hello are you free today ?",
+    "bounds": "54,1332,604,1413",
+    "children": []
+  },
+  {
+    "index": 40,
+    "resourceId": "com.whatsapp:id/date",
+    "className": "TextView",
+    "text": "12:25 am",
+    "bounds": "621,1367,762,1413",
+    "children": []
+  },
+  {
+    "index": 41,
+    "resourceId": "",
+    "className": "ViewGroup",
+    "text": "android.view.ViewGroup",
+    "bounds": "0,1422,1080,1595",
+    "children": []
+  },
+  {
+    "index": 42,
+    "resourceId": "com.whatsapp:id/message_text",
+    "className": "TextView",
+    "text": "I was wondering if we can go on a date 🌹?",
+    "bounds": "54,1430,913,1586",
+    "children": []
+  },
+  {
+    "index": 43,
+    "resourceId": "com.whatsapp:id/date",
+    "className": "TextView",
+    "text": "12:37 am",
+    "bounds": "755,1540,896,1586",
+    "children": []
+  },
+  {
+    "index": 44,
+    "resourceId": "",
+    "className": "ViewGroup",
+    "text": "android.view.ViewGroup",
+    "bounds": "0,1595,1080,1768",
+    "children": []
+  },
+  {
+    "index": 45,
+    "resourceId": "com.whatsapp:id/message_text",
+    "className": "TextView",
+    "text": "I was wondering if we can go to gb road 🥵?",
+    "bounds": "54,1603,913,1759",
+    "children": []
+  },
+  {
+    "index": 46,
+    "resourceId": "com.whatsapp:id/date",
+    "className": "TextView",
+    "text": "12:39 am",
+    "bounds": "755,1713,896,1759",
+    "children": []
+  },
+  {
+    "index": 47,
+    "resourceId": "",
+    "className": "ViewGroup",
+    "text": "android.view.ViewGroup",
+    "bounds": "0,1768,1080,1899",
+    "children": []
+  },
+  {
+    "index": 48,
+    "resourceId": "com.whatsapp:id/message_text",
+    "className": "TextView",
+    "text": "Why did you do that 😡?",
+    "bounds": "54,1776,591,1879",
+    "children": []
+  },
+  {
+    "index": 49,
+    "resourceId": "com.whatsapp:id/date",
+    "className": "TextView",
+    "text": "12:47 am",
+    "bounds": "608,1833,749,1879",
+    "children": []
+  },
+  {
+    "index": 50,
+    "resourceId": "com.whatsapp:id/emoji_picker_btn",
+    "className": "ImageButton",
+    "text": "Emoji, GIFs and stickers",
+    "bounds": "11,1981,146,2116",
+    "children": []
+  },
+  {
+    "index": 51,
+    "resourceId": "com.whatsapp:id/entry",
+    "className": "EditText",
+    "text": "Sounds good. I'm also tied up today. Let's connect tomorrow.",
+    "bounds": "146,1908,786,2116",
+    "children": []
+  },
+  {
+    "index": 52,
+    "resourceId": "com.whatsapp:id/input_attach_button",
+    "className": "ImageButton",
+    "text": "Attach",
+    "bounds": "786,1981,922,2116",
+    "children": []
+  },
+  {
+    "index": 53,
+    "resourceId": "com.whatsapp:id/send",
+    "className": "ImageButton",
+    "text": "Send",
+    "bounds": "933,1981,1068,2116",
+    "children": []
+  }
+]

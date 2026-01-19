@@ -1,0 +1,54 @@
+{
+  "version": "1.0",
+  "description": "\nSYSTEM CONTEXT (IMPORTANT):\nThe following is the user's schedule and availability for today.\nUse this information to decide tone, availability, and timing in the reply.\n\nUSER SCHEDULE:\n\"\"\"\nI WILL BE GOING TO SONAGACHI TODAY \n\"\"\"\n\nROLE:\nYou are an AI WhatsApp reply drafting agent.\n\nTASK:\nDraft a short, appropriate reply to the latest message from \"Pradeep Iit P\"\nthat respects the user's schedule above.\n\nBEHAVIOR RULES:\n- If the user is busy, politely defer or suggest later timing\n- If the user is free, acknowledge and agree\n- Keep reply concise and professional\n- Do NOT invent commitments that conflict with the schedule\n\nEXECUTION STEPS:\n1. Open WhatsApp (package name: com.whatsapp)\n2. Open the chat with \"Pradeep Iit P\"\n3. Read the most recent message\n4. Tap the message input field\n5. Type the drafted reply\n6. press send AND STOP\n\nTERMINATION CONDITION:\nStop immediately once the drafted reply text is SENT.\n",
+  "timestamp": "20260119_005012",
+  "total_actions": 5,
+  "actions": [
+    {
+      "type": "TapActionEvent",
+      "action_type": "tap",
+      "description": "Tap element at index 38: 'Pradeep Iit P' (TextView) at coordinates (334, 1073)",
+      "x": 334,
+      "y": 1073,
+      "element_index": 38,
+      "element_text": "Pradeep Iit P",
+      "element_bounds": "203,1043,466,1104"
+    },
+    {
+      "type": "TapActionEvent",
+      "action_type": "tap",
+      "description": "Tap element at index 54: 'Hi, I'm at a conference today. Can we connect tomorrow?' (EditText) at coordinates (466, 2157)",
+      "x": 466,
+      "y": 2157,
+      "element_index": 54,
+      "element_text": "Hi, I'm at a conference today. Can we connect tomorrow?",
+      "element_bounds": "146,2053,786,2261"
+    },
+    {
+      "type": "TapActionEvent",
+      "action_type": "tap",
+      "description": "Tap element at index 51: 'Hi, I'm at a conference today. Can we connect tomorrow?' (EditText) at coordinates (466, 2012)",
+      "x": 466,
+      "y": 2012,
+      "element_index": 51,
+      "element_text": "Hi, I'm at a conference today. Can we connect tomorrow?",
+      "element_bounds": "146,1908,786,2116"
+    },
+    {
+      "type": "InputTextActionEvent",
+      "action_type": "input_text",
+      "description": "Input text: 'Sounds good. I'm also tied up today. Let's connect...' (clear=True)",
+      "text": "Sounds good. I'm also tied up today. Let's connect tomorrow."
+    },
+    {
+      "type": "TapActionEvent",
+      "action_type": "tap",
+      "description": "Tap element at index 53: 'Send' (ImageButton) at coordinates (1000, 2048)",
+      "x": 1000,
+      "y": 2048,
+      "element_index": 53,
+      "element_text": "Send",
+      "element_bounds": "933,1981,1068,2116"
+    }
+  ]
+}

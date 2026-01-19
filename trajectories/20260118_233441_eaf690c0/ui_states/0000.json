@@ -1,0 +1,610 @@
+[
+  {
+    "index": 1,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "0,0,1080,2408",
+    "children": []
+  },
+  {
+    "index": 2,
+    "resourceId": "com.sec.android.app.launcher:id/home_screen",
+    "className": "FrameLayout",
+    "text": "com.sec.android.app.launcher:id/home_screen",
+    "bounds": "0,0,1080,2408",
+    "children": []
+  },
+  {
+    "index": 3,
+    "resourceId": "com.sec.android.app.launcher:id/workspace_pot_view",
+    "className": "FrameLayout",
+    "text": "com.sec.android.app.launcher:id/workspace_pot_view",
+    "bounds": "0,0,1080,2408",
+    "children": []
+  },
+  {
+    "index": 4,
+    "resourceId": "com.sec.android.app.launcher:id/workspace_fast_recycler_view",
+    "className": "ViewGroup",
+    "text": "com.sec.android.app.launcher:id/workspace_fast_recycler_view",
+    "bounds": "0,0,1080,1991",
+    "children": []
+  },
+  {
+    "index": 5,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "290,422,788,714",
+    "children": []
+  },
+  {
+    "index": 6,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "319,467,759,669",
+    "children": []
+  },
+  {
+    "index": 7,
+    "resourceId": "",
+    "className": "ImageView",
+    "text": "Clear",
+    "bounds": "338,492,490,644",
+    "children": []
+  },
+  {
+    "index": 8,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "16°",
+    "bounds": "508,502,605,590",
+    "children": []
+  },
+  {
+    "index": 9,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "Kharagpur",
+    "bounds": "508,582,678,633",
+    "children": []
+  },
+  {
+    "index": 10,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "41,714,539,1006",
+    "children": []
+  },
+  {
+    "index": 11,
+    "resourceId": "com.google.android.googlequicksearchbox:id/googleapp_search_widget_background",
+    "className": "ImageView",
+    "text": "Google Search",
+    "bounds": "70,792,510,927",
+    "children": []
+  },
+  {
+    "index": 12,
+    "resourceId": "com.google.android.googlequicksearchbox:id/googleapp_search_widget_google_logo_28dp",
+    "className": "ImageButton",
+    "text": "Google app",
+    "bounds": "70,792,205,927",
+    "children": []
+  },
+  {
+    "index": 13,
+    "resourceId": "com.google.android.googlequicksearchbox:id/googleapp_search_widget_lens_btn",
+    "className": "ImageButton",
+    "text": "Camera search",
+    "bounds": "375,792,510,927",
+    "children": []
+  },
+  {
+    "index": 14,
+    "resourceId": "com.sec.android.app.launcher:id/icon",
+    "className": "TextView",
+    "text": "Outlook",
+    "bounds": "788,714,1037,1006",
+    "children": []
+  },
+  {
+    "index": 15,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "41,1006,1037,1590",
+    "children": []
+  },
+  {
+    "index": 16,
+    "resourceId": "android:id/background",
+    "className": "FrameLayout",
+    "text": "Today widget",
+    "bounds": "70,1035,1008,1561",
+    "children": []
+  },
+  {
+    "index": 17,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "70,1035,539,1561",
+    "children": []
+  },
+  {
+    "index": 18,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "Today, Sunday, 18, January",
+    "bounds": "70,1035,539,1561",
+    "children": []
+  },
+  {
+    "index": 19,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "M",
+    "bounds": "121,1085,148,1127",
+    "children": []
+  },
+  {
+    "index": 20,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "T",
+    "bounds": "182,1085,201,1127",
+    "children": []
+  },
+  {
+    "index": 21,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "W",
+    "bounds": "235,1085,265,1127",
+    "children": []
+  },
+  {
+    "index": 22,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "T",
+    "bounds": "298,1085,317,1127",
+    "children": []
+  },
+  {
+    "index": 23,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "F",
+    "bounds": "357,1085,374,1127",
+    "children": []
+  },
+  {
+    "index": 24,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "S",
+    "bounds": "414,1085,433,1127",
+    "children": []
+  },
+  {
+    "index": 25,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "S",
+    "bounds": "472,1085,491,1127",
+    "children": []
+  },
+  {
+    "index": 26,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "1",
+    "bounds": "301,1143,315,1186",
+    "children": []
+  },
+  {
+    "index": 27,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "2",
+    "bounds": "357,1143,375,1186",
+    "children": []
+  },
+  {
+    "index": 28,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "3",
+    "bounds": "415,1143,433,1186",
+    "children": []
+  },
+  {
+    "index": 29,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "4",
+    "bounds": "473,1143,491,1186",
+    "children": []
+  },
+  {
+    "index": 30,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "5",
+    "bounds": "125,1220,143,1263",
+    "children": []
+  },
+  {
+    "index": 31,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "6",
+    "bounds": "183,1220,201,1263",
+    "children": []
+  },
+  {
+    "index": 32,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "7",
+    "bounds": "241,1220,258,1263",
+    "children": []
+  },
+  {
+    "index": 33,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "8",
+    "bounds": "299,1220,317,1263",
+    "children": []
+  },
+  {
+    "index": 34,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "9",
+    "bounds": "357,1220,375,1263",
+    "children": []
+  },
+  {
+    "index": 35,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "10",
+    "bounds": "408,1220,440,1263",
+    "children": []
+  },
+  {
+    "index": 36,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "11",
+    "bounds": "468,1220,496,1263",
+    "children": []
+  },
+  {
+    "index": 37,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "12",
+    "bounds": "118,1297,150,1340",
+    "children": []
+  },
+  {
+    "index": 38,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "13",
+    "bounds": "176,1297,208,1340",
+    "children": []
+  },
+  {
+    "index": 39,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "14",
+    "bounds": "234,1297,266,1340",
+    "children": []
+  },
+  {
+    "index": 40,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "15",
+    "bounds": "292,1297,324,1340",
+    "children": []
+  },
+  {
+    "index": 41,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "16",
+    "bounds": "350,1297,382,1340",
+    "children": []
+  },
+  {
+    "index": 42,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "17",
+    "bounds": "408,1297,439,1340",
+    "children": []
+  },
+  {
+    "index": 43,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "18",
+    "bounds": "465,1297,497,1340",
+    "children": []
+  },
+  {
+    "index": 44,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "19",
+    "bounds": "118,1374,150,1417",
+    "children": []
+  },
+  {
+    "index": 45,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "20",
+    "bounds": "174,1374,210,1417",
+    "children": []
+  },
+  {
+    "index": 46,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "21",
+    "bounds": "234,1374,266,1417",
+    "children": []
+  },
+  {
+    "index": 47,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "22",
+    "bounds": "290,1374,326,1417",
+    "children": []
+  },
+  {
+    "index": 48,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "23",
+    "bounds": "348,1374,384,1417",
+    "children": []
+  },
+  {
+    "index": 49,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "24",
+    "bounds": "406,1374,442,1417",
+    "children": []
+  },
+  {
+    "index": 50,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "25",
+    "bounds": "464,1374,500,1417",
+    "children": []
+  },
+  {
+    "index": 51,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "26",
+    "bounds": "116,1451,152,1494",
+    "children": []
+  },
+  {
+    "index": 52,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "27",
+    "bounds": "174,1451,209,1494",
+    "children": []
+  },
+  {
+    "index": 53,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "28",
+    "bounds": "232,1451,268,1494",
+    "children": []
+  },
+  {
+    "index": 54,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "29",
+    "bounds": "290,1451,326,1494",
+    "children": []
+  },
+  {
+    "index": 55,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "30",
+    "bounds": "348,1451,384,1494",
+    "children": []
+  },
+  {
+    "index": 56,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "31",
+    "bounds": "408,1451,440,1494",
+    "children": []
+  },
+  {
+    "index": 57,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "539,1077,910,1139",
+    "children": []
+  },
+  {
+    "index": 58,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "18, January",
+    "bounds": "539,1077,910,1139",
+    "children": []
+  },
+  {
+    "index": 59,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "18 JAN",
+    "bounds": "539,1077,680,1139",
+    "children": []
+  },
+  {
+    "index": 60,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "910,1077,972,1139",
+    "children": []
+  },
+  {
+    "index": 61,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "Add event, Button",
+    "bounds": "910,1077,972,1139",
+    "children": []
+  },
+  {
+    "index": 62,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "No events",
+    "bounds": "539,1259,676,1302",
+    "children": []
+  },
+  {
+    "index": 63,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "Enjoy your day!",
+    "bounds": "539,1302,748,1345",
+    "children": []
+  },
+  {
+    "index": 64,
+    "resourceId": "com.sec.android.app.launcher:id/icon",
+    "className": "TextView",
+    "text": "LinkedIn",
+    "bounds": "41,1590,290,1882",
+    "children": []
+  },
+  {
+    "index": 65,
+    "resourceId": "com.sec.android.app.launcher:id/icon",
+    "className": "TextView",
+    "text": "Gmail",
+    "bounds": "290,1590,539,1882",
+    "children": []
+  },
+  {
+    "index": 66,
+    "resourceId": "com.sec.android.app.launcher:id/icon",
+    "className": "TextView",
+    "text": "Clock",
+    "bounds": "539,1590,788,1882",
+    "children": []
+  },
+  {
+    "index": 67,
+    "resourceId": "com.sec.android.app.launcher:id/folder_icon_view",
+    "className": "TextView",
+    "text": "Google",
+    "bounds": "788,1590,1037,1882",
+    "children": []
+  },
+  {
+    "index": 68,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "Google Discover",
+    "bounds": "440,1919,490,1969",
+    "children": []
+  },
+  {
+    "index": 69,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "Page 1 of 3., Default page",
+    "bounds": "490,1919,540,1969",
+    "children": []
+  },
+  {
+    "index": 70,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "Page 2 of 3.",
+    "bounds": "540,1919,590,1969",
+    "children": []
+  },
+  {
+    "index": 71,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "Page 3 of 3.",
+    "bounds": "590,1919,640,1969",
+    "children": []
+  },
+  {
+    "index": 72,
+    "resourceId": "com.sec.android.app.launcher:id/hotseat_container",
+    "className": "RelativeLayout",
+    "text": "com.sec.android.app.launcher:id/hotseat_container",
+    "bounds": "0,1991,1080,2408",
+    "children": []
+  },
+  {
+    "index": 73,
+    "resourceId": "com.sec.android.app.launcher:id/icon",
+    "className": "TextView",
+    "text": "Phone",
+    "bounds": "39,1991,289,2273",
+    "children": []
+  },
+  {
+    "index": 74,
+    "resourceId": "com.sec.android.app.launcher:id/icon",
+    "className": "TextView",
+    "text": "Chrome",
+    "bounds": "289,1991,539,2273",
+    "children": []
+  },
+  {
+    "index": 75,
+    "resourceId": "com.sec.android.app.launcher:id/icon",
+    "className": "TextView",
+    "text": "Camera",
+    "bounds": "539,1991,789,2273",
+    "children": []
+  },
+  {
+    "index": 76,
+    "resourceId": "com.sec.android.app.launcher:id/icon",
+    "className": "TextView",
+    "text": "Messages",
+    "bounds": "789,1991,1039,2273",
+    "children": []
+  }
+]

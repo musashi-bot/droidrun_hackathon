@@ -1,0 +1,26 @@
+[
+  {
+    "type": "ManagerContextEvent"
+  },
+  {
+    "type": "ManagerResponseEvent",
+    "response": "<thought\nThe user wants me to classify a message based on a set of rules.\nThe message is: \"Your jane street interview is scheduled on 21st January\" from \"Momoz Ki Topri\".\nThe current date is January 19th.\n\n1.  **Intent**: The message is about a scheduled interview, which is a time-sensitive commitment. This falls under the \"deadline\" category.\n2.  **Urgency**: The interview is on January 21st, which is two days from the current date (January 19th). This fits the \"medium\" urgency level (needs response/action within 1-2 days).\n3.  **Action Required**: Yes, the user needs to remember this event and likely prepare for it. So, `true`.\n4.  **Suggested Action**: The most appropriate action is to add this scheduled event to a calendar to ensure it's not forgotten. Therefore, the suggested action is \"calendar\".\n\nThe request explicitly states not to perform any actions and to stop immediately after producing the classification. I will provide the classification in the required plain text format.<request_accomplished success=\"true\">\nintent: deadline\nurgency: medium\naction_required: true\nsuggested_action: calendar\n</request_accomplished>",
+    "usage": {
+      "request_tokens": 5519,
+      "response_tokens": 277,
+      "total_tokens": 6459,
+      "requests": 1
+    }
+  },
+  {
+    "type": "ManagerPlanDetailsEvent",
+    "plan": "",
+    "subgoal": "",
+    "thought": "",
+    "answer": "intent: deadline\nurgency: medium\naction_required: true\nsuggested_action: calendar",
+    "memory_update": "",
+    "progress_summary": "",
+    "success": true,
+    "full_response": "<thought\nThe user wants me to classify a message based on a set of rules.\nThe message is: \"Your jane street interview is scheduled on 21st January\" from \"Momoz Ki Topri\".\nThe current date is January 19th.\n\n1.  **Intent**: The message is about a scheduled interview, which is a time-sensitive commitment. This falls under the \"deadline\" category.\n2.  **Urgency**: The interview is on January 21st, which is two days from the current date (January 19th). This fits the \"medium\" urgency level (needs response/action within 1-2 days).\n3.  **Action Required**: Yes, the user needs to remember this event and likely prepare for it. So, `true`.\n4.  **Suggested Action**: The most appropriate action is to add this scheduled event to a calendar to ensure it's not forgotten. Therefore, the suggested action is \"calendar\".\n\nThe request explicitly states not to perform any actions and to stop immediately after producing the classification. I will provide the classification in the required plain text format.<request_accomplished success=\"true\">\nintent: deadline\nurgency: medium\naction_required: true\nsuggested_action: calendar\n</request_accomplished>"
+  }
+]

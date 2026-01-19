@@ -1,0 +1,26 @@
+[
+  {
+    "type": "ManagerContextEvent"
+  },
+  {
+    "type": "ManagerResponseEvent",
+    "response": "<request_accomplished success=\"true\">\n{\n  \"intent\": \"question\",\n  \"urgency\": \"high\",\n  \"action_required\": true,\n  \"suggested_action\": \"reply\"\n}\n</request_accomplished>",
+    "usage": {
+      "request_tokens": 5916,
+      "response_tokens": 56,
+      "total_tokens": 6222,
+      "requests": 1
+    }
+  },
+  {
+    "type": "ManagerPlanDetailsEvent",
+    "plan": "",
+    "subgoal": "",
+    "thought": "",
+    "answer": "{\n  \"intent\": \"question\",\n  \"urgency\": \"high\",\n  \"action_required\": true,\n  \"suggested_action\": \"reply\"\n}",
+    "memory_update": "",
+    "progress_summary": "",
+    "success": true,
+    "full_response": "<request_accomplished success=\"true\">\n{\n  \"intent\": \"question\",\n  \"urgency\": \"high\",\n  \"action_required\": true,\n  \"suggested_action\": \"reply\"\n}\n</request_accomplished>"
+  }
+]

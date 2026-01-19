@@ -1,0 +1,338 @@
+[
+  {
+    "index": 1,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "0,0,1080,2408",
+    "children": []
+  },
+  {
+    "index": 2,
+    "resourceId": "com.whatsapp:id/whatsapp_toolbar_home",
+    "className": "Button",
+    "text": "Back",
+    "bounds": "0,76,135,211",
+    "children": []
+  },
+  {
+    "index": 3,
+    "resourceId": "com.whatsapp:id/contact_photo_view",
+    "className": "FrameLayout",
+    "text": "com.whatsapp:id/contact_photo_view",
+    "bounds": "135,76,270,211",
+    "children": []
+  },
+  {
+    "index": 4,
+    "resourceId": "com.whatsapp:id/conversation_contact_photo",
+    "className": "Button",
+    "text": "com.whatsapp:id/conversation_contact_photo",
+    "bounds": "142,90,257,202",
+    "children": []
+  },
+  {
+    "index": 5,
+    "resourceId": "com.whatsapp:id/conversation_contact",
+    "className": "LinearLayout",
+    "text": "com.whatsapp:id/conversation_contact",
+    "bounds": "270,65,695,223",
+    "children": []
+  },
+  {
+    "index": 6,
+    "resourceId": "com.whatsapp:id/conversation_contact_name",
+    "className": "TextView",
+    "text": "Vansh",
+    "bounds": "281,85,415,150",
+    "children": []
+  },
+  {
+    "index": 7,
+    "resourceId": "com.whatsapp:id/conversation_contact_status",
+    "className": "TextView",
+    "text": "last seen today at 6:37 pm",
+    "bounds": "281,150,692,196",
+    "children": []
+  },
+  {
+    "index": 8,
+    "resourceId": "",
+    "className": "ImageButton",
+    "text": "Video call",
+    "bounds": "695,76,831,211",
+    "children": []
+  },
+  {
+    "index": 9,
+    "resourceId": "",
+    "className": "ImageButton",
+    "text": "Voice call",
+    "bounds": "831,76,967,211",
+    "children": []
+  },
+  {
+    "index": 10,
+    "resourceId": "com.whatsapp:id/menuitem_overflow",
+    "className": "ImageView",
+    "text": "More options",
+    "bounds": "967,76,1080,211",
+    "children": []
+  },
+  {
+    "index": 11,
+    "resourceId": "com.whatsapp:id/coordinator",
+    "className": "ViewGroup",
+    "text": "com.whatsapp:id/coordinator",
+    "bounds": "0,223,1080,2273",
+    "children": []
+  },
+  {
+    "index": 12,
+    "resourceId": "com.whatsapp:id/drag_n_drop_overlay",
+    "className": "View",
+    "text": "com.whatsapp:id/drag_n_drop_overlay",
+    "bounds": "0,223,1080,2273",
+    "children": []
+  },
+  {
+    "index": 13,
+    "resourceId": "android:id/list",
+    "className": "ListView",
+    "text": "android:id/list",
+    "bounds": "0,223,1080,2117",
+    "children": []
+  },
+  {
+    "index": 14,
+    "resourceId": "",
+    "className": "ViewGroup",
+    "text": "android.view.ViewGroup",
+    "bounds": "0,223,1080,501",
+    "children": []
+  },
+  {
+    "index": 15,
+    "resourceId": "com.whatsapp:id/message_text",
+    "className": "TextView",
+    "text": "1. grep -oiw '\\w*' file.txt | grep -i a | grep -i e | grep -i i | grep -i o | grep -i u | wc -l\n2. ls -lS /etc | grep '\\.conf'\n3. ls /usr/lib/lib* 2>/dev/null | wc -l > count.txt\n4. grep -r 'LINUX' . | grep -v 'UNIX' | wc -l\n5. wc -w ~/.?* 2>/dev/null | sort -nr > list.txt\n6. ps -u root > processes.txt",
+    "bounds": "167,223,1021,492",
+    "children": []
+  },
+  {
+    "index": 16,
+    "resourceId": "com.whatsapp:id/date",
+    "className": "TextView",
+    "text": "5:09 pm",
+    "bounds": "829,443,951,489",
+    "children": []
+  },
+  {
+    "index": 17,
+    "resourceId": "com.whatsapp:id/status",
+    "className": "ImageView",
+    "text": "Read",
+    "bounds": "951,449,1007,483",
+    "children": []
+  },
+  {
+    "index": 18,
+    "resourceId": "",
+    "className": "ViewGroup",
+    "text": "android.view.ViewGroup",
+    "bounds": "0,501,1080,765",
+    "children": []
+  },
+  {
+    "index": 19,
+    "resourceId": "",
+    "className": "LinearLayout",
+    "text": "Forwarded",
+    "bounds": "161,504,1032,564",
+    "children": []
+  },
+  {
+    "index": 20,
+    "resourceId": "com.whatsapp:id/message_text",
+    "className": "TextView",
+    "text": "8. tr -s ' ' '\\n' < file.txt | tr 'A-Z' 'a-z' | sort | uniq -c | sort -nr\n9. cut -d: -f1 /etc/passwd",
+    "bounds": "167,569,1021,756",
+    "children": []
+  },
+  {
+    "index": 21,
+    "resourceId": "com.whatsapp:id/date",
+    "className": "TextView",
+    "text": "5:09 pm",
+    "bounds": "829,707,951,753",
+    "children": []
+  },
+  {
+    "index": 22,
+    "resourceId": "com.whatsapp:id/status",
+    "className": "ImageView",
+    "text": "Read",
+    "bounds": "951,713,1007,747",
+    "children": []
+  },
+  {
+    "index": 23,
+    "resourceId": "",
+    "className": "ViewGroup",
+    "text": "android.view.ViewGroup",
+    "bounds": "0,765,1080,1805",
+    "children": []
+  },
+  {
+    "index": 24,
+    "resourceId": "com.whatsapp:id/action_button",
+    "className": "ImageView",
+    "text": "Forward video",
+    "bounds": "217,1240,307,1330",
+    "children": []
+  },
+  {
+    "index": 25,
+    "resourceId": "",
+    "className": "LinearLayout",
+    "text": "Forwarded",
+    "bounds": "330,768,1032,828",
+    "children": []
+  },
+  {
+    "index": 26,
+    "resourceId": "com.whatsapp:id/thumb",
+    "className": "ImageView",
+    "text": "Video,  duration 431 seconds",
+    "bounds": "341,839,1021,1791",
+    "children": []
+  },
+  {
+    "index": 27,
+    "resourceId": "com.whatsapp:id/play_frame",
+    "className": "FrameLayout",
+    "text": "com.whatsapp:id/play_frame",
+    "bounds": "590,1224,772,1406",
+    "children": []
+  },
+  {
+    "index": 28,
+    "resourceId": "com.whatsapp:id/play_button",
+    "className": "Button",
+    "text": "Play video",
+    "bounds": "633,1267,729,1363",
+    "children": []
+  },
+  {
+    "index": 29,
+    "resourceId": "com.whatsapp:id/info",
+    "className": "TextView",
+    "text": "7:11",
+    "bounds": "341,1733,518,1791",
+    "children": []
+  },
+  {
+    "index": 30,
+    "resourceId": "com.whatsapp:id/date",
+    "className": "TextView",
+    "text": "5:09 pm",
+    "bounds": "829,1736,951,1782",
+    "children": []
+  },
+  {
+    "index": 31,
+    "resourceId": "com.whatsapp:id/status",
+    "className": "ImageView",
+    "text": "Seen",
+    "bounds": "951,1745,1004,1773",
+    "children": []
+  },
+  {
+    "index": 32,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "0,1805,1080,1944",
+    "children": []
+  },
+  {
+    "index": 33,
+    "resourceId": "com.whatsapp:id/unread_divider_tv",
+    "className": "TextView",
+    "text": "1 unread message",
+    "bounds": "339,1828,741,1921",
+    "children": []
+  },
+  {
+    "index": 34,
+    "resourceId": "",
+    "className": "ViewGroup",
+    "text": "android.view.ViewGroup",
+    "bounds": "0,1944,1080,2117",
+    "children": []
+  },
+  {
+    "index": 35,
+    "resourceId": "com.whatsapp:id/message_text",
+    "className": "TextView",
+    "text": "Your interview for Google is scheduled on 25 january",
+    "bounds": "54,1963,913,2097",
+    "children": []
+  },
+  {
+    "index": 36,
+    "resourceId": "com.whatsapp:id/date",
+    "className": "TextView",
+    "text": "6:36 pm",
+    "bounds": "774,2051,896,2097",
+    "children": []
+  },
+  {
+    "index": 37,
+    "resourceId": "com.whatsapp:id/emoji_picker_btn",
+    "className": "ImageButton",
+    "text": "Emoji, GIFs and stickers",
+    "bounds": "11,2126,146,2261",
+    "children": []
+  },
+  {
+    "index": 38,
+    "resourceId": "com.whatsapp:id/entry",
+    "className": "EditText",
+    "text": "Message",
+    "bounds": "146,2148,516,2238",
+    "children": []
+  },
+  {
+    "index": 39,
+    "resourceId": "com.whatsapp:id/input_attach_button",
+    "className": "ImageButton",
+    "text": "Attach",
+    "bounds": "516,2126,652,2261",
+    "children": []
+  },
+  {
+    "index": 40,
+    "resourceId": "com.whatsapp:id/payment_button",
+    "className": "ImageButton",
+    "text": "Payment",
+    "bounds": "652,2126,787,2261",
+    "children": []
+  },
+  {
+    "index": 41,
+    "resourceId": "com.whatsapp:id/camera_btn",
+    "className": "ImageButton",
+    "text": "Camera",
+    "bounds": "787,2126,922,2261",
+    "children": []
+  },
+  {
+    "index": 42,
+    "resourceId": "com.whatsapp:id/voice_note_btn",
+    "className": "ImageButton",
+    "text": "Voice message, Button. Double tap and hold to record, slide left to cancel recording, slide up to lock recording on. Release to send.",
+    "bounds": "933,2126,1068,2261",
+    "children": []
+  }
+]
