@@ -15,7 +15,7 @@ WhatsApp is overloaded with:
 * Repetitive replies
 * No task or priority management
 
-ChatCopilot turns **messages into actions**, helping users focus on what actually matters.
+ChatPilot turns **messages into actions**, helping users focus on what actually matters.
 
 ---
 
