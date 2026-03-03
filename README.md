@@ -1,5 +1,7 @@
 # 🚀 ChatPilot – AI WhatsApp Productivity Agent
 
+[![Watch the video](https://img.youtube.com/vi/I8JkN32J-5I/0.jpg)](https://www.youtube.com/watch?v=I8JkN32J-5I)
+
 ChatPilot is an **agentic mobile AI assistant** built using the **Droidrun framework** that automatically reads WhatsApp messages, understands their intent, prioritizes them, and takes productivity actions such as creating reminders, calendar events, notes, and drafting replies — all on a **real Android device**.
 
 This project was built as part of a **hackathon (Droidrun DevSprint)** to demonstrate **mobile-native AI automation with agentic behavior**.
